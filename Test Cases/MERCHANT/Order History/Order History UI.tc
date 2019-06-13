@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order History UI</name>
+   <tag></tag>
+   <comment>Header
+Body</comment>
+   <testCaseGuid>8c3da7e9-43b1-487c-8870-394f92f91365</testCaseGuid>
+</TestCaseEntity>

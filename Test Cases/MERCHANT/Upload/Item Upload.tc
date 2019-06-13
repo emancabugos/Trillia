@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Item Upload</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Cover Image
+Item Description
+Country
+Stock/Unlimited</comment>
+   <testCaseGuid>9462a61a-22a0-43b9-afdf-6a630962f14c</testCaseGuid>
+</TestCaseEntity>
