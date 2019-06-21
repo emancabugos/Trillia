@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;dropdown-opt-draggble&quot;]/li[1]/div/div[2]/input</value>
+         <value>//div[9]/div/ul/li/div/div[2]/input</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,6 +49,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[8]/div/ul/li/div/div[2]/input</value>
+      <value>//div[9]/div/ul/li/div/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

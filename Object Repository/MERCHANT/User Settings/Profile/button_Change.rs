@@ -4,10 +4,16 @@
    <name>button_Change</name>
    <tag></tag>
    <elementGuidId>5b124f94-528c-48a8-8a77-a5104f3f6cbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;Profile&quot;]/div[1]/div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,17 +27,17 @@
       <value>btn-change</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Change</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Profile&quot;)/div[@class=&quot;profile-img&quot;]/div[@class=&quot;btn-change&quot;]</value>
+      <value>//*[@id=&quot;Profile&quot;]/div[1]/div</value>
    </webElementProperties>
 </WebElementEntity>

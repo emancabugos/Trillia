@@ -23,15 +23,23 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Profile/butto
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Change'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Upload Image'), [('varImagePath') : varImagePath], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'Victor Magtambol')
+WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\Katalon\\Image\\omg.png')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_description'), 'Thor Wannabe')
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_first_name'), 'Victor')
+WebUI.click(findTestObject('MERCHANT/Image Cropper/div_crop'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name'), 'Thorjack')
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'Tea Cool')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_description'), 'Cool Milk Tea')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_first_name'), 'Tea')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_last_name'), 'Cool')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_email'), 'arcadier.tester1@gmail.com')
 

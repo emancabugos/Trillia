@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 'Victor')
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 'Tea')
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_last name'), 'Thorjack')
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_last name'), 'Cool')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_address'), '29th Flr Rufino Plaza V.A. Rufino Ave.')
 
