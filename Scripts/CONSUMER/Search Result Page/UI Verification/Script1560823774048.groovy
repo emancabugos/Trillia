@@ -25,3 +25,53 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/textfield_Search'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/button_Search'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/linktext_Home'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/textfield_Search'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/textlabel_Sortby'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/dropdown_Sort'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/button_GridView'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/button_ListView'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/button_Filter'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/textlabel_Categories'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Search Result Page/textlabel_PriceRange'), 0)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/button_Reset'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Search Result Page/button_Apply'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_hamburger'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/linktext_Home'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_GridView'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_ListView'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_Filter'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_Reset'))
+
+WebUI.verifyElementClickable(findTestObject('CONSUMER/Search Result Page/button_Apply'))
+
+WebUI.click(findTestObject('CONSUMER/Search Result Page/button_Filter'))
+
+WebUI.waitForElementNotVisible(findTestObject('CONSUMER/Search Result Page/textlabel_Categories'), 0)
+
+WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Search Result Page/textlabel_Categories'))
+
+WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Search Result Page/textlabel_PriceRange'))
+
