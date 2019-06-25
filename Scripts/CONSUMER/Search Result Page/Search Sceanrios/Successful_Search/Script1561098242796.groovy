@@ -31,7 +31,11 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Category search from Homepage')
 
@@ -47,17 +51,13 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/logo_Marketplace'))
-
-WebUI.waitForPageLoad(0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), 0)
-
-WebUI.comment('Click Category on Homepage')
-
-WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Textfield and Category Search on Homepage')
 
@@ -75,7 +75,11 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Textfield search on Search Result Page')
 
@@ -85,7 +89,11 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Category search on Search Result Page')
 
@@ -95,7 +103,11 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Textfield & Category search on Search Result Page')
 
@@ -107,7 +119,11 @@ WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
-WebUI.comment('Verify No Match found logo')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Click category in Hamburger menu')
 
@@ -119,11 +135,23 @@ WebUI.click(findTestObject(null))
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
+
 WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Click category in Side panel')
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Currency'), '')
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/textlabel_Price'), '')
 
 WebUI.comment('Verify No Match found logo')
 
