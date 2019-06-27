@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buyer Sign in</name>
+   <name>dropdown_ListName</name>
    <tag></tag>
-   <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>4206f558-cc95-4ebd-803c-c64ad029f6a7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Login as a Buyer </value>
+      <value>comparisons</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test_Edit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97BOE&quot;)/div[1]/div[@class=&quot;landing-login&quot;]/div[@class=&quot;btn-login-buyer&quot;]/a[1]</value>
+      <value>id(&quot;comparisons&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

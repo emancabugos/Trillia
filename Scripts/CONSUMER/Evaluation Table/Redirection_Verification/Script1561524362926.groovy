@@ -19,23 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item ni April')
-
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
-
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item ni April')
-
-WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
-
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
-
-WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
-
-WebUI.acceptAlert()
+WebUI.comment('')
 

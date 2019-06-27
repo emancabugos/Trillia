@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buyer Sign in</name>
+   <name>textlabel_ItemName</name>
    <tag></tag>
-   <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>47bab2fa-b7a1-4c4e-bede-3cd0460e96e5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>h4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>#</value>
+      <value>cmparpg-prdct-title</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login as a Buyer </value>
+      <value>item multiple</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97BOE&quot;)/div[1]/div[@class=&quot;landing-login&quot;]/div[@class=&quot;btn-login-buyer&quot;]/a[1]</value>
+      <value>id(&quot;react_0HLNPQKOPV2AK&quot;)/div[1]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row no-pad&quot;]/div[1]/div[@class=&quot;col-sm-10 col-xs-8&quot;]/div[@class=&quot;compare-slider slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-current slick-active&quot;]/div[1]/div[@class=&quot;col-sm-4&quot;]/div[1]/div[@class=&quot;cmparpg-list-td text-center&quot;]/h4[@class=&quot;cmparpg-prdct-title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

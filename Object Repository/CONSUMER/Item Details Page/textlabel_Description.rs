@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buyer Sign in</name>
+   <name>textlabel_Description</name>
    <tag></tag>
-   <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>45d217c8-331b-4a5e-ad75-c403f1fc8f4b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>#</value>
+      <value>title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login as a Buyer </value>
+      <value>Description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97BOE&quot;)/div[1]/div[@class=&quot;landing-login&quot;]/div[@class=&quot;btn-login-buyer&quot;]/a[1]</value>
+      <value>id(&quot;react_0HLNQJ0DCQP1P&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

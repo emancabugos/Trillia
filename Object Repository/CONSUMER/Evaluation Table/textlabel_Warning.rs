@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buyer Sign in</name>
+   <name>textlabel_Warning</name>
    <tag></tag>
-   <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b310e2c8-f861-4272-988f-663d2c6ffdd9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login as a Buyer </value>
+      <value>Are you sure you want to clear all products from this list? ( It will be gone forever)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97BOE&quot;)/div[1]/div[@class=&quot;landing-login&quot;]/div[@class=&quot;btn-login-buyer&quot;]/a[1]</value>
+      <value>id(&quot;modalRemoveAll&quot;)/div[@class=&quot;modal-dialog compare-delete-modal-content&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/p[1]</value>
    </webElementProperties>
 </WebElementEntity>

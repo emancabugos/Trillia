@@ -17,25 +17,42 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKey
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import internal.GlobalVariable as GlobalVariable
+
+WebUI.comment('Verification of Home link text')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item ni April')
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item Test Checkout')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item ni April')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item Test Checkout')
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))
 
-WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
+int price2 = price 
 
-WebUI.acceptAlert()
+//KeywordLogger log = new KeywordLogger()
+
+//log.logInfo(price)
+
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '10')
+
+quantity = WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))
+
+int quantity2 = quantity
+
+//log.logInfo(quantity)
+
+double total = (price * quantity)
+
+WebUI.verifyEqual(findTestObject('CONSUMER/Item Details Page/textlabel_TotalPrice'), total)
 

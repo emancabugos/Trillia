@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Buyer Sign in</name>
+   <name>textlabel_TotalStocks</name>
    <tag></tag>
-   <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and (text() = 'Login as a Buyer ' or . = 'Login as a Buyer ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>5b98663c-13b3-47e5-811b-549961254148</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>#</value>
+      <value>title full-width</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login as a Buyer </value>
+      <value>Total Stock</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97BOE&quot;)/div[1]/div[@class=&quot;landing-login&quot;]/div[@class=&quot;btn-login-buyer&quot;]/a[1]</value>
+      <value>id(&quot;bulkpricingtable&quot;)/div[@class=&quot;idcr-bot&quot;]/div[@class=&quot;idcrb-top&quot;]/span[@class=&quot;title full-width&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,57 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_password</name>
+   <name>linktext_ListName</name>
    <tag></tag>
-   <elementGuidId>b7850dfd-4517-4f63-b685-8f22a913b43b</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'input-text' and @placeholder = 'Password' and @name = 'password']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e54f9c97-a646-42ba-a5a4-9d8c59bb203c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>password</value>
+      <value>/user/order/comparison?comparisonId=74a0946b-df96-e911-80d2-000d3aa147ac</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-text</value>
+      <value>list-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>password</value>
+      <value>Test_Edit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;react_0HLL0B2H3MB72&quot;]/div/div[2]/div[2]/form[3]/div[1]/input[2]</value>
+      <value>id(&quot;tbl-comparison-list&quot;)/tbody[1]/tr[@class=&quot;item-row&quot;]/td[1]/a[@class=&quot;list-name&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

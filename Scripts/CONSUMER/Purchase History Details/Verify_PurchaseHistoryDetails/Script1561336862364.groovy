@@ -18,4 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/logo_Marketplace'), 0)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
+
+WebUI.sendKeys(findTestObject('CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'))
+
+WebUI.waitForElementVisible(findTestObject(null), 0)
 

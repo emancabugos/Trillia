@@ -19,23 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item ni April')
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'))
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/linktext_ClearAll'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/linktext_ContinueBrowsing'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item ni April')
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_Previous'))
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/item_image'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_currency'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_price'))
 
-WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
 
-WebUI.acceptAlert()
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/item_image'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_currency'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_price'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
 

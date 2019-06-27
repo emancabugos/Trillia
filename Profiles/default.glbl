@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0201un.test.arcadier.io'</initValue>
+      <initValue>'theunmp.test.arcadier.io/user'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer1'</initValue>
+      <initValue>'patientx'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -101,7 +101,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>CHANGE TO: custom, google, facebook</description>
-      <initValue>'facebook'</initValue>
+      <initValue>'custom'</initValue>
       <name>ConsumerAccountType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

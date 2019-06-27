@@ -31,11 +31,11 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_ContactSupplier'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_up'))
 
