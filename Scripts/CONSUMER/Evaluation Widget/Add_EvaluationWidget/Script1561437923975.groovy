@@ -31,9 +31,9 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'))
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
 
@@ -43,7 +43,7 @@ WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_Li
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), '', false, 0)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '')
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), '')
 
-WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'))
 

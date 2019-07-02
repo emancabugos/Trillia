@@ -4,17 +4,7 @@
    <name>button_down</name>
    <tag></tag>
    <elementGuidId>e10039cb-1112-4023-9f28-fd01979a0cba</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[4]/div/div/div[2]/div[1]/div[1]/span/i</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//i[@class = 'fa fa-angle-down']</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

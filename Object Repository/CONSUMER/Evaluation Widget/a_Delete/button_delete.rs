@@ -4,12 +4,6 @@
    <name>button_delete</name>
    <tag></tag>
    <elementGuidId>5e190bc7-1ab4-4198-a306-d4bcd72b4c65</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//i[@class = 'fa fa-times']</value>
-      </entry>
-   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -34,7 +28,7 @@
       <value>e7d4870e-0797-e911-80d2-000d3aa147ac</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -3,6 +3,7 @@
    <description></description>
    <name>Categories</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Select all Categories
+Select none</comment>
    <testCaseGuid>9960dbd6-1012-47d6-9f5f-8287ab6efdaf</testCaseGuid>
 </TestCaseEntity>

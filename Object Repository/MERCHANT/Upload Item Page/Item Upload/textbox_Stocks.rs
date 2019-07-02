@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'table-input required numbersOnlyD stock ']</value>
+         <value>//*[@id=&quot;rowAvail-'PH&quot;]/td[4]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,17 +27,17 @@
       <value>number</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>table-input required numbersOnlyD stock </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rowAvail-'PH&quot;)/td[@class=&quot;td-stock&quot;]/input[@class=&quot;table-input required numbersOnlyD stock&quot;]</value>
+      <value>//*[@id=&quot;rowAvail-'PH&quot;]/td[4]/input</value>
    </webElementProperties>
 </WebElementEntity>

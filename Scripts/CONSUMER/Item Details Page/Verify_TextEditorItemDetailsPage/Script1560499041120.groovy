@@ -33,73 +33,73 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_checkbox'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_checkbox'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_radiobutton'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_radiobutton'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Bold'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Bold'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Italics'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Italics'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Underline'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Underline'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Strikethrough'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Strikethrough'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Number1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Number1'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Number2'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Number2'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Bullet1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Bullet1'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Bullet2'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Bullet2'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Quotation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Quotation'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_AlignLeft'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_AlignLeft'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Center'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Center'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_AlignRight'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_AlignRight'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Justified'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Justified'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_heartEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_heartEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_sadEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_sadEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_blushEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_blushEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_AlignRight'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_AlignRight'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Justified'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Justified'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_heartEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_heartEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_sadEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_sadEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_blushEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_blushEmoticon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_specialCharacter'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_specialCharacter'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Styles'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Styles'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Format'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Format'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Hyperlink'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_Font'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_Font'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_FontSize'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_FontSize'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_FontColor'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_FontColor'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/a_Text Editor/textEditor_FontBackgroundColor'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/textEditor_FontBackgroundColor'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

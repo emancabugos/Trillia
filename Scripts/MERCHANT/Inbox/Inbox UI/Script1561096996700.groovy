@@ -19,19 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/textlabel_Inbox'), 0)
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/textbox_search'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Inbox/textlabel_Inbox'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/icon_search'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Inbox/textbox_search'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/user_image'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/textalbel_username'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/textlabel_timestamp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/textlabel_itemname'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Inbox/status'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Inbox/icon_search'), 0)
 

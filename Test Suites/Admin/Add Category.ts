@@ -4,7 +4,7 @@
    <name>Add Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-20T09:42:24</lastRun>
+   <lastRun>2019-07-01T10:09:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>210497a9-e104-4ea0-b316-3545bb80cadf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
