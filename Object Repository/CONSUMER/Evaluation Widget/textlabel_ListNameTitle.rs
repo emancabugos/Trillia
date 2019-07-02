@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_ListName</name>
+   <name>textlabel_ListNameTitle</name>
    <tag></tag>
-   <elementGuidId>d9d5002b-0a54-4c9c-b7ee-de0123733f70</elementGuidId>
+   <elementGuidId>c6fb54b7-a848-46e8-9963-c0d594cf6491</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;compare-list-add&quot;)[count(. | //select[@id = 'compare-list-add']) = count(//select[@id = 'compare-list-add'])]</value>
+         <value>id(&quot;listname_title&quot;)[count(. | //span[@id = 'listname_title']) = count(//span[@id = 'listname_title'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>compare-list-add</value>
+      <value>listname_title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>UntitledCreate new list</value>
+      <value></value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compare-list-add&quot;)</value>
+      <value>id(&quot;listname_title&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

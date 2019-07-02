@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_ListName</name>
+   <name>textlabel_ContactNo</name>
    <tag></tag>
-   <elementGuidId>d9d5002b-0a54-4c9c-b7ee-de0123733f70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;compare-list-add&quot;)[count(. | //select[@id = 'compare-list-add']) = count(//select[@id = 'compare-list-add'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b802a299-e235-40f8-9f34-f6ef2e077dc8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>compare-list-add</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>UntitledCreate new list</value>
+      <value>title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact No.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compare-list-add&quot;)</value>
+      <value>id(&quot;react_0HLNRGFNSSTSV&quot;)/div[1]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pd-container&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;input-container&quot;]/span[@class=&quot;title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

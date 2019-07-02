@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Cancel</name>
+   <name>textfield_AddreseeLastName</name>
    <tag></tag>
-   <elementGuidId>d253fb71-248f-45c7-8e8b-47d865e70512</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[@class = 'close-list-btn' and @type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8d806375-1368-4080-a86b-3fa9c513b16f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,48 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>close-list-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-dismiss</name>
-      <type>Main</type>
-      <value>modal</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>Close</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Cancel</value>
+      <value>input-text get-text required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>addresee_last_name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pre-populated if can be pulled</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNOV75L9B2C&quot;)/div[1]/div[2]/div[@class=&quot;modal list-pop fade bs-example-modal-sm in&quot;]/div[@class=&quot;modal-dialog modal-sm&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;pop-footer&quot;]/div[@class=&quot;row-10&quot;]/div[@class=&quot;col-sm-6&quot;]/button[@class=&quot;close-list-btn&quot;]</value>
+      <value>id(&quot;addDeliveryAddress&quot;)/div[@class=&quot;modal-dialog add-delivery-address&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;input-container&quot;]/input[@class=&quot;input-text get-text required&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

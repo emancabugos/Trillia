@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_ListName</name>
+   <name>textlabel_SellerName</name>
    <tag></tag>
-   <elementGuidId>d9d5002b-0a54-4c9c-b7ee-de0123733f70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;compare-list-add&quot;)[count(. | //select[@id = 'compare-list-add']) = count(//select[@id = 'compare-list-add'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fec3ee8e-ee53-4dd8-9e83-b130355cabb9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>compare-list-add</value>
+      <value>cb-seller</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>UntitledCreate new list</value>
+      <value>Dr. kwak</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compare-list-add&quot;)</value>
+      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-left pull-left&quot;]/div[@class=&quot;cart-box full-width&quot;]/div[@class=&quot;cb-header&quot;]/span[@class=&quot;cb-seller&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

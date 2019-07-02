@@ -36,23 +36,63 @@ WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPag
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'), 0)
 
-price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_MOQValue'), 0)
 
-int price2 = price 
+not_run: WebUI.comment('Computation')
+
+not_run: def price = 100 /* = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))*/ 
 
 //KeywordLogger log = new KeywordLogger()
-
 //log.logInfo(price)
-
 WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '10')
 
-quantity = WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))
-
-int quantity2 = quantity
+not_run: def quantity = 10 /*WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))*/ 
 
 //log.logInfo(quantity)
+not_run: def total
 
-double total = (price * quantity)
+not_run: assert (price * quantity) == total
 
-WebUI.verifyEqual(findTestObject('CONSUMER/Item Details Page/textlabel_TotalPrice'), total)
+not_run: KeywordLogger log = new KeywordLogger()
+
+not_run: log.logInfo(total)
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_EvaluateItems'), 0)
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/container_empty'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'))
+
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), 'Create new list', true)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), 0)
+
+WebUI.setText(findTestObject('CONSUMER/Evaluation Widget/textfield_ListName'), 'Checkout 1')
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_Save'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.waitForElementAttributeValue(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), 'text', '(Checkout 1)', 
+    5)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), '(Checkout 1)')
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_down'))
+
+WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_delete'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_EvaluateItems'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'), 0)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), 'Item Test Checkout')
+
+WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
 

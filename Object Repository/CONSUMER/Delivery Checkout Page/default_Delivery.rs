@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_ListName</name>
+   <name>default_Delivery</name>
    <tag></tag>
-   <elementGuidId>d9d5002b-0a54-4c9c-b7ee-de0123733f70</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;compare-list-add&quot;)[count(. | //select[@id = 'compare-list-add']) = count(//select[@id = 'compare-list-add'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>be23b49b-a935-4d71-b16d-4056c34c2516</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>compare-list-add</value>
+      <value>pdcb-address-box parent-r-b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>UntitledCreate new list</value>
+      <value>patientx lnamerufino makati Philippinesstatecity1234</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compare-list-add&quot;)</value>
+      <value>id(&quot;react_0HLNRGFNSSTSV&quot;)/div[1]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pd-container&quot;]/div[@class=&quot;pdc-boxs&quot;]/div[@class=&quot;pdcb-address-box parent-r-b&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_OrderNow</name>
+   <name>imagebutton_Instagram</name>
    <tag></tag>
-   <elementGuidId>1bef800c-cf42-4176-b056-a3e45e6abac6</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @id = 'cmparpg_order_nowbtn' and @class = 'btn-order-now' and (text() = 'Order Now' or . = 'Order Now')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8d00d393-9aad-4c79-9774-25c20316c4a2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,48 +11,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>src</name>
       <type>Main</type>
-      <value>#</value>
+      <value>/Areas/User/Assets/core/themes/trillia/images//insta.svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>cmparpg_order_nowbtn</value>
+      <value>instagram</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>title</name>
       <type>Main</type>
-      <value>btn-order-now</value>
+      <value>instagram</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>kasperskylab_antibanner</name>
       <type>Main</type>
-      <value>0</value>
+      <value>on</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Order Now</value>
+      <value>img-responsive</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNPQKOPV2AK&quot;)/div[1]/div[@class=&quot;cart-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row no-pad&quot;]/div[1]/div[@class=&quot;col-sm-10 col-xs-8&quot;]/div[@class=&quot;compare-slider slick-initialized slick-slider&quot;]/div[@class=&quot;slick-list draggable&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-current slick-active&quot;]/div[1]/div[@class=&quot;col-sm-4&quot;]/div[1]/div[@class=&quot;cmparpg-list-td text-center&quot;]/div[@class=&quot;cmparpg-prdct-btnsec&quot;]/a[@id=&quot;cmparpg_order_nowbtn&quot;]</value>
+      <value>id(&quot;instag&quot;)/img[@class=&quot;img-responsive&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
