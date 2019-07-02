@@ -24,13 +24,13 @@ WebUI.comment('Verification of Home link text')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item Test Checkout')
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Prescription Drug A')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item Test Checkout')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Prescription Drug A')
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
@@ -38,24 +38,22 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_Ad
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_MOQValue'), 0)
 
-not_run: WebUI.comment('Computation')
+WebUI.comment('Computation')
 
-not_run: def price = 100 /* = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))*/ 
+def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))
 
-//KeywordLogger log = new KeywordLogger()
-//log.logInfo(price)
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '10')
+KeywordLogger log = new KeywordLogger()
+log.logInfo(price)
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '100')
 
-not_run: def quantity = 10 /*WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))*/ 
+def quantity = WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))
 
-//log.logInfo(quantity)
-not_run: def total
+log.logInfo(quantity)
 
-not_run: assert (price * quantity) == total
+def total
+assert (price * quantity) == total
 
-not_run: KeywordLogger log = new KeywordLogger()
-
-not_run: log.logInfo(total)
+log.logInfo(total)
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
 
@@ -92,7 +90,7 @@ WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_EvaluateItems'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), 'Item Test Checkout')
+WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), 'Prescription Drug A')
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
 
