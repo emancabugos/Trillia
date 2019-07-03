@@ -4,6 +4,12 @@
    <name>textlabel_SubTotalValue</name>
    <tag></tag>
    <elementGuidId>c0047c2a-202f-4671-9409-52a0c0cb6750</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div/span[2]/div[1]/span[2]/span/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,17 +27,17 @@
       <value>value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>3,000.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;occt-right&quot;]/div[@class=&quot;title-detail&quot;]/span[@class=&quot;detail&quot;]/div[@class=&quot;full-left&quot;]/span[@class=&quot;d-right&quot;]/span[@class=&quot;item-price&quot;]/span[@class=&quot;value&quot;]</value>
+      <value>//div[4]/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div/span[2]/div[1]/span[2]/span/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

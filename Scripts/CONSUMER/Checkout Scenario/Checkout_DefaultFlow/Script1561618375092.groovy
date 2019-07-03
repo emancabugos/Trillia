@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch
+import org.junit.After as After
 import org.stringtemplate.v4.compiler.STParser.namedArg_return as namedArg_return
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
@@ -20,18 +22,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import internal.GlobalVariable as GlobalVariable
+import java.text.DecimalFormat as DecimalFormat
 
 WebUI.comment('Verification of Home link text')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item Test Checkout')
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemname)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item Test Checkout')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemname)
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
@@ -39,23 +42,28 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_Ad
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_MOQValue'), 0)
 
-WebUI.comment('Computation')
+WebUI.comment('Computation of Sub Total')
+
+WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), quantityvalue)
 
 def price = WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_price'))
 
-KeywordLogger log = new KeywordLogger()
+def quantity = WebUI.getAttribute(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 'value')
 
-log.logInfo(price)
+BigDecimal intprice = new BigDecimal(price)
 
-WebUI.setText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), '10')
+BigDecimal intquantity = new BigDecimal(quantity)
 
-def quantity = 10 /*WebUI.getText(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'))*/ 
+def subtotal = intprice * intquantity
 
-//log.logInfo(quantity)
-def total = price * quantity
+DecimalFormat df = new DecimalFormat('#,###.00')
 
-//assert total
-log.logInfo(total)
+println(df.format(new BigDecimal(subtotal)))
+
+WebUI.verifyEqual(df.format(subtotal), WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_SubTotalPrice')), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('Add to Evaluation Widget')
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
 
@@ -71,16 +79,16 @@ WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_Li
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Evaluation Widget/textfield_ListName'), 'Checkout 1')
+WebUI.setText(findTestObject('CONSUMER/Evaluation Widget/textfield_ListName'), listname)
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_Save'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementAttributeValue(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), 'text', '(Checkout 1)', 
+WebUI.waitForElementAttributeValue(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), 'text', (listname), 
     5)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), '(Checkout 1)')
+WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), (listname))
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_down'))
 
@@ -94,7 +102,7 @@ WebUI.comment('Evaluation Table')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), 'Item Test Checkout')
+WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), itemname)
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
 
@@ -138,7 +146,30 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_
 
 WebUI.click(findTestObject('CONSUMER/Checkout Review Page/button_radio1'))
 
-WebUI.comment('Verification of computation')
+WebUI.comment('Computation of Total Price')
+
+actualSubtotal = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_SubTotalValue'))
+
+WebUI.verifyEqual(df.format(subtotal), actualSubtotal)
+
+delivery1 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+
+delivery2 = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue2'))
+
+WebUI.verifyEqual(delivery1, delivery2, FailureHandling.CONTINUE_ON_FAILURE)
+
+def delivery = WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
+
+BigDecimal intsubtotal = new BigDecimal(subtotal)
+
+BigDecimal intdelivery = new BigDecimal(delivery)
+
+def total = intsubtotal + intdelivery
+
+println(df.format(new BigDecimal(total)))
+
+WebUI.verifyEqual(total, WebUI.getText(findTestObject('Object Repository/CONSUMER/Checkout Review Page/textlabel_TotalValue')), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -165,5 +196,31 @@ WebUI.waitForElementAttributeValue(findTestObject('CONSUMER/Purchase History Lis
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History List/tablecontent_Invoice'), invoice.toLowerCase())
 
-WebUI.acceptAlert()
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History List/tablecontent_Quantity'), quantityvalue)
+
+ordertotal = WebUI.getText(findTestObject('CONSUMER/Purchase History List/tablecontent_Price'))
+
+timestamp = WebUI.getText(findTestObject('CONSUMER/Purchase History List/tablecontent_Timestamp'))
+
+WebUI.verifyEqual(df.format(total), ordertotal)
+
+WebUI.comment('Verification on Purchase History Details')
+
+WebUI.click(findTestObject('CONSUMER/Purchase History List/tablecontent_Invoice'))
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_InvoiceIDValue'), invoice.toLowerCase(), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_TimestampValue'), timestamp, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_SubTotalValue'), df.format(subtotal), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_DeliveryCostsValue'), delivery, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_TotalValue'), df.format(total), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_PriceValue'), price, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_QtyValue'), quantityvalue, FailureHandling.CONTINUE_ON_FAILURE)
 

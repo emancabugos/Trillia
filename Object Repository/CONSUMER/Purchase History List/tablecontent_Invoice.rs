@@ -4,6 +4,12 @@
    <name>tablecontent_Invoice</name>
    <tag></tag>
    <elementGuidId>32c2da84-5ce3-482e-826e-6c186a010cf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div[2]/div[2]/div/table/tbody/tr[1]/td[1][count(. | //td[@data-th = 'Invoice No']) = count(//td[@data-th = 'Invoice No'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>theunmp1562048891gnwm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;purchase-history-table&quot;)/tbody[1]/tr[1]/td[1]</value>
+      <value>//div[4]/div/div/div/div[2]/div[2]/div/table/tbody/tr[1]/td[1]</value>
    </webElementProperties>
 </WebElementEntity>

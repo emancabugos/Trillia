@@ -4,6 +4,12 @@
    <name>textlabel_PriceValue</name>
    <tag></tag>
    <elementGuidId>4e11d131-6254-460d-b1d6-e2e8330ef974</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[1]/span[2]/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>100.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-multiorder full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;oscctb-full&quot;]/div[@class=&quot;oscctb-c&quot;]/div[@class=&quot;item-detail&quot;]/div[@class=&quot;oscctbc-d&quot;]/span[@class=&quot;item-price&quot;]/span[@class=&quot;value&quot;]</value>
+      <value>//div[4]/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[1]/span[2]/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

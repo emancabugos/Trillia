@@ -4,6 +4,20 @@
    <name>textlabel_SubTotalValue</name>
    <tag></tag>
    <elementGuidId>85008bb7-3734-4f61-a817-d2fd83062c90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,17 +35,17 @@
       <value>value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>21,000.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;cbcir-text&quot;]/div[@class=&quot;pccr-text2&quot;]/span[1]/div[@class=&quot;item-price subTotal&quot;]/span[@class=&quot;value&quot;]</value>
+      <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2]</value>
    </webElementProperties>
 </WebElementEntity>
