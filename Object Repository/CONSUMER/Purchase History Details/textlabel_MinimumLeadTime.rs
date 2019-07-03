@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_FirstName</name>
+   <name>textlabel_MinimumLeadTime</name>
    <tag></tag>
-   <elementGuidId>92030daa-fc53-4701-8d79-2a4b9c387c33</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'title' and (text() = 'First Name' or . = 'First Name')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>0c7abbff-a057-41f3-bf70-410524a10e3e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,7 +14,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,13 +25,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>First Name</value>
+      <value>Minimum Lead Time</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNRGFNSSTSV&quot;)/div[1]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pd-container&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;input-container&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-multiorder full-width&quot;]/div[@class=&quot;oscct-top full-width&quot;]/div[@class=&quot;occtt-full&quot;]/ul[1]/li[4]/span[@class=&quot;title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

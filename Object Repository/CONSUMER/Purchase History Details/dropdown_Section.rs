@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_FirstName</name>
+   <name>dropdown_Section</name>
    <tag></tag>
-   <elementGuidId>92030daa-fc53-4701-8d79-2a4b9c387c33</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'title' and (text() = 'First Name' or . = 'First Name')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8abc68de-d28e-45ed-99bd-1c57b3a97c6c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title</value>
+      <value>required</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>section</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>First Name</value>
+      <value>Please select optionOrderProductionDeliveryPaymentTesting</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNRGFNSSTSV&quot;)/div[1]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pd-container&quot;]/div[@class=&quot;pdc-inputs&quot;]/div[@class=&quot;input-container&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;order-diary&quot;)/div[1]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl oscctbl-uploadentry full-width&quot;]/div[@class=&quot;oscct-top full-width&quot;]/div[@class=&quot;occtt-full&quot;]/div[@class=&quot;occttf&quot;]/ul[1]/li[1]/span[@class=&quot;option-section&quot;]/select[@class=&quot;required&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

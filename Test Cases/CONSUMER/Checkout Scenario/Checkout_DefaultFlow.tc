@@ -3,6 +3,7 @@
    <description></description>
    <name>Checkout_DefaultFlow</name>
    <tag></tag>
-   <comment>Verification of Home link text</comment>
+   <comment>Verification of Home link text
+Computation</comment>
    <testCaseGuid>d6aac6b6-3f69-4c63-bb66-21bfa41eb586</testCaseGuid>
 </TestCaseEntity>

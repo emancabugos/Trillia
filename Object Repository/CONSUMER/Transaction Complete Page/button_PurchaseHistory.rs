@@ -4,7 +4,17 @@
    <name>button_PurchaseHistory</name>
    <tag></tag>
    <elementGuidId>a0f3004b-cb02-4c54-ac9d-0bae6644bcd9</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/user/order/orderhistory' and (text() = 'Purchase History' or . = 'Purchase History')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[1]/div/div/div[2]/div/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
