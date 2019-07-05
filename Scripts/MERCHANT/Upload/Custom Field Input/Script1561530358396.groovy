@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-email'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), 0)
+
+WebUI.comment('WEIGHT')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), '30')
 
 WebUI.comment('EMAIL')
 
@@ -58,4 +62,28 @@ WebUI.comment('Text Fields')
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 'Ahh Sarado??')
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 'Bili sana ako ng mighty e.. yung sigarilyo')
+
+WebUI.comment('Checkbox')
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 1'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 2'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 3'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 4'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/checkbox 5'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('URL')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-URL'), 'www.arcadier.com')
+
+WebUI.comment('dropdown')
+
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-dropdown'), 'Select 3', false)
+
+WebUI.comment('Location')
+
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom-location'), 'Rufino Pacific Tower')
 

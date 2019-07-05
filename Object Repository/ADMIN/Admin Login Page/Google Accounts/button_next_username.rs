@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;identifierNext&quot;]/content/span[count(. | //*[(text() = 'Susunod' or . = 'Susunod')]) = count(//*[(text() = 'Susunod' or . = 'Susunod')])]</value>
+         <value>//*[@id=&quot;identifierNext&quot;]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;identifierNext&quot;]/content/span</value>
+      <value>//*[@id=&quot;identifierNext&quot;]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

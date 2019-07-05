@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[2]/div[2]/div[4]/a</value>
+         <value>//*[(text() = 'Create Account' or . = 'Create Account')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,17 +41,17 @@
       <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dW9MIIq5laD0ISpqUbOdP8KhMnCgUuXa8eA7JVjYCKqMxmyZ3NvsRLkfAxEbQjNVHTyc9mHVTJA3fE2n81Q2ihyvEjPYjZ5pFI3mj-2BudjByKHbjLfgJdqtJR22uWDTyPHnEsOVcMee4Mwvlfd-2Fqxeshs-3D_NXqVZxi55pyjdNjzv1aWByReXvYRH0lFfVU3FZ-2BLHsN1sjR0Mz1J5FPOUgDycHItGImP793H26gkveB-2FoOKS0-2B3KwVpn1GnCG5WIHkH1dfMYQbVYxFv1Gvz4qBf0f8K2cmXsDEfQe-2FMI0r3NaANAms41ua6vuy6AZ9-2FK-2F26ZF2A8OGf42tx4-2FMu2ulXX-2BtCnSJhyd-2BLkhojwl3ky3J6GTeVUdF-2BVkK141xf6VtL1pmI-3D&amp;source=gmail&amp;ust=1549329820112000&amp;usg=AFQjCNHD6fQg8ee0tYPzBs9F9wAXdIg5LA</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Create Account</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div[4]/a</value>
+      <value>//*[@id=&quot;:qs&quot;]/div[1]/div/div[2]/div[4]/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customFields&quot;]/div[1]/input</value>
+         <value>//*[@data-name = 'Email Address Mandatory']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-name</name>
       <type>Main</type>
@@ -69,10 +69,10 @@
       <value>required emailOnly</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;customFields&quot;]/div[1]/input</value>
+      <value>//*[@id=&quot;customFields&quot;]/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -18,4 +18,69 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.navigateToUrl('https://gmail.com/')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), GlobalVariable.ConsumerNotif)
+
+WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_username'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_password'), GlobalVariable.GooglePass)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_password'))
+
+WebUI.comment('EDM search')
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/textbox_search mail'), 0)
+
+WebUI.setText(findTestObject('Utilities/Gmail/textbox_search mail'), 'Buyer Invite')
+
+WebUI.sendKeys(findTestObject('Utilities/Gmail/textbox_search mail'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/textlink_seller invite'), 0)
+
+WebUI.click(findTestObject('Utilities/Gmail/textlink_seller invite'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/button_Create Account'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Utilities/Gmail/button_Create Account'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Buyer Register Page')
+
+WebUI.delay(2)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Seller Register Page/textbox_username'), 0)
+
+WebUI.setText(findTestObject('MERCHANT/Seller Register Page/textbox_username'), GlobalVariable.CustomConsumer)
+
+WebUI.setText(findTestObject('MERCHANT/Seller Register Page/textbox_password'), GlobalVariable.CustomPass)
+
+WebUI.setText(findTestObject('MERCHANT/Seller Register Page/textbox_reconfirm-password'), GlobalVariable.CustomPass)
+
+WebUI.setText(findTestObject('MERCHANT/Seller Register Page/textbox_notif email'), GlobalVariable.ConsumerNotif)
+
+WebUI.click(findTestObject('MERCHANT/Seller Register Page/button_Sign Up'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.closeBrowser()
 

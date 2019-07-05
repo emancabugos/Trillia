@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div/div/ul/li[6]</value>
+         <value>/html/body/div[3]/div[1]/div/div/ul/li[2]/span/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div/div/ul/li[6]</value>
+      <value>/html/body/div[3]/div[1]/div/div/ul/li[2]/span/p</value>
    </webElementProperties>
 </WebElementEntity>

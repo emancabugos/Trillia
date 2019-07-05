@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -38,8 +36,4 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/Invite Po
 WebUI.setText(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/textarea_email'), GlobalVariable.MerchantNotif)
 
 WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/button_Send'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
 
