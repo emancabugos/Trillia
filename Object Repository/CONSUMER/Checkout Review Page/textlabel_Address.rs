@@ -4,7 +4,17 @@
    <name>textlabel_Address</name>
    <tag></tag>
    <elementGuidId>ebfef801-c3c1-4fd1-af0a-b1f0f25454af</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Address' or . = 'Address')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[1]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

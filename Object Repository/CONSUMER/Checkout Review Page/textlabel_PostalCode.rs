@@ -4,7 +4,17 @@
    <name>textlabel_PostalCode</name>
    <tag></tag>
    <elementGuidId>293ee9fa-9825-4d9c-afaf-3b14f19bceb4</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Postal Code' or . = 'Postal Code')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[1]/span[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

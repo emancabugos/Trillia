@@ -27,7 +27,7 @@ WebUI.comment('Select a delivery')
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_MLTvalue'), '')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue'), '')
+WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'), '')
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Checkout Review Page/textlabel_ConsumerName'), '')
 

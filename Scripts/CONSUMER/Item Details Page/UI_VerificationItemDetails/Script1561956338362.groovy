@@ -61,7 +61,7 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_SubTotal'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_TotalPrice'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_SubTotalPrice'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
 

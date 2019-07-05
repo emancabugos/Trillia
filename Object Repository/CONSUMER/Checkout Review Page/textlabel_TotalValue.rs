@@ -4,6 +4,16 @@
    <name>textlabel_TotalValue</name>
    <tag></tag>
    <elementGuidId>2e028219-1f49-4a0d-9f54-b5c285fe613a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[2]/span[2]/div/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +38,10 @@
       <value>21030.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNTOG32SSGP&quot;)/div[1]/div[@class=&quot;review-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-content full-width&quot;]/div[@class=&quot;pcc-rigth pull-right&quot;]/div[@class=&quot;cbcir-box&quot;]/div[@class=&quot;pccr-total&quot;]/span[@class=&quot;total-amount&quot;]/div[@class=&quot;item-price totalCost&quot;]/span[@class=&quot;value&quot;]</value>
+      <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[2]/span[2]/div/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

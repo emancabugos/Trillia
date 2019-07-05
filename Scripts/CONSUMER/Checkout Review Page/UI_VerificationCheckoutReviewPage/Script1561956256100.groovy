@@ -43,7 +43,7 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlab
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_DeliveryCost1'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_deliverycostValue1'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Checkout Review Page/textlabel_OrderSummary'))
 
