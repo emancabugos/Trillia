@@ -58,9 +58,9 @@ true) {
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/custom_weight'), '1')
 } else if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    1, FailureHandling.CONTINUE_ON_FAILURE) == true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field edited'), 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...')
-} else if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 0, FailureHandling.CONTINUE_ON_FAILURE) == 
+} else if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 1, FailureHandling.CONTINUE_ON_FAILURE) == 
 true) {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/input_txt-field'), 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...')
 } else if (WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Custom Fields/PDF'), 0, FailureHandling.CONTINUE_ON_FAILURE) == 

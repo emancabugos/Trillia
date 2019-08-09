@@ -3,11 +3,20 @@
    <description></description>
    <name>Custom Field Input</name>
    <tag></tag>
-   <comment>WEIGHT
-EMAIL
-NUMBER
+   <comment>weight
+checkbox
+time
+date
+dropdown
+email
+Video
+URL
+location
+number
+number
 PDF
-TEXT EDITOR
-Text Fields</comment>
+percentage
+text field
+text editor</comment>
    <testCaseGuid>debbf20e-f788-4b40-ae56-ac62f13bfd79</testCaseGuid>
 </TestCaseEntity>
