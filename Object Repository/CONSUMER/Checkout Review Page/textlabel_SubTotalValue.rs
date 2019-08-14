@@ -6,16 +6,15 @@
    <elementGuidId>85008bb7-3734-4f61-a817-d2fd83062c90</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//div[4]/div/div/div/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/div/span[2][count(. | //span[@class = 'value' and @value = '${subtotal}']) = count(//span[@class = 'value' and @value = '${subtotal}'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

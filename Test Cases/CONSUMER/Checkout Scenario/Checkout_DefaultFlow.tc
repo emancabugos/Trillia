@@ -3,14 +3,11 @@
    <description></description>
    <name>Checkout_DefaultFlow</name>
    <tag></tag>
-   <comment>Verification of Home link text
-Computation of Sub Total
-Add to Evaluation Widget
-Evaluation Table
-Delivery Checkout Page
+   <comment>Delivery Checkout Page
 Checkout Review Page
 Computation of Total Price
-Purchase History List</comment>
+Purchase History List
+Verification on Purchase History Details</comment>
    <testCaseGuid>d6aac6b6-3f69-4c63-bb66-21bfa41eb586</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>

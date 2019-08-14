@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if title Column &quot;STOCK&quot; is present</description>
+   <name>C33416</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbc9ec22-9feb-4d5e-b318-24f810dab1cc</testCaseGuid>
+</TestCaseEntity>

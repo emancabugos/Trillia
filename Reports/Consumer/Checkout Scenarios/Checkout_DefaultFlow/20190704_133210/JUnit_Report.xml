@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout_DefaultFlow" time="107" tests="3" failures="1" errors="1">
+   <testsuite name="Checkout_DefaultFlow" tests="3" failures="1" errors="1" time="107" timestamp="2019-07-04 13:32:11" hostname="April - April-PC" id="Test Suites/Consumer/Checkout Scenarios/Checkout_DefaultFlow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout_DefaultFlow\\20190704_133210"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout_DefaultFlow\\20190704_133210\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout_DefaultFlow\\20190704_133210\\1562218396302.png"/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 75.0.3770.100"/>
+         <property name="hostAddress" value="10.10.31.97"/>
+         <property name="sessionId" value="51134497bd039a2818bafcfebf781fb5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/CONSUMER/Consumer Login" classname="Test Cases/Utilities/CONSUMER/Consumer Login" status="PASSED">
+         <system-out><![CDATA[2019-07-04 13:32:12 - [TEST_CASE][PASSED] - Test Cases/Utilities/CONSUMER/Consumer Login: Test Cases/Utilities/CONSUMER/Consumer Login
+
+2019-07-04 13:32:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-07-04 13:32:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-04 13:32:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-07-04 13:32:17 - [MESSAGE][PASSED] - Current window maximized
+
+2019-07-04 13:32:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://theunmp.test.arcadier.io/' successfully
+
+2019-07-04 13:32:31 - [MESSAGE][PASSED] - Navigate to 'http://theunmp.test.arcadier.io/' successfully
+
+2019-07-04 13:32:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is visible
+
+2019-07-04 13:32:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:32:31 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is visible
+
+2019-07-04 13:32:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is clicked on
+
+2019-07-04 13:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is clicked on
+
+2019-07-04 13:32:31 - [TEST_STEP][PASSED] - Statement - If (ConsumerAccountType == "custom"): Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on
+
+2019-07-04 13:32:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Login Buyer/input_username' is visible
+
+2019-07-04 13:32:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:32:31 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Login Buyer/input_username' is visible
+
+2019-07-04 13:32:31 - [TEST_STEP][PASSED] - setText: Text 'patientx' is set on object 'Object Repository/CONSUMER/Login Buyer/input_username'
+
+2019-07-04 13:32:32 - [MESSAGE][PASSED] - Text 'patientx' is set on object 'Object Repository/CONSUMER/Login Buyer/input_username'
+
+2019-07-04 13:32:32 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/CONSUMER/Login Buyer/input_password'
+
+2019-07-04 13:32:32 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/CONSUMER/Login Buyer/input_password'
+
+2019-07-04 13:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on
+
+2019-07-04 13:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/search_Item" classname="Test Cases/CONSUMER/Checkout Scenario/search_Item" status="PASSED">
+         <system-out><![CDATA[2019-07-04 13:32:46 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Checkout Scenario/search_Item: Test Cases/CONSUMER/Checkout Scenario/search_Item
+
+2019-07-04 13:32:46 - [TEST_STEP][PASSED] - comment: Search Item
+
+2019-07-04 13:32:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/textfield_Search' is visible
+
+2019-07-04 13:32:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/textfield_Search' is visible
+
+2019-07-04 13:32:46 - [TEST_STEP][PASSED] - setText: Text 'Item Test Checkout' is set on object 'Object Repository/CONSUMER/Homepage/textfield_Search'
+
+2019-07-04 13:32:47 - [MESSAGE][PASSED] - Text 'Item Test Checkout' is set on object 'Object Repository/CONSUMER/Homepage/textfield_Search'
+
+2019-07-04 13:32:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Homepage/button_Search' is clicked on
+
+2019-07-04 13:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Homepage/button_Search' is clicked on
+
+2019-07-04 13:32:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Search Result Page/itembox_SearchResultPage' is visible
+
+2019-07-04 13:32:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Search Result Page/itembox_SearchResultPage' is visible
+
+2019-07-04 13:32:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CONSUMER/Search Result Page/itemName_SearchResultPage' are matched.
+
+2019-07-04 13:32:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CONSUMER/Search Result Page/itemName_SearchResultPage' are matched.
+
+2019-07-04 13:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Search Result Page/itemName_SearchResultPage' is clicked on
+
+2019-07-04 13:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Search Result Page/itemName_SearchResultPage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget" classname="Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget" status="FAILED">
+         <failure type="FAILED" message="Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched."/>
+         <system-out><![CDATA[2019-07-04 13:33:03 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.
+
+2019-07-04 13:33:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' is visible
+
+2019-07-04 13:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:04 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' is visible
+
+2019-07-04 13:33:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Item Details Page/textlabel_MOQValue' is visible
+
+2019-07-04 13:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Item Details Page/textlabel_MOQValue' is visible
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - comment: Computation of Sub Total
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity'
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity'
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/textlabel_price)): Text of object 'Object Repository/CONSUMER/Item Details Page/textlabel_price' is: '100.00'
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONSUMER/Item Details Page/textlabel_price' is: '100.00'
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - quantity = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/domainUpDown_Quantity), "value"): Attribute 'value' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' is: '10'
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' is: '10'
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - intprice = new java.math.BigDecimal(price): null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - intquantity = new java.math.BigDecimal(quantity): null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - subtotal = intprice * intquantity: null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - df = new java.text.DecimalFormat(#,###.00): null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - println(df.format(new java.math.BigDecimal(subtotal))): null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - verifyEqual: Actual object '1,000.00' and expected object '1,000.00' are equal
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/CONSUMER/Item Details Page/textlabel_SubTotalPrice' is: '1,000.00'
+
+2019-07-04 13:33:06 - [MESSAGE][PASSED] - Actual object '1,000.00' and expected object '1,000.00' are equal
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - Statement - subtotal = df.format(subtotal): null
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - comment: Add to Evaluation Widget
+
+2019-07-04 13:33:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Widget/button_up' is clicked on
+
+2019-07-04 13:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Widget/button_up' is clicked on
+
+2019-07-04 13:33:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Evaluation Widget/button_EvaluateItems' is visible
+
+2019-07-04 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Evaluation Widget/button_EvaluateItems' is visible
+
+2019-07-04 13:33:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName' is visible
+
+2019-07-04 13:33:09 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName' is visible
+
+2019-07-04 13:33:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Evaluation Widget/container_empty' is visible
+
+2019-07-04 13:33:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:09 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Evaluation Widget/container_empty' is visible
+
+2019-07-04 13:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName' is clicked on
+
+2019-07-04 13:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName' is clicked on
+
+2019-07-04 13:33:09 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Create new list' are selected in object 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName'  using regular expression
+
+2019-07-04 13:33:10 - [MESSAGE][PASSED] - All options with label 'Create new list' are selected in object 'Object Repository/CONSUMER/Evaluation Widget/dropdown_ListName'  using regular expression
+
+2019-07-04 13:33:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Evaluation Widget/button_Cancel' is visible
+
+2019-07-04 13:33:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:10 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Evaluation Widget/button_Cancel' is visible
+
+2019-07-04 13:33:10 - [TEST_STEP][PASSED] - setText: Text 'Checkout 1' is set on object 'Object Repository/CONSUMER/Evaluation Widget/textfield_ListName'
+
+2019-07-04 13:33:10 - [MESSAGE][PASSED] - Text 'Checkout 1' is set on object 'Object Repository/CONSUMER/Evaluation Widget/textfield_ListName'
+
+2019-07-04 13:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Widget/button_Save' is clicked on
+
+2019-07-04 13:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Widget/button_Save' is clicked on
+
+2019-07-04 13:33:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-07-04 13:33:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-04 13:33:11 - [TEST_STEP][PASSED] - waitForElementAttributeValue: Object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' does not have attribute 'text' with value 'Checkout 1'
+
+2019-07-04 13:33:16 - [MESSAGE][WARNING] - Object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' does not have attribute 'text' with value 'Checkout 1'
+
+2019-07-04 13:33:16 - [TEST_STEP][FAILED] - verifyElementText: Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.
+
+2019-07-04 13:33:16 - [MESSAGE][FAILED] - Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout_DefaultFlow\\20190704_133210\\1562218396302.png]]
+
+2019-07-04 13:33:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Widget/button_down' is clicked on
+
+2019-07-04 13:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Widget/button_down' is clicked on
+
+2019-07-04 13:33:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' is clicked on
+
+2019-07-04 13:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' is clicked on
+
+2019-07-04 13:33:16 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/CONSUMER/Evaluation Widget/a_Delete/button_delete' located by 'By.xpath: id("react_0HLNP43KHPJPS")/div[1]/div[2]/div[@class="compare-desk active"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-9"]/div[@class="multiple-compare slick-initialized slick-slider"]/div[@class="slick-list draggable"]/div[@class="slick-track"]/div[@class="col-sm-3 slick-slide slick-current slick-active"]/div[1]/div[@class="compare-item"]/div[1]/span[@class="sup-tit"]/span[@class="delete-comp-item"]/i[@class="fa fa-times"][count(. | //i[@class = 'fa fa-times']) = count(//i[@class = 'fa fa-times'])]' not found
+
+2019-07-04 13:33:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/CONSUMER/Evaluation Widget/a_Delete/button_delete' located by 'By.xpath: id("react_0HLNP43KHPJPS")/div[1]/div[2]/div[@class="compare-desk active"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-9"]/div[@class="multiple-compare slick-initialized slick-slider"]/div[@class="slick-list draggable"]/div[@class="slick-track"]/div[@class="col-sm-3 slick-slide slick-current slick-active"]/div[1]/div[@class="compare-item"]/div[1]/span[@class="sup-tit"]/span[@class="delete-comp-item"]/i[@class="fa fa-times"][count(. | //i[@class = 'fa fa-times']) = count(//i[@class = 'fa fa-times'])]' not found
+
+2019-07-04 13:33:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Widget/button_EvaluateItems' is clicked on
+
+2019-07-04 13:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Widget/button_EvaluateItems' is clicked on]]></system-out>
+         <system-err><![CDATA[2019-07-04 13:33:03 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable" classname="Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable" status="PASSED">
+         <system-out><![CDATA[2019-07-04 13:33:57 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable: Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable
+
+2019-07-04 13:33:57 - [TEST_STEP][PASSED] - comment: Evaluation Table
+
+2019-07-04 13:33:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Evaluation Table/button_OrderNow' is visible
+
+2019-07-04 13:33:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-04 13:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Evaluation Table/button_OrderNow' is visible
+
+2019-07-04 13:33:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CONSUMER/Evaluation Table/textlabel_ItemName' are matched.
+
+2019-07-04 13:33:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CONSUMER/Evaluation Table/textlabel_ItemName' are matched.
+
+2019-07-04 13:33:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Evaluation Table/button_OrderNow' is clicked on
+
+2019-07-04 13:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Evaluation Table/button_OrderNow' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow" classname="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow" status="ERROR">
+         <error type="ERROR" message="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case."/>
+         <system-out><![CDATA[2019-07-04 13:33:58 - [TEST_CASE][ERROR] - Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case.
+
+2019-07-04 13:33:58 - [TEST_STEP][PASSED] - Statement - df = new java.text.DecimalFormat(#,###.00): null
+
+2019-07-04 13:33:58 - [TEST_STEP][PASSED] - Statement - subtotal = subtotal = df.format(subtotal): null]]></system-out>
+         <system-err><![CDATA[2019-07-04 13:33:58 - [TEST_CASE][ERROR] - Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-04 13:32:11 - [TEST_SUITE][FAILED] - Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2019-07-04 13:32:11 - [TEST_SUITE][FAILED] - Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Actual text '(Checkout 1)' and expected text 'Checkout 1' of test object 'Object Repository/CONSUMER/Evaluation Widget/textlabel_ListNameTitle' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>
