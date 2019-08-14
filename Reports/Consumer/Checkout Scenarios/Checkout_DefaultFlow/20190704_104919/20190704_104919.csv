@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Checkout_DefaultFlow,Chrome 75.0.3770.100,,2019-07-04 10:49:21,2019-07-04 10:50:45,1m - 23.551s,FAILED
+,,,,,,
+Test Cases/Utilities/CONSUMER/Consumer Login,Chrome 75.0.3770.100,,2019-07-04 10:49:22,2019-07-04 10:49:36,14.058s,PASSED
+openBrowser,Chrome 75.0.3770.100,,2019-07-04 10:49:22,2019-07-04 10:49:26,3.687s,PASSED
+maximizeWindow,Chrome 75.0.3770.100,,2019-07-04 10:49:26,2019-07-04 10:49:27,1.218s,PASSED
+navigateToUrl,Chrome 75.0.3770.100,,2019-07-04 10:49:27,2019-07-04 10:49:30,2.759s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:30,2019-07-04 10:49:30,0.123s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:30,2019-07-04 10:49:30,0.165s,PASSED
+"Statement - If (ConsumerAccountType == ""custom"")",Chrome 75.0.3770.100,,2019-07-04 10:49:30,2019-07-04 10:49:36,5.731s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/search_Item,Chrome 75.0.3770.100,,2019-07-04 10:49:36,2019-07-04 10:49:44,7.973s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:49:36,2019-07-04 10:49:36,0.024s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:36,2019-07-04 10:49:36,0.055s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-04 10:49:36,2019-07-04 10:49:37,0.871s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:37,2019-07-04 10:49:41,3.947s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:41,2019-07-04 10:49:42,1.085s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:49:42,2019-07-04 10:49:42,0.071s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:42,2019-07-04 10:49:44,1.706s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget,Chrome 75.0.3770.100,,2019-07-04 10:49:44,2019-07-04 10:50:33,49.114s,FAILED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:44,2019-07-04 10:49:45,0.830s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.068s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.000s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.150s,PASSED
+Statement - price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/textlabel_price)),Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.069s,PASSED
+"Statement - quantity = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/domainUpDown_Quantity), ""value"")",Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.041s,PASSED
+Statement - intprice = new java.math.BigDecimal(price),Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.008s,PASSED
+Statement - intquantity = new java.math.BigDecimal(quantity),Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.001s,PASSED
+Statement - subtotal = intprice * intquantity,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.005s,PASSED
+"Statement - df = new java.text.DecimalFormat(#,###.00)",Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.015s,PASSED
+Statement - println(df.format(new java.math.BigDecimal(subtotal))),Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.005s,PASSED
+verifyEqual,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.077s,PASSED
+Statement - subtotal = df.format(subtotal),Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.001s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.001s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.103s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:45,0.045s,PASSED
+verifyElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:45,2019-07-04 10:49:49,3.111s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:49,2019-07-04 10:49:49,0.046s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:49,2019-07-04 10:49:49,0.212s,PASSED
+selectOptionByLabel,Chrome 75.0.3770.100,,2019-07-04 10:49:49,2019-07-04 10:49:49,0.213s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:49,2019-07-04 10:49:50,0.555s,PASSED
+setText,Chrome 75.0.3770.100,,2019-07-04 10:49:50,2019-07-04 10:49:50,0.218s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:50,2019-07-04 10:49:50,0.158s,PASSED
+waitForPageLoad,Chrome 75.0.3770.100,,2019-07-04 10:49:50,2019-07-04 10:49:50,0.073s,PASSED
+waitForElementAttributeValue,Chrome 75.0.3770.100,,2019-07-04 10:49:50,2019-07-04 10:49:55,5.136s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:49:55,2019-07-04 10:49:56,0.340s,FAILED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:56,2019-07-04 10:49:56,0.078s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:49:56,2019-07-04 10:49:56,0.074s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:49:56,2019-07-04 10:50:27,31.079s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:50:27,2019-07-04 10:50:33,6.123s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:33,0.354s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:33,0.002s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:33,0.052s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:33,0.048s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:33,0.106s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow,Chrome 75.0.3770.100,,2019-07-04 10:50:33,2019-07-04 10:50:44,10.876s,ERROR
+"Statement - df = new java.text.DecimalFormat(#,###.00)",Chrome 75.0.3770.100,,2019-07-04 10:50:34,2019-07-04 10:50:34,0.004s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:50:34,2019-07-04 10:50:34,0.004s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:50:34,2019-07-04 10:50:41,7.164s,PASSED
+Statement - name = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_Name)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.045s,PASSED
+Statement - address = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_Address)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.038s,PASSED
+Statement - country = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_Country)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.043s,PASSED
+Statement - state = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_State)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.044s,PASSED
+Statement - city = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_City)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.041s,PASSED
+Statement - postalcode = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Delivery Checkout Page/default_PostalCode)),Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.048s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.089s,PASSED
+scrollToElement,Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.045s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.088s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:41,0.001s,PASSED
+waitForElementVisible,Chrome 75.0.3770.100,,2019-07-04 10:50:41,2019-07-04 10:50:43,2.115s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:43,2019-07-04 10:50:43,0.046s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:43,2019-07-04 10:50:44,0.043s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.044s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.312s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.045s,PASSED
+verifyElementText,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.054s,PASSED
+click,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.109s,PASSED
+comment,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.002s,PASSED
+Statement - actualSubtotal = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/CONSUMER/Checkout Review Page/textlabel_SubTotalValue)),Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.053s,PASSED
+verifyEqual,Chrome 75.0.3770.100,,2019-07-04 10:50:44,2019-07-04 10:50:44,0.001s,PASSED

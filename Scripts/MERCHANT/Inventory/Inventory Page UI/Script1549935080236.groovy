@@ -66,7 +66,7 @@ WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_BULK P
 
 WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_STOCK'), 'STOCK')
 
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_PURCHASABLE'), 'PURCHASABLE')
+WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/textlabel_APPROVED'), 'PURCHASABLE')
 
 WebUI.comment('Footer')
 

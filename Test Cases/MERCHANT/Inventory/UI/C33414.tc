@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if title Column &quot;BULK PRICING&quot; is present</description>
+   <name>C33414</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d41da02f-037e-4431-aa6a-9d22a797f9ea</testCaseGuid>
+</TestCaseEntity>
