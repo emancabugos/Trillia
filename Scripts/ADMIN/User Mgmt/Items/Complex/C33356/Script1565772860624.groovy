@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Must be able to disdplay a toaster message'
+'Verify deleted item is not present in the homepage\r\n\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
@@ -53,4 +53,16 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteP
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteTitle'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 0)
+
+WebUI.click(findTestObject('MERCHANT/Delivery Settings/Search Header/image_marketplacelogo'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textlabel_Categories'), 0)
+
+WebUI.verifyElementNotVisible(findTestObject(null))
 

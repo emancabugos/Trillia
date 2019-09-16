@@ -19,38 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Must be able to disdplay a toaster message'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), 0)
 
-WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'))
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Domain/linktext_CustomDomain'), 0)
 
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
+WebUI.click(findTestObject('ADMIN/Custom Domain/linktext_CustomDomain'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Domain/logo_customDomain1st'), 0)
 
-WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Search'))
-
-WebUI.waitForElementAttributeValue(findTestObject('ADMIN/User Mgmt/Items/linktext_itemName'), '', '', 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Delete'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_popupDelete'), 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_popupDelete'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), 0)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deletePopup'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteTitle'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Custom Domain/logo_customDomain1st'))
 

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Must be able to disdplay a toaster message'
+'Purchasable must be updated\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
@@ -31,6 +31,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/linktext_Items
 WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
+
+purchasable = WebUI.getText(findTestObject('ADMIN/User Mgmt/Items/value_purchasable'))
 
 WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '')
 
@@ -53,4 +55,10 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteP
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteTitle'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
+
+purchasable2 = WebUI.getText(findTestObject('ADMIN/User Mgmt/Items/value_purchasable'))
+
+WebUI.verifyLessThan(purchasable, purchasable2)
 

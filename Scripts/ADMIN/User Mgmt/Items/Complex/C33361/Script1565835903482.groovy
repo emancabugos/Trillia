@@ -19,7 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Must be able to disdplay a toaster message'
+'Verify deleted item is not present in the Order Details'
+WebUI.comment('Checkout Scenario')
+
+'\r\n\r\n\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
@@ -53,4 +56,25 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteP
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteTitle'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 0)
+
+WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Orders'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Page/textbox_search-item'), 0)
+
+'search invoice\r\n'
+WebUI.setText(findTestObject('MERCHANT/Order Page/textbox_search-item'), '')
+
+WebUI.delay(1)
+
+WebUI.verifyElementText(findTestObject('MERCHANT/Order Page/textlabel_invoiceList'), '')
+
+WebUI.click(findTestObject('MERCHANT/Order Page/textlabel_invoiceList'))
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order History Details/textlabel_invoiceDetails'), 0)
 

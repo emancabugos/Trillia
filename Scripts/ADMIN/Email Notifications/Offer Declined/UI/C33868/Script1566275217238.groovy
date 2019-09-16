@@ -19,38 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Must be able to disdplay a toaster message'
+'Verify Offer Declined is displayed\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
 
-WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Search'))
-
-WebUI.waitForElementAttributeValue(findTestObject('ADMIN/User Mgmt/Items/linktext_itemName'), '', '', 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Delete'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_popupDelete'), 0)
-
-WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_popupDelete'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), 0)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deletePopup'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteTitle'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_deleteDesc'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'), 0)
 
