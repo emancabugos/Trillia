@@ -29,11 +29,11 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Sign in
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/input_username'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_username'), 'unregistered')
+WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), 'unregistered')
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_password'), 'password')
+WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), 'password')
 
-WebUI.click(findTestObject('CONSUMER/Login Buyer/a_Sign In'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'), FailureHandling.CONTINUE_ON_FAILURE)
 

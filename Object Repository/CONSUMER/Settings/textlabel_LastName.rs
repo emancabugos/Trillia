@@ -4,6 +4,12 @@
    <name>textlabel_LastName</name>
    <tag></tag>
    <elementGuidId>740ca550-9cd6-4995-8029-6e1ad60d3ed2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Last Name' or . = 'Last Name')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
