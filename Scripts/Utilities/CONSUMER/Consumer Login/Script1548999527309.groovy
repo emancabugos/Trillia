@@ -30,17 +30,17 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Buyer S
 WebUI.click(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.ConsumerAccountType == 'custom') {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/input_username'), 0)
+    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomConsumer)
+    WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), GlobalVariable.CustomConsumer)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
+    WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
 
-    WebUI.click(findTestObject('CONSUMER/Login Buyer/a_Sign In'))
+    WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 } else if (GlobalVariable.ConsumerAccountType == 'google') {
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/a_Google Login'), 0)
+    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/button_GoogleLogin'), 0)
 
-    WebUI.click(findTestObject('CONSUMER/Login Buyer/a_Google Login'))
+    WebUI.click(findTestObject('CONSUMER/Login Buyer/button_GoogleLogin'))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login Page/Google Accounts/textbox_username'), 0)
 

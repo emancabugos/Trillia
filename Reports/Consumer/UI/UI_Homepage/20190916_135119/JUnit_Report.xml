@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UI_Homepage" time="19" tests="26" failures="0" errors="0">
+   <testsuite name="UI_Homepage" tests="26" failures="0" errors="0" time="19" timestamp="2019-09-16 13:51:21" hostname="April - April-PC" id="Test Suites/Consumer/UI/UI_Homepage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\UI\\UI_Homepage\\20190916_135119"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\UI\\UI_Homepage\\20190916_135119\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 76.0.3809.132"/>
+         <property name="hostAddress" value="10.10.31.99"/>
+         <property name="sessionId" value="70cc37f40168be0d963d8f892f4beace"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/CONSUMER/Consumer Login" classname="Test Cases/Utilities/CONSUMER/Consumer Login" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:21 - [TEST_CASE][PASSED] - Test Cases/Utilities/CONSUMER/Consumer Login: Test Cases/Utilities/CONSUMER/Consumer Login
+
+2019-09-16 13:51:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-09-16 13:51:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-16 13:51:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-09-16 13:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-16 13:51:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0625bespoke10.test.arcadier.io' successfully
+
+2019-09-16 13:51:28 - [MESSAGE][PASSED] - Navigate to 'http://0625bespoke10.test.arcadier.io' successfully
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is visible
+
+2019-09-16 13:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is visible
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is clicked on
+
+2019-09-16 13:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Landing Page/button_Buyer Sign in' is clicked on
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - Statement - If (ConsumerAccountType == "custom"): Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Login Buyer/input_username' is visible
+
+2019-09-16 13:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Login Buyer/input_username' is visible
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - setText: Text 'buyer01' is set on object 'Object Repository/CONSUMER/Login Buyer/input_username'
+
+2019-09-16 13:51:28 - [MESSAGE][PASSED] - Text 'buyer01' is set on object 'Object Repository/CONSUMER/Login Buyer/input_username'
+
+2019-09-16 13:51:28 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/CONSUMER/Login Buyer/input_password'
+
+2019-09-16 13:51:29 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/CONSUMER/Login Buyer/input_password'
+
+2019-09-16 13:51:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on
+
+2019-09-16 13:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CONSUMER/Login Buyer/a_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/01_language" classname="Test Cases/CONSUMER/Homepage/UI/01_language" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:32 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/01_language: Test Cases/CONSUMER/Homepage/UI/01_language
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/02_buyerdisplayName" classname="Test Cases/CONSUMER/Homepage/UI/02_buyerdisplayName" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:33 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/02_buyerdisplayName: Test Cases/CONSUMER/Homepage/UI/02_buyerdisplayName
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/displayname_Buyer' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/displayname_Buyer' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/03_buyerdropdown" classname="Test Cases/CONSUMER/Homepage/UI/03_buyerdropdown" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:33 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/03_buyerdropdown: Test Cases/CONSUMER/Homepage/UI/03_buyerdropdown
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_arrowDown' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_arrowDown' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/04_markeplaceLogo" classname="Test Cases/CONSUMER/Homepage/UI/04_markeplaceLogo" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:33 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/04_markeplaceLogo: Test Cases/CONSUMER/Homepage/UI/04_markeplaceLogo
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/logo_Marketplace' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/logo_Marketplace' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/05_textfieldSearch" classname="Test Cases/CONSUMER/Homepage/UI/05_textfieldSearch" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:33 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/05_textfieldSearch: Test Cases/CONSUMER/Homepage/UI/05_textfieldSearch
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/textfield_Search' is visible
+
+2019-09-16 13:51:33 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/textfield_Search' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/06_buttonSearch" classname="Test Cases/CONSUMER/Homepage/UI/06_buttonSearch" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:33 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/06_buttonSearch: Test Cases/CONSUMER/Homepage/UI/06_buttonSearch
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_Search' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_Search' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/07_dropdownCategory" classname="Test Cases/CONSUMER/Homepage/UI/07_dropdownCategory" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:34 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/07_dropdownCategory: Test Cases/CONSUMER/Homepage/UI/07_dropdownCategory
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/dropdown_AllCategories' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/dropdown_AllCategories' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/08_buttonInbox" classname="Test Cases/CONSUMER/Homepage/UI/08_buttonInbox" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:34 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/08_buttonInbox: Test Cases/CONSUMER/Homepage/UI/08_buttonInbox
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/icon_Inbox' is visible
+
+2019-09-16 13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/icon_Inbox' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/09_iconEvaluationList" classname="Test Cases/CONSUMER/Homepage/UI/09_iconEvaluationList" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:34 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/09_iconEvaluationList: Test Cases/CONSUMER/Homepage/UI/09_iconEvaluationList
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/icon_ComparisonList' is visible
+
+2019-09-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/icon_ComparisonList' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks" classname="Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:35 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks: Test Cases/CONSUMER/Homepage/UI/10_textlabelExternalLinks
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/dropdown_ExternalLinks' is visible
+
+2019-09-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/dropdown_ExternalLinks' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/11_textlabelLatest" classname="Test Cases/CONSUMER/Homepage/UI/11_textlabelLatest" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:35 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/11_textlabelLatest: Test Cases/CONSUMER/Homepage/UI/11_textlabelLatest
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:35 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CONSUMER/Homepage/textlabel_Latest' successfully
+
+2019-09-16 13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CONSUMER/Homepage/textlabel_Latest' successfully
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/textlabel_Latest' is visible
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/textlabel_Latest' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/12_buttonViewMoreLatest" classname="Test Cases/CONSUMER/Homepage/UI/12_buttonViewMoreLatest" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:36 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/12_buttonViewMoreLatest: Test Cases/CONSUMER/Homepage/UI/12_buttonViewMoreLatest
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CONSUMER/Homepage/button_ViewMoreLatest' successfully
+
+2019-09-16 13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CONSUMER/Homepage/button_ViewMoreLatest' successfully
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_ViewMoreLatest' is visible
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_ViewMoreLatest' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/13_textlabelCategory" classname="Test Cases/CONSUMER/Homepage/UI/13_textlabelCategory" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:36 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/13_textlabelCategory: Test Cases/CONSUMER/Homepage/UI/13_textlabelCategory
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CONSUMER/Homepage/textlabel_Categories' successfully
+
+2019-09-16 13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CONSUMER/Homepage/textlabel_Categories' successfully
+
+2019-09-16 13:51:36 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/textlabel_Categories' is visible
+
+2019-09-16 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/textlabel_Categories' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/14_buttonViewMoreCategory" classname="Test Cases/CONSUMER/Homepage/UI/14_buttonViewMoreCategory" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:37 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/14_buttonViewMoreCategory: Test Cases/CONSUMER/Homepage/UI/14_buttonViewMoreCategory
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CONSUMER/Homepage/button_ViewMoreCategories' successfully
+
+2019-09-16 13:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CONSUMER/Homepage/button_ViewMoreCategories' successfully
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_ViewMoreCategories' is visible
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_ViewMoreCategories' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/15_linktextAboutUs" classname="Test Cases/CONSUMER/Homepage/UI/15_linktextAboutUs" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:37 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/15_linktextAboutUs: Test Cases/CONSUMER/Homepage/UI/15_linktextAboutUs
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/CONSUMER/Footer/linktext_ABOUT' successfully
+
+2019-09-16 13:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CONSUMER/Footer/linktext_ABOUT' successfully
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_ABOUT' is visible
+
+2019-09-16 13:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_ABOUT' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/16_linktextTermsofUse" classname="Test Cases/CONSUMER/Homepage/UI/16_linktextTermsofUse" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:37 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/16_linktextTermsofUse: Test Cases/CONSUMER/Homepage/UI/16_linktextTermsofUse
+
+2019-09-16 13:51:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_TERMSOFUSE' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_TERMSOFUSE' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/17_linktextPrivacyPolicy" classname="Test Cases/CONSUMER/Homepage/UI/17_linktextPrivacyPolicy" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:38 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/17_linktextPrivacyPolicy: Test Cases/CONSUMER/Homepage/UI/17_linktextPrivacyPolicy
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_PRIVACY' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_PRIVACY' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/18_linktextReturnsPolicy" classname="Test Cases/CONSUMER/Homepage/UI/18_linktextReturnsPolicy" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:38 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/18_linktextReturnsPolicy: Test Cases/CONSUMER/Homepage/UI/18_linktextReturnsPolicy
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_RETURNS' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_RETURNS' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/19_ContactUs" classname="Test Cases/CONSUMER/Homepage/UI/19_ContactUs" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:38 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/19_ContactUs: Test Cases/CONSUMER/Homepage/UI/19_ContactUs
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_CONTACT' is visible
+
+2019-09-16 13:51:38 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_CONTACT' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ" classname="Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:38 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ: Test Cases/CONSUMER/Homepage/UI/20_linktextFAQ
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/linktext_FAQ' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/linktext_FAQ' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/21_copyRight" classname="Test Cases/CONSUMER/Homepage/UI/21_copyRight" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:39 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/21_copyRight: Test Cases/CONSUMER/Homepage/UI/21_copyRight
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/textlabel_copyright' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/textlabel_copyright' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/22_imageFacebook" classname="Test Cases/CONSUMER/Homepage/UI/22_imageFacebook" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:39 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/22_imageFacebook: Test Cases/CONSUMER/Homepage/UI/22_imageFacebook
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/imagebutton_Facebook' is visible
+
+2019-09-16 13:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/imagebutton_Facebook' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/23_imageTwitter" classname="Test Cases/CONSUMER/Homepage/UI/23_imageTwitter" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:39 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/23_imageTwitter: Test Cases/CONSUMER/Homepage/UI/23_imageTwitter
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/imagebutton_Twitter' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/imagebutton_Twitter' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn" classname="Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:40 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn: Test Cases/CONSUMER/Homepage/UI/24_imagelinkedIn
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/imagebutton_Linkedin' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/imagebutton_Linkedin' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Homepage/UI/25_imageInstagram" classname="Test Cases/CONSUMER/Homepage/UI/25_imageInstagram" status="PASSED">
+         <system-out><![CDATA[2019-09-16 13:51:40 - [TEST_CASE][PASSED] - Test Cases/CONSUMER/Homepage/UI/25_imageInstagram: Test Cases/CONSUMER/Homepage/UI/25_imageInstagram
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Homepage/button_language' is visible
+
+2019-09-16 13:51:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/CONSUMER/Footer/imagebutton_Instagram' is visible
+
+2019-09-16 13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/CONSUMER/Footer/imagebutton_Instagram' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-16 13:51:21 - [TEST_SUITE][PASSED] - UI_Homepage: Test Cases/CONSUMER/Homepage/UI/25_imageInstagram]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

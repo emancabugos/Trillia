@@ -52,5 +52,5 @@ WebUI.click(findTestObject('ADMIN/Gmail Page/link_Buyer Invite'), FailureHandlin
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/button_Create Account'), 0)
 
-not_run: WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
 

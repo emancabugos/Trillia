@@ -30,11 +30,11 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Sign in
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/button_Sign in as Seller'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/input_username'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), GlobalVariable.CustomMerchant)
 
-WebUI.setText(findTestObject('CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
+WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
 
-WebUI.sendKeys(findTestObject('CONSUMER/Login Buyer/a_Sign In'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('CONSUMER/Login Buyer/button_SignIn'), Keys.chord(Keys.ENTER))
 
