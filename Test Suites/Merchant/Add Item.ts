@@ -21,7 +21,7 @@
       <guid>de18f210-8fd1-41f6-ad66-31b527131ac1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MERCHANT/Upload/Item Upload</testCaseId>
+      <testCaseId>Test Cases/MERCHANT/Upload/Other Scenario/Item Upload</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f43f67e1-9323-440e-ad85-60a92918a6ae</id>

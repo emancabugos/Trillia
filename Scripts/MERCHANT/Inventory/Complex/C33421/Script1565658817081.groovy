@@ -58,7 +58,7 @@ WebUI.comment('Custom Fields')
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('MERCHANT/Upload/Custom Field Input'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Custom Field Input'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Country')
 

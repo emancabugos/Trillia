@@ -34,7 +34,7 @@ WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GoogleMerchant)
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 

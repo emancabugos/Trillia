@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;upload-file&quot;)[count(. | //*[@type = 'file' and @id = 'upload-file']) = count(//*[@type = 'file' and @id = 'upload-file'])]</value>
+         <value>id(&quot;upload-file&quot;)[count(. | //*[@type = 'file' and @id = 'upload-file' and (text() = 'Upload Image' or . = 'Upload Image')]) = count(//*[@type = 'file' and @id = 'upload-file' and (text() = 'Upload Image' or . = 'Upload Image')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
