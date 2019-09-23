@@ -25,34 +25,6 @@ WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), 'Category 1')
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('Item Cover Image')
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/icon_browse'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\Image\\\\drug1.jpg')
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
-
-WebUI.click(findTestObject('MERCHANT/Image Cropper/div_crop'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.comment('Item Description')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_item-description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
-
-WebUI.comment('Custom Fields')
-
-WebUI.delay(2)
-
-WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Custom Field Input'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('Country')
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_country'), 'Philippines')

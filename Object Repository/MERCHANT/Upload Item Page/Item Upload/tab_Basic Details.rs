@@ -4,6 +4,12 @@
    <name>tab_Basic Details</name>
    <tag></tag>
    <elementGuidId>aa407e8b-5a4c-47fa-883a-c274dd71dd66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tabLinkBasic&quot;)/span[1][count(. | //span[(text() = 'Basic Details ' or . = 'Basic Details ')]) = count(//span[(text() = 'Basic Details ' or . = 'Basic Details ')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>Basic Details </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

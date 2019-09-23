@@ -3,6 +3,7 @@
    <description></description>
    <name>TC145</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Item Description
+Country</comment>
    <testCaseGuid>990dde07-01e6-4ba1-ae6a-d1eb484bac00</testCaseGuid>
 </TestCaseEntity>

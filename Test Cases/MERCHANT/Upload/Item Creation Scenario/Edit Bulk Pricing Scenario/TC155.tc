@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC155</name>
+   <tag></tag>
+   <comment>Country
+Edit Bulk Pricing</comment>
+   <testCaseGuid>2d60f03c-7bdc-494b-a29a-f30000730b5e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC166</name>
+   <tag></tag>
+   <comment>Item Cover Image
+Item Description
+Custom Fields
+Country
+Stock/Unlimited
+Bulk Pricing
+Delivery Method
+Pickup
+Click Upload Button</comment>
+   <testCaseGuid>07031562-9549-47a6-9891-6517340a3276</testCaseGuid>
+</TestCaseEntity>

@@ -4,6 +4,12 @@
    <name>button_Upload</name>
    <tag></tag>
    <elementGuidId>3a33bd0c-1fba-4d2e-904e-747c9c71596c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'un-btn-upload button-upload' and (text() = 'Upload' or . = 'Upload')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLKN09J56S1H&quot;)/div[1]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;un-seller-tab&quot;]/div[@class=&quot;pull-right&quot;]/div[@class=&quot;un-btn-upload button-upload&quot;]</value>
+      <value>//div[5]/div/div/div/div/div/div/div</value>
    </webElementProperties>
 </WebElementEntity>

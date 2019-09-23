@@ -3,6 +3,8 @@
    <description></description>
    <name>TC144</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Item Description
+Country
+Stock/Unlimited</comment>
    <testCaseGuid>c6e0519b-b9fa-47d8-8b30-c4bab2e592db</testCaseGuid>
 </TestCaseEntity>

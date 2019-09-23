@@ -3,9 +3,7 @@
    <description></description>
    <name>TC140</name>
    <tag></tag>
-   <comment>Item Cover Image
-Item Description
-Custom Fields
+   <comment>Item Description
 Country
 Stock/Unlimited</comment>
    <testCaseGuid>50c5d713-b9fa-4a90-bf59-307100fb1797</testCaseGuid>
