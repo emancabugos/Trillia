@@ -4,6 +4,12 @@
    <name>li_Last 24 Hrs</name>
    <tag></tag>
    <elementGuidId>59617123-cdd0-415a-aca2-913d1351ba7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLKAFAQNC5J3&quot;)/div[1]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dashboard-content&quot;]/div[@class=&quot;dashboard-menus bottom&quot;]/ul[1]/li[@class=&quot;active&quot;]</value>
+      <value>/html/body/div[2]/div/div/div[2]/div[4]/ul/li[1]</value>
    </webElementProperties>
 </WebElementEntity>

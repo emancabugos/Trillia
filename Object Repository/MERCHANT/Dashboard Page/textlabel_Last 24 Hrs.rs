@@ -4,6 +4,12 @@
    <name>textlabel_Last 24 Hrs</name>
    <tag></tag>
    <elementGuidId>168478da-10fb-4f1f-917d-a7eac579fea5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[1][count(. | //li[@id = 'btn24Hrs' and (text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')]) = count(//li[@id = 'btn24Hrs' and (text() = 'Last 24 Hrs' or . = 'Last 24 Hrs')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,10 +41,10 @@
       <value>Last 24 Hrs</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn24Hrs&quot;)</value>
+      <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[1]</value>
    </webElementProperties>
 </WebElementEntity>
