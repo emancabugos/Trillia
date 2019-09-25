@@ -34,6 +34,12 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
 
     WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), GlobalVariable.CustomMerchant)
 
+    if (WebUI.verifyElementPresent(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), 3) == true) {
+        WebUI.click(findTestObject('Utilities/Login Seller/Accept Cookies/a_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+    } else {
+        WebUI.verifyElementPresent(findTestObject('CONSUMER/Homepage/a_BE A SELLER'), 0)
+    }
+    
     WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
 
     WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
@@ -65,5 +71,13 @@ if (GlobalVariable.MerchantAccountType == 'custom') {
     WebUI.setText(findTestObject('ADMIN/Admin Login Page/Login Facebook/textbox_password'), GlobalVariable.FacebookPass)
 
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
+}
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
+    WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+    WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 }
 

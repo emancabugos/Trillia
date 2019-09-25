@@ -18,39 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_username'), 'unmerchant1')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_password'), 'welcome8')
 
-WebUI.navigateToUrl('https://www.gmail.com')
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_reconfirm-password'), '')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_NotificationEmail'), 'arcadier.tester1@gmail.com')
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.ConsumerNotif)
+WebUI.click(findTestObject('MERCHANT/Register Page/button_Sign Up'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/Register Page/textbox_reconfirm-password'), 'value', '', 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_username'), '')
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_password'), '')
 
-WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_reconfirm-password'), '')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Buyer Invite')
-
-WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Buyer Invite'), 0)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('ADMIN/Gmail Page/link_Buyer Invite'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/button_Create Account'), 0)
-
-WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_NotificationEmail'), '')
 
