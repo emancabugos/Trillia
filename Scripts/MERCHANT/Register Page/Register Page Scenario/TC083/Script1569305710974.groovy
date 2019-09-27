@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_username'), 'unmerchant1')
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_username'), GlobalVariable.CustomMerchant)
 
 WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_password'), 'welcome8')
 
 WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_reconfirm-password'), 'welcome8')
 
-WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_NotificationEmail'), 'arcadier.tester1@gmail.com')
+WebUI.setText(findTestObject('MERCHANT/Register Page/textbox_NotificationEmail'), GlobalVariable.MerchantNotif)
 
 WebUI.click(findTestObject('MERCHANT/Register Page/button_Sign Up'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;upload-file&quot;)[count(. | //*[@type = 'file' and @id = 'upload-file' and (text() = 'Upload Image' or . = 'Upload Image')]) = count(//*[@type = 'file' and @id = 'upload-file' and (text() = 'Upload Image' or . = 'Upload Image')])]</value>
+         <value>id(&quot;upload-file&quot;)[count(. | //input[@type = 'file' and @id = 'upload-file']) = count(//input[@type = 'file' and @id = 'upload-file'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

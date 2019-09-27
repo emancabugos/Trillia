@@ -31,7 +31,7 @@ WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\\\Katalon\\\\Image\\\\drug1.jpg')
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Image Cropper/rotate'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Image Cropper/rotate_right'), 0)
 
 WebUI.click(findTestObject('MERCHANT/Image Cropper/div_crop'), FailureHandling.STOP_ON_FAILURE)
 
