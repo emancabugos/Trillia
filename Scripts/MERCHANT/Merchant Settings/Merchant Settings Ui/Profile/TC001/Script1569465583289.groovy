@@ -18,10 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
 
-WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Utilities/Usermenu/icon_dropdown'), '')
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/textlink_Settings'), 0)
 

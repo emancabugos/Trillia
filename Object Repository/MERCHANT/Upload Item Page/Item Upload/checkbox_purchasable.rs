@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;tblAvailability&quot;]/thead/tr/th[6]/span/label</value>
+         <value>/html/body/div[4]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/table/thead/tr/th[6]/span/label[count(. | //label[@for = 'checkAvailPurchaseable']) = count(//label[@for = 'checkAvailPurchaseable'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tblAvailability&quot;]/thead/tr/th[6]/span/label</value>
+      <value>/html/body/div[4]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/table/thead/tr/th[6]/span/label</value>
    </webElementProperties>
 </WebElementEntity>

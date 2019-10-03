@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'browse-btn']</value>
+         <value>//*[@id = 'input-file-logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
