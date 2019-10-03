@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Evaluation Table')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/button_CreatePurchaseOrder'), 0)
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Table/textlabel_ItemName'), itemname, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
+WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_CreatePurchaseOrder'))
 

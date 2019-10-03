@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'), 0)
-
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Table/dropdown_ListName'), 0)
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/linktext_ClearAll'))
 
@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_c
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_price'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_CreatePurchaseOrder'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/item_image'))
 
@@ -43,5 +43,5 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_c
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/textlabel_price'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_OrderNow'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Table/button_CreatePurchaseOrder'))
 
