@@ -4,7 +4,17 @@
    <name>textlabel_currency</name>
    <tag></tag>
    <elementGuidId>13dadd6c-b850-44f0-a1c0-b740e7bf6515</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[1]/div/div[4]/div/div[2]/div[1]/div/div/div[1]/div/div/div[1]/div/div/div[3]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -14,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
