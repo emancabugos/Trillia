@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC164</name>
-   <tag></tag>
-   <comment>Country
-Edit Bulk Pricing</comment>
-   <testCaseGuid>bc56c889-177d-466c-b680-513d46ddcfe1</testCaseGuid>
-</TestCaseEntity>
