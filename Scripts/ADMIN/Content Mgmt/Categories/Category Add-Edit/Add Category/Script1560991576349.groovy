@@ -27,7 +27,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/butto
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Categories'))
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Add a Category'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 
 WebUI.waitForElementPresent(findTestObject('ADMIN/Categories/Category/dropdown_Parent'), 2)
 

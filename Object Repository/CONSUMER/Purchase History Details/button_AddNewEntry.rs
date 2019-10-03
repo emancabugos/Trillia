@@ -4,6 +4,12 @@
    <name>button_AddNewEntry</name>
    <tag></tag>
    <elementGuidId>f02e5722-e4ad-4fe5-9bd2-2dd7a69ff8c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Add new entry' or . = 'Add new entry')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

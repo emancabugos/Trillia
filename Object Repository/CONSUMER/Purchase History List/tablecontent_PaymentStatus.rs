@@ -4,6 +4,12 @@
    <name>tablecontent_PaymentStatus</name>
    <tag></tag>
    <elementGuidId>185a85de-6edb-4cab-83e7-18df661d0ad8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[@data-th = 'Payment Status']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,18 +20,18 @@
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-th</name>
       <type>Main</type>
       <value>Payment Status</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Paid</value>
+      <value>N/A</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

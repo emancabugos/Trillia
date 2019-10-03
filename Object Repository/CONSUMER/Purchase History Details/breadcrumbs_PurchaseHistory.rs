@@ -4,6 +4,12 @@
    <name>breadcrumbs_PurchaseHistory</name>
    <tag></tag>
    <elementGuidId>22cf384e-5546-49bc-b76c-57f1cfc16db8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/user/order/orderhistory' and (text() = 'Purchase History' or . = 'Purchase History')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

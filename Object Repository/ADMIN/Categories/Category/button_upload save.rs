@@ -4,10 +4,16 @@
    <name>button_upload save</name>
    <tag></tag>
    <elementGuidId>f4f58fd1-1856-4465-9742-40b28a0d49cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;_2_1_imagecropperModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;html5imageupload modaldialog done&quot;]/div[@class=&quot;download final&quot;]/a[@class=&quot;btn btn-warning download&quot;][count(. | //*[@class = 'btn btn-warning download' and (text() = ' Add Photo' or . = ' Add Photo')]) = count(//*[@class = 'btn btn-warning download' and (text() = ' Add Photo' or . = ' Add Photo')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,7 +41,7 @@
       <value> Add Photo</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

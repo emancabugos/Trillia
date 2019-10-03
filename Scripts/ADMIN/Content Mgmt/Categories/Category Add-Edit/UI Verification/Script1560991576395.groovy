@@ -29,7 +29,7 @@ WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Categories'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/logo_Categories'), 0)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Add a Category'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/textlabel_AddEdit a Category'), 0)
 

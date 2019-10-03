@@ -4,6 +4,12 @@
    <name>icon_Delivery</name>
    <tag></tag>
    <elementGuidId>f7597b87-b949-4291-b42c-96d525c87764</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div/div[1]/div/div[1]/ul/li[1]/span[1][count(. | //span[@class = 'icon']) = count(//span[@class = 'icon'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNRGFNSSTSV&quot;)/div[1]/div[@class=&quot;delivery-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pc-processbar&quot;]/ul[1]/li[@class=&quot;active&quot;]/span[@class=&quot;icon&quot;]</value>
+      <value>//div/div[1]/div/div[1]/ul/li[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

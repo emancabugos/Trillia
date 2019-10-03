@@ -43,9 +43,9 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/logo_C
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/textlabel_Create categories for your s'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/button_Add a Category'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/textlabel_Category Name header'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/textlabel_CategoryNameheader'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/logo_hamburger bar'))
 

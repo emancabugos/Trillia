@@ -6,12 +6,12 @@
    <elementGuidId>fb04ad41-9160-4fe4-a483-a2bfa3b5d491</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;_2_1_imagecropperModal&quot;]/div/div/div/div/input</value>
+         <key>BASIC</key>
+         <value>//div/div/div/div/input</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;_2_1_imagecropperModal&quot;]/div/div/div/div/input</value>
+         <key>XPATH</key>
+         <value>//div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,6 +35,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;_2_1_imagecropperModal&quot;]/div/div/div/div/input</value>
+      <value>//div/div/div/div/input</value>
    </webElementProperties>
 </WebElementEntity>
