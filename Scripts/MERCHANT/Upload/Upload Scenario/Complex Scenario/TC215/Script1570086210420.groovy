@@ -26,11 +26,11 @@ WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), 'Delivery 1')
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), 'Admin_Delivery 1')
 
 WebUI.delay(1)
 
 WebUI.sendKeys(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Delivery Method/Delivery Method 1'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Delivery Method/Admin Delivery 1'), 0)
 

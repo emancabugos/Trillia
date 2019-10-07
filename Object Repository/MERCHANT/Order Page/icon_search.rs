@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Delivery Method 1</name>
+   <name>icon_search</name>
    <tag></tag>
-   <elementGuidId>46bb5207-f17d-4faf-b376-402e7791570e</elementGuidId>
+   <elementGuidId>d9336e9d-9df5-4e4f-ba41-aa2accd49670</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;tblDelivery&quot;]/tbody/tr[4]/td[1]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tblDelivery&quot;]/tbody/tr[4]/td[1]</value>
+      <value>fa fa-search</value>
    </webElementProperties>
 </WebElementEntity>

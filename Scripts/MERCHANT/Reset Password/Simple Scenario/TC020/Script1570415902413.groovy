@@ -18,19 +18,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 0)
+WebUI.callTestCase(findTestCase('MERCHANT/Reset Password/Reset Password UI/Reset Password Redirection'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/Reset Password/textbox_OldPassword'), 'INCORRECT')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
+WebUI.setText(findTestObject('MERCHANT/Reset Password/textbox_NewPassword'), 'welcome8!? ')
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), 'Delivery 1')
+WebUI.setText(findTestObject('MERCHANT/Reset Password/textbox_ConfirmNewPassword'), 'welcome8!? ')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('MERCHANT/Reset Password/button_Change'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Reset Password/toaster/incorrect old password'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Delivery Method/Delivery Method 1'), 0)
+WebUI.waitForElementNotPresent(findTestObject('MERCHANT/Reset Password/toaster/incorrect old password'), 0)
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_Last 30 Days</name>
+   <name>value_total sales</name>
    <tag></tag>
-   <elementGuidId>2c6ed4d9-aab4-44fc-8797-c6b2fc1d717d</elementGuidId>
+   <elementGuidId>3505e53c-b18e-48ca-8d0e-e822b36a52b7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'btn30Days']</value>
+         <value>//*[@id=&quot;salePrice&quot;][count(. | //*[(text() = '0' or . = '0')]) = count(//*[(text() = '0' or . = '0')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-price</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn30Days</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Last 30 Days</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[3]</value>
+      <value>//*[@id=&quot;salePrice&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -18,19 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 0)
-
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), 'Delivery 1')
-
-WebUI.delay(1)
-
-WebUI.sendKeys(findTestObject('MERCHANT/Upload Item Page/Item Upload/searcbar_delivery'), Keys.chord(Keys.ENTER))
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Delivery Method/Delivery Method 1'), 0)
+WebUI.verifyElementText(findTestObject('MERCHANT/Dashboard Page/Values/value_total visits'), '0')
 
