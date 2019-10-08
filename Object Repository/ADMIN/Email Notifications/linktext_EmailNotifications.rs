@@ -4,6 +4,12 @@
    <name>linktext_EmailNotifications</name>
    <tag></tag>
    <elementGuidId>b3b38287-fd8f-4ebf-a630-9c5b4648c952</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a[count(. | //a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')]) = count(//a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>Email Notifications</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-layout page-merchant&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-3 sidebar&quot;]/div[@class=&quot;setion-wrapper&quot;]/div[@class=&quot;section-sidebar&quot;]/ul[@class=&quot;section-links&quot;]/li[@class=&quot;menu-item item-notif&quot;]/a[1]</value>
+      <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a</value>
    </webElementProperties>
 </WebElementEntity>

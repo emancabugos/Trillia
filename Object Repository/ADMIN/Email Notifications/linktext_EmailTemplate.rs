@@ -4,6 +4,12 @@
    <name>linktext_EmailTemplate</name>
    <tag></tag>
    <elementGuidId>0157b230-727a-4139-ad91-7e5805a2d72b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[1]/div[2]/div/ul/ul[11]/li[1]/a[count(. | //a[@href = '/admin/emailcustomisation/index' and (text() = 'Email Template' or . = 'Email Template')]) = count(//a[@href = '/admin/emailcustomisation/index' and (text() = 'Email Template' or . = 'Email Template')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>Email Template</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-layout page-merchant&quot;]/div[@class=&quot;main template-sidebar&quot;]/div[@class=&quot;col-sm-3 sidebar&quot;]/div[@class=&quot;setion-wrapper&quot;]/div[@class=&quot;section-sidebar&quot;]/ul[@class=&quot;section-links&quot;]/ul[@class=&quot;ul-submenu submenu-notif sm-sub-hide&quot;]/li[1]/a[1]</value>
+      <value>/html/body/div[3]/div[1]/div[2]/div/ul/ul[11]/li[1]/a</value>
    </webElementProperties>
 </WebElementEntity>
