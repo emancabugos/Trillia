@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Custom Field,,,2019-10-08 10:39:38,2019-10-08 10:39:43,4.507s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Checkbox NM,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.603s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.326s,FAILED
+click,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.014s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.009s,FAILED
+click,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.007s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.007s,FAILED
+click,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.020s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Checkbox,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.196s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.045s,FAILED
+click,,,2019-10-08 10:39:39,2019-10-08 10:39:39,0.006s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_DateTime,,,2019-10-08 10:39:39,2019-10-08 10:39:40,0.126s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.008s,FAILED
+click,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.005s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Dropdown NM,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.362s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.006s,FAILED
+click,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.006s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Dropdown,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.111s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.005s,FAILED
+click,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.004s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Email,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.216s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.005s,FAILED
+click,,,2019-10-08 10:39:40,2019-10-08 10:39:40,0.005s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_EmbedVideo,,,2019-10-08 10:39:40,2019-10-08 10:39:41,0.138s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:40,2019-10-08 10:39:41,0.047s,FAILED
+click,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.004s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_HyperlinkURL,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.146s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.054s,FAILED
+click,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.005s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Location,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.279s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.004s,FAILED
+click,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.003s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Number,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.083s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.004s,FAILED
+click,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.004s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_PDF,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.120s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.044s,FAILED
+click,,,2019-10-08 10:39:41,2019-10-08 10:39:41,0.003s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Percentage,,,2019-10-08 10:39:41,2019-10-08 10:39:42,0.117s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.043s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.003s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_TextEditor,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.321s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.053s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.003s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.003s,FAILED
+setText,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.010s,FAILED
+selectOptionByLabel,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.010s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.004s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.004s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.091s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.003s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Textfield for Delete,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.358s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.005s,FAILED
+click,,,2019-10-08 10:39:42,2019-10-08 10:39:42,0.003s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Textfield For Edit,,,2019-10-08 10:39:42,2019-10-08 10:39:43,0.089s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:43,2019-10-08 10:39:43,0.008s,FAILED
+click,,,2019-10-08 10:39:43,2019-10-08 10:39:43,0.004s,FAILED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Add_Textfield,,,2019-10-08 10:39:43,2019-10-08 10:39:43,0.127s,FAILED
+waitForElementVisible,,,2019-10-08 10:39:43,2019-10-08 10:39:43,0.061s,FAILED
+click,,,2019-10-08 10:39:43,2019-10-08 10:39:43,0.003s,FAILED

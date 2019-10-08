@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CategoryValidation" time="23" tests="3" failures="2" errors="0">
+   <testsuite name="CategoryValidation" tests="3" failures="2" errors="0" time="23" timestamp="2019-10-03 14:55:27" hostname="ARCADIER01 - ARCADIER-01" id="Test Suites/Admin/Categories/CategoryValidation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526"/>
+         <property name="logFiles" value="C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526\\1570085747781.png, C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526\\1570085749444.png"/>
+         <property name="hostName" value="ARCADIER01 - ARCADIER-01"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.90"/>
+         <property name="hostAddress" value="10.10.31.88"/>
+         <property name="sessionId" value="12b566c4c9b4280e7b28842820d8432c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-10-03 14:55:27 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-10-03 14:55:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-10-03 14:55:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-03 14:55:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-10-03 14:55:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-03 14:55:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://0314apriljoy5.test.arcadier.io/admin' successfully
+
+2019-10-03 14:55:35 - [MESSAGE][PASSED] - Navigate to 'http://0314apriljoy5.test.arcadier.io/admin' successfully
+
+2019-10-03 14:55:35 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-10-03 14:55:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-10-03 14:55:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-10-03 14:55:35 - [TEST_STEP][PASSED] - setText: Text '0314apriljoy5' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-10-03 14:55:35 - [MESSAGE][PASSED] - Text '0314apriljoy5' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-10-03 14:55:35 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-10-03 14:55:35 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-10-03 14:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-10-03 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition" classname="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition" status="PASSED">
+         <system-out><![CDATA[2019-10-03 14:55:43 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition
+
+2019-10-03 14:55:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/New Sidebar Menu/sidemenu_Announcement' is visible
+
+2019-10-03 14:55:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/New Sidebar Menu/sidemenu_Announcement' is visible
+
+2019-10-03 14:55:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/New Sidebar Menu/sidemenu_Content Mgmt.' is clicked on
+
+2019-10-03 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/New Sidebar Menu/sidemenu_Content Mgmt.' is clicked on
+
+2019-10-03 14:55:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/a_Categories' is visible
+
+2019-10-03 14:55:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:44 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/a_Categories' is visible
+
+2019-10-03 14:55:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Categories/a_Categories' is clicked on
+
+2019-10-03 14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Categories/a_Categories' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" classname="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" status="PASSED">
+         <system-out><![CDATA[2019-10-03 14:55:45 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy
+
+2019-10-03 14:55:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Categories/a_Add a Category' is clicked on
+
+2019-10-03 14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Categories/a_Add a Category' is clicked on
+
+2019-10-03 14:55:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:46 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:46 - [TEST_STEP][PASSED] - setText: Text 'Category 2' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:46 - [MESSAGE][PASSED] - Text 'Category 2' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-10-03 14:55:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-10-03 14:55:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible
+
+2019-10-03 14:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" classname="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a onclick=&quot;CategoryManager.addCategory();&quot; class=&quot;blue-btn&quot; href=&quot;javascript:void(0)&quot; id=&quot;cat_add&quot;>...&lt;/a> is not clickable at point (1179, 147). Other element would receive the click: &lt;div id=&quot;addCategory&quot; class=&quot;modal modal-custom fade in&quot; role=&quot;dialog&quot; style=&quot;display: block;&quot;>...&lt;/div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)"/>
+         <system-out><![CDATA[2019-10-03 14:55:47 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+
+2019-10-03 14:55:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:47 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+
+2019-10-03 14:55:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+[[ATTACHMENT|C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526\\1570085747781.png]]
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - setText: Text 'test1' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:48 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible
+
+2019-10-03 14:55:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible]]></system-out>
+         <system-err><![CDATA[2019-10-03 14:55:47 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" classname="Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a onclick=&quot;CategoryManager.addCategory();&quot; class=&quot;blue-btn&quot; href=&quot;javascript:void(0)&quot; id=&quot;cat_add&quot;>...&lt;/a> is not clickable at point (1179, 147). Other element would receive the click: &lt;div class=&quot;toast toast-error&quot; style=&quot;&quot;>...&lt;/div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)"/>
+         <system-out><![CDATA[2019-10-03 14:55:49 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div class="toast toast-error" style="">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/a_Add a Category' is visible
+
+2019-10-03 14:55:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div class="toast toast-error" style="">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+
+2019-10-03 14:55:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div class="toast toast-error" style="">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)
+[[ATTACHMENT|C:\\Users\\ARCADIER01\\git\\Trillia\\Reports\\Admin\\Categories\\CategoryValidation\\20191003_145526\\1570085749444.png]]
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/textlabel_AddEdit a Category' is visible
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name' is cleared
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - setText: Text 'test4' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Text 'test4' is set on object 'Object Repository/ADMIN/Categories/Category/textfield_Category Name'
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' successfully
+
+2019-10-03 14:55:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Categories/Add Category Popup/input_btnSaveParentCategory' is clicked on
+
+2019-10-03 14:55:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-10-03 14:55:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-10-03 14:55:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible
+
+2019-10-03 14:55:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-03 14:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Categories/Category/toaster_no image' is visible]]></system-out>
+         <system-err><![CDATA[2019-10-03 14:55:49 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div class="toast toast-error" style="">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-03 14:55:27 - [TEST_SUITE][FAILED] - CategoryValidation: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)]]></system-out>
+      <system-err><![CDATA[2019-10-03 14:55:27 - [TEST_SUITE][FAILED] - CategoryValidation: Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Categories/a_Add a Category' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a onclick="CategoryManager.addCategory();" class="blue-btn" href="javascript:void(0)" id="cat_add">...</a> is not clickable at point (1179, 147). Other element would receive the click: <div id="addCategory" class="modal modal-custom fade in" role="dialog" style="display: block;">...</div>
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ARCADIER-01', ip: '10.10.31.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ARCADI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}
+Session ID: 12b566c4c9b4280e7b28842820d8432c)]]></system-err>
+   </testsuite>
+</testsuites>

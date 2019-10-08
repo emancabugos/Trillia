@@ -4,6 +4,18 @@
    <name>textlabel_Arcadier reguarly updates ou</name>
    <tag></tag>
    <elementGuidId>bfd827df-60f3-43d4-b49c-8c718c25458c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = '
+                            Arcadier reguarly updates our marketplace template codes to maintain a quality platform for all our users.
+                            These updates may cause changes to your external custom codes’ effect on your marketplace. Admins who use this tool must be aware of this risk to their marketplace  Arcadier Support will not be responsible for any bugs that arise from your custom codes.
+                        ' or . = '
+                            Arcadier reguarly updates our marketplace template codes to maintain a quality platform for all our users.
+                            These updates may cause changes to your external custom codes’ effect on your marketplace. Admins who use this tool must be aware of this risk to their marketplace  Arcadier Support will not be responsible for any bugs that arise from your custom codes.
+                        ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

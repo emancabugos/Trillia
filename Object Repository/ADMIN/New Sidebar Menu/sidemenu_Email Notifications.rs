@@ -4,6 +4,12 @@
    <name>sidemenu_Email Notifications</name>
    <tag></tag>
    <elementGuidId>efd6612a-b29c-45ab-bfcd-9b46add80cdc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

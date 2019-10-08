@@ -4,7 +4,7 @@
    <name>CategoryValidation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-03T14:18:36</lastRun>
+   <lastRun>2019-10-08T12:22:21</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -66,7 +66,7 @@
       <guid>62eda384-e479-439b-99cf-cb3dfecb5a14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/05_UploadImageMandatory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9689080c-ceb7-4b32-b91b-e62bbbc1e5dd</id>

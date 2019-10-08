@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CategoryValidation,Chrome 77.0.3865.90,,2019-10-03 14:55:27,2019-10-03 14:55:51,23.348s,FAILED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 77.0.3865.90,,2019-10-03 14:55:27,2019-10-03 14:55:43,15.484s,PASSED
+openBrowser,Chrome 77.0.3865.90,,2019-10-03 14:55:28,2019-10-03 14:55:30,2.584s,PASSED
+maximizeWindow,Chrome 77.0.3865.90,,2019-10-03 14:55:30,2019-10-03 14:55:31,1.144s,PASSED
+navigateToUrl,Chrome 77.0.3865.90,,2019-10-03 14:55:31,2019-10-03 14:55:35,3.623s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 77.0.3865.90,,2019-10-03 14:55:35,2019-10-03 14:55:43,7.927s,PASSED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Categories/Category UI/UI Verification_Categories/Precondition,Chrome 77.0.3865.90,,2019-10-03 14:55:43,2019-10-03 14:55:45,2.109s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:43,2019-10-03 14:55:43,0.061s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:43,2019-10-03 14:55:43,0.073s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:43,2019-10-03 14:55:44,0.544s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:44,2019-10-03 14:55:45,1.295s,PASSED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy,Chrome 77.0.3865.90,Main category - no parent selected,2019-10-03 14:55:45,2019-10-03 14:55:47,2.129s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:45,2019-10-03 14:55:45,0.037s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:45,2019-10-03 14:55:45,0.069s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:45,2019-10-03 14:55:46,0.595s,PASSED
+clearText,Chrome 77.0.3865.90,,2019-10-03 14:55:46,2019-10-03 14:55:46,0.055s,PASSED
+setText,Chrome 77.0.3865.90,,2019-10-03 14:55:46,2019-10-03 14:55:46,0.096s,PASSED
+scrollToElement,Chrome 77.0.3865.90,,2019-10-03 14:55:46,2019-10-03 14:55:46,0.032s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:46,2019-10-03 14:55:46,0.071s,PASSED
+delay,Chrome 77.0.3865.90,,2019-10-03 14:55:46,2019-10-03 14:55:47,1.014s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:47,2019-10-03 14:55:47,0.060s,PASSED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy,Chrome 77.0.3865.90,Main category - no parent selected,2019-10-03 14:55:47,2019-10-03 14:55:49,1.601s,FAILED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:47,2019-10-03 14:55:47,0.024s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:47,2019-10-03 14:55:48,0.327s,FAILED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:48,0.021s,PASSED
+clearText,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:48,0.025s,PASSED
+setText,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:48,0.076s,PASSED
+scrollToElement,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:48,0.015s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:48,0.047s,PASSED
+delay,Chrome 77.0.3865.90,,2019-10-03 14:55:48,2019-10-03 14:55:49,1.001s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.054s,PASSED
+,,,,,,
+Test Cases/ADMIN/Content Mgmt/Categories/Category UI/Simple/04_ParentnotSelected - Copy,Chrome 77.0.3865.90,Main category - no parent selected,2019-10-03 14:55:49,2019-10-03 14:55:51,1.781s,FAILED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.089s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.306s,FAILED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.028s,PASSED
+clearText,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.021s,PASSED
+setText,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.090s,PASSED
+scrollToElement,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:49,0.019s,PASSED
+click,Chrome 77.0.3865.90,,2019-10-03 14:55:49,2019-10-03 14:55:50,0.170s,PASSED
+delay,Chrome 77.0.3865.90,,2019-10-03 14:55:50,2019-10-03 14:55:51,1.001s,PASSED
+waitForElementVisible,Chrome 77.0.3865.90,,2019-10-03 14:55:51,2019-10-03 14:55:51,0.049s,PASSED

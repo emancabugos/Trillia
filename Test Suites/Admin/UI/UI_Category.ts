@@ -4,7 +4,7 @@
    <name>UI_Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-02T15:07:46</lastRun>
+   <lastRun>2019-10-04T08:15:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
