@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Template</name>
+   <name>button_Revert to Default</name>
    <tag></tag>
-   <elementGuidId>a75f1993-9e1c-4983-8e6d-a205ceba35f9</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@name = 'email_template' and @id = 'email_template']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>866f9f0b-7890-4a17-87ab-81906082c4f4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,48 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>email_template</value>
+      <value>mybtn mybtn-default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email_template</value>
+      <value>revertToDefault</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-original-database-value</name>
-      <type>Main</type>
-      <value>34</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome MailStart SellingAccount SuspendedChange of PaymentReset PasswordNew OrderReceived OrderOrder PickupOrder ShippedReview PromptOffer from SellerOffer DeclinedSeller InviteBuyer InviteMessage from SellerMessage from BuyerInvite Merchant Sub-Account</value>
+      <value>Revert to Default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email_template&quot;)</value>
+      <value>id(&quot;revertToDefault&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

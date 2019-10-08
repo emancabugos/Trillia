@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_EmailNotifications</name>
+   <name>textlabel_AdminContact</name>
    <tag></tag>
-   <elementGuidId>b3b38287-fd8f-4ebf-a630-9c5b4648c952</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a[count(. | //a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')]) = count(//a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>863ce111-f6db-4cd4-998b-974ee932f306</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,6 +12,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-dynamic-var</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Email Notifications</value>
+      <value>{{AdminContact}}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a</value>
+      <value>id(&quot;parameters&quot;)/li[1]/a[@class=&quot;btn-dynamic-var&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>linktext_EmailNotifications</name>
+   <name>textlabel_AdminContactAdminEmailAdmin</name>
    <tag></tag>
-   <elementGuidId>b3b38287-fd8f-4ebf-a630-9c5b4648c952</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a[count(. | //a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')]) = count(//a[@href = '#' and (text() = 'Email Notifications' or . = 'Email Notifications')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b9d9cc3f-fb3a-44f6-b1a9-59e71320eddc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>ul</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dynamic-vars relative-height</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>#</value>
+      <value>parameters</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Email Notifications</value>
+      <value>{{AdminContact}}{{AdminEmail}}{{AdminFullName}}{{AdminName}}{{EmailFromDomain}}{{SupportEmail}}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div[2]/div/ul/li[11]/a</value>
+      <value>id(&quot;parameters&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

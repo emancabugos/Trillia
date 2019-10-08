@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Template</name>
+   <name>button_Show Cc  Bcc</name>
    <tag></tag>
-   <elementGuidId>a75f1993-9e1c-4983-8e6d-a205ceba35f9</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@name = 'email_template' and @id = 'email_template']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>237dbe33-e4c5-4518-9c59-7d10352c6004</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,48 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('.group-cc-bcc').hasClass('hide') ? $('.group-cc-bcc').removeClass('hide') : $('.group-cc-bcc').addClass('hide');</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>mybtn mybtn-default show-hide-bcc-cc-btn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>email_template</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email_template</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-original-database-value</name>
-      <type>Main</type>
-      <value>34</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome MailStart SellingAccount SuspendedChange of PaymentReset PasswordNew OrderReceived OrderOrder PickupOrder ShippedReview PromptOffer from SellerOffer DeclinedSeller InviteBuyer InviteMessage from SellerMessage from BuyerInvite Merchant Sub-Account</value>
+      <value>Show Cc / Bcc</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email_template&quot;)</value>
+      <value>id(&quot;template&quot;)/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;panel-box box-email-template in-relatition&quot;]/div[@class=&quot;panel-box-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 text-right&quot;]/a[@class=&quot;mybtn mybtn-default show-hide-bcc-cc-btn&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

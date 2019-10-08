@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Template</name>
+   <name>dd_email template</name>
    <tag></tag>
-   <elementGuidId>a75f1993-9e1c-4983-8e6d-a205ceba35f9</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@name = 'email_template' and @id = 'email_template']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>4e719440-d7a0-4916-9b38-827b2bf70982</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -45,10 +39,10 @@
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>
-      <value>34</value>
+      <value>26</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
