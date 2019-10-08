@@ -22,15 +22,15 @@ import internal.GlobalVariable as GlobalVariable
 'Verify Offer Declined is displayed\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'), 0)
 

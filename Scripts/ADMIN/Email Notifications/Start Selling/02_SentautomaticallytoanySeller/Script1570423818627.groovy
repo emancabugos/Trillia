@@ -22,7 +22,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_EmailTemplate'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_SellerBuyer'))
 
@@ -30,7 +30,7 @@ WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_Orde
 
 WebUI.delay(0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Start Selling Desc'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Start Selling Desc'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Start Selling Desc'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Start Selling Desc'), FailureHandling.CONTINUE_ON_FAILURE)
 

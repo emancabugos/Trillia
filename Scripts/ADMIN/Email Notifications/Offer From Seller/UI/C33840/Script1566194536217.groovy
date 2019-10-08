@@ -20,13 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if "YES/NO" toggle button is displayed'
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/toggle_emailNotification'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/toggle_emailNotification'))
 
-WebUI.waitForElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'), 0)
+WebUI.waitForElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/toggle_emailNotification'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/toggle_emailNotification'))
 
-WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'), 0)
+WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'), 0)
 

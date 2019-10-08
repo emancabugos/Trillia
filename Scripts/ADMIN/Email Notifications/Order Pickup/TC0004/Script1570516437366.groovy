@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Account Suspended'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Account Suspended'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Order PickUp'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Order PickUp'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Order PickUp'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
 
 WebUI.back()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Order PickUp'), 0)
 

@@ -22,16 +22,16 @@ import internal.GlobalVariable as GlobalVariable
 'Verify Offer from Seller is displayed\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/linktext_OfferFromSellerEdit'), 
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Offer from Seller/linktext_OfferFromSellerEdit'), 
     0)
 

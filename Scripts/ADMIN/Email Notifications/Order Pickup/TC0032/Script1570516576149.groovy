@@ -26,16 +26,16 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Merchant', 
     true)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Merchant Parameter/Merchant_SellerDisplayName'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Merchant Parameter/Merchant_SellerDisplayName'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Merchant Parameter/Merchant_SellerDisplayName'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Merchant Parameter/Merchant_SellerDisplayName'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Merchant Parameter/Merchant_SellerEmail'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Merchant Parameter/Merchant_SellerEmail'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Merchant Parameter/Merchant_SellerName'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Merchant Parameter/Merchant_SellerName'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Merchant Parameter/Merchant_SubAccountEmail'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Merchant Parameter/Merchant_SubAccountEmail'))
 
 WebUI.delay(2)
 

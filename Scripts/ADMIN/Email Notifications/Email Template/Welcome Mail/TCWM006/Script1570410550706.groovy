@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Welcome Mail'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Welcome Mail'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/LinkText_Edit Welcome Mail'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Welcome Mail'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_Welcome MailStart Selli'), 0)
 

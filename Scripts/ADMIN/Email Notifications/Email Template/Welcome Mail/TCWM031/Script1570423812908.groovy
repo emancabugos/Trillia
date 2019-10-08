@@ -24,11 +24,11 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Marketplace', 
     false)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Marketplace Parameters/Logo'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Logo'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Marketplace Parameters/Market Domain'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Market Domain'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Marketplace Parameters/Market name'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Market name'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Marketplace Parameters/Marketplace URL'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Marketplace URL'))
 

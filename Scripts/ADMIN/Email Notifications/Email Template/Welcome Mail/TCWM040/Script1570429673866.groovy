@@ -19,24 +19,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Customize the email'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
 
-if (WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable')))
+if (WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable')))
  {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/LinkText_Edit Welcome Mail'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Welcome Mail'))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
 	
-} else if (WebUI.verifyElementNotVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))) {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))
+} else if (WebUI.verifyElementNotVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/button_Enable'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/LinkText_Edit Welcome Mail'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Welcome Mail'))
 
     WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
 

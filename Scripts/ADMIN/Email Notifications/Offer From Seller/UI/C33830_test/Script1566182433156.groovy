@@ -21,48 +21,48 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))) {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))
+if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/button_Enable'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'), 0)
 } 
 
-else if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))) {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))
+else if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
 
     WebUI.delay(2)
 }
 
-WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/linktext_OfferFromSellerEdit'), 0)
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Offer from Seller/linktext_OfferFromSellerEdit'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/linktext_OfferFromSellerEdit'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/linktext_OfferFromSellerEdit'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-if (true == WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))) {
-    WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+if (true == WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))) {
+    WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/toggle_emailNotification'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/toggle_emailNotification'))
 
-    WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'), 0)
+    WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'), 0)
 	
 } 
 
-else if (true == WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))) 
+else if (true == WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))) 
 {
-    WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+    WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
     WebUI.delay(2)
 }

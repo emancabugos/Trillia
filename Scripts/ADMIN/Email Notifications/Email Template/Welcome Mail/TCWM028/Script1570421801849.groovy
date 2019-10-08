@@ -24,21 +24,21 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Consumer', 
     false)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer Address'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Address'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer Contact'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Contact'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer Email'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Email'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer Firstname'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Firstname'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer Lastname'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Lastname'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Consumer LoginID'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer LoginID'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Delivery Address'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Address'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Delivery Method Name'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Method Name'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Consumer Parameters/Delivery Method'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Method'))
 

@@ -24,9 +24,9 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'General', 
     false)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/General Parameters/Arcadier URL'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/General Parameters/Arcadier URL'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/General Parameters/Currency Code'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/General Parameters/Currency Code'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/General Parameters/Return URL'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/General Parameters/Return URL'))
 

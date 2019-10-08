@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Reset password'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset password'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Reset Password Desc'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset Password Desc'))
 

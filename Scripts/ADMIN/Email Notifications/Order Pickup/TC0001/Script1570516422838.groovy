@@ -19,11 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/LinkText_Edit Account Suspended'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Account Suspended'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Account Suspended'), 0)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp'), 'Order Pickup')
+WebUI.verifyElementText(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Order PickUp'), 'Order Pickup')
 
-WebUI.verifyElementText(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp Desc'), 'Sent to the Buyer after the Seller updates the status of their order has been updated to "Ready for Pickup"')
+WebUI.verifyElementText(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Order PickUp Desc'), 'Sent to the Buyer after the Seller updates the status of their order has been updated to "Ready for Pickup"')
 
