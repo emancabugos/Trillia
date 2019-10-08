@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div/div/div[2]/div[1]/ul/li[3][count(. | //li[@id = 'btn30Days' and (text() = 'Last 30 Days' or . = 'Last 30 Days')]) = count(//li[@id = 'btn30Days' and (text() = 'Last 30 Days' or . = 'Last 30 Days')])]</value>
+         <value>//*[@id = 'btn30Days']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,14 +27,14 @@
       <value>btn30Days</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Last 30 Days</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
