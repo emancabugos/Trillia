@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/ArrowDown_Collapsable SellerBuyer'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/ArrowDown_Collapsable SellerBuyer'))
 

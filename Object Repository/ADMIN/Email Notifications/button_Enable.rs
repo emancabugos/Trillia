@@ -4,6 +4,12 @@
    <name>button_Enable</name>
    <tag></tag>
    <elementGuidId>33ac8c35-e498-4bb8-a32d-d95e31a3330a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'my-btn btn-language-switch' and @href = 'javascript:void(0)' and (text() = 'Enable' or . = 'Enable')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>This feature is enabled. All your email fields will follow the input here in English only.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

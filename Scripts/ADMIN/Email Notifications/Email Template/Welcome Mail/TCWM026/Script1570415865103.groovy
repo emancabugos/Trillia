@@ -21,3 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'))
 
+WebUI.verifyMatch('AdminConsumerGeneralItemsMarketplaceMerchantOrderPricing', 'AdminConsumerGeneralItemsMarketplaceMerchantOrderPricing', 
+    false)
+
