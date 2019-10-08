@@ -19,21 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/icon_beta'), 0)
 
-WebUI.click(findTestObject('ADMIN/Login Conguration/arrowbutton_configurationFacebook'))
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/ADMIN/Email Notifications/button_Enable'), 3) == true) {
+    
+	WebUI.click(findTestObject('ADMIN/Email Notifications/LinkText_Edit Account Suspended'), FailureHandling.CONTINUE_ON_FAILURE)
+} else 
+ {
+	     WebUI.click(findTestObject('ADMIN/Email Notifications/button_Disable'))
+	 
+		 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'), 0)
+	 
+		 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))
+	 
+		 WebUI.click(findTestObject('ADMIN/Email Notifications/LinkText_Edit Account Suspended'))
+        }
 
-WebUI.delay(1)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), '')
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourSecretKeyFB'), '')
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_ContinueWithFacebook'), '')
-
-WebUI.click(findTestObject('ADMIN/Login Conguration/button_facebookSave'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/toaster_Save'), 0)
 

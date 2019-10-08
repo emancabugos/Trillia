@@ -19,21 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Account Suspended'), 0)
 
-WebUI.click(findTestObject('ADMIN/Login Conguration/arrowbutton_configurationFacebook'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Order PickUp'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp Desc'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), '')
+WebUI.back()
 
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourSecretKeyFB'), '')
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_ContinueWithFacebook'), '')
-
-WebUI.click(findTestObject('ADMIN/Login Conguration/button_facebookSave'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/toaster_Save'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Order PickUp'), 0)
 

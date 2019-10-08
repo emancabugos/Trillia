@@ -19,21 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 0)
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Pricing', 
+    true)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Bulk Delivery Cost'), 
+    0)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Bulk Delivery Cost'), 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Delivery Price'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Freight Cost'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Shipping Cost'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/SubTotal'))
+
 WebUI.delay(2)
-
-WebUI.click(findTestObject('ADMIN/Login Conguration/arrowbutton_configurationFacebook'))
-
-WebUI.delay(1)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), 0)
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourClientIDGoogle'), '')
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_YourSecretKeyFB'), '')
-
-WebUI.setText(findTestObject('ADMIN/Login Conguration/textfield_ContinueWithFacebook'), '')
-
-WebUI.click(findTestObject('ADMIN/Login Conguration/button_facebookSave'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/toaster_Save'), 0)
 
