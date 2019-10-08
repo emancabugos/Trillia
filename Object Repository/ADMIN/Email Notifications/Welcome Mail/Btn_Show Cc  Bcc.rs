@@ -4,6 +4,12 @@
    <name>Btn_Show Cc  Bcc</name>
    <tag></tag>
    <elementGuidId>332f0bd1-6a9e-4992-9def-1bd98a6a41b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:void(0)' and @class = 'mybtn mybtn-default show-hide-bcc-cc-btn' and (text() = 'Show Cc / Bcc' or . = 'Show Cc / Bcc')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>$('.group-cc-bcc').hasClass('hide') ? $('.group-cc-bcc').removeClass('hide') : $('.group-cc-bcc').addClass('hide');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
