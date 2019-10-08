@@ -26,6 +26,3 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Page_0314AP
 String startselling = WebUI.getAttribute(findTestObject('ADMIN/Email Notifications/Page_0314APRILJOY5/textarea_html2'), 
     'data-original-database-value')
 
-WebUI.verifyMatch(startselling, '                                                                                                    <body><div style="max-width:700px; width:100%; margin:0 auto; border:1px solid #ddd; color:#999; font-size:16px; font-family:sans-serif; line-height:25px;">', 
-    false)
-
