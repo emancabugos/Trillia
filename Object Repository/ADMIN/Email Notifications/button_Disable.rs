@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'my-btn btn-language-switch disabled' and (text() = 'Disable' or . = 'Disable')]</value>
+         <value>//a[@class = 'my-btn btn-language-switch disabled' and @href = 'javascript:void(0)' and (text() = 'Disable' or . = 'Disable')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
