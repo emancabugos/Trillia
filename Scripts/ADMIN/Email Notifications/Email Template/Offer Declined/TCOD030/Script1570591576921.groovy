@@ -19,17 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Items', 
+    false)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Add Ons'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Image URL'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Name'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price Unit Plural'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price Unit'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item SubTotal'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Variants Detail'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Variants'))
 

@@ -23,31 +23,33 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Emai
 
 WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
+
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
-
 if (true) {
-    WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 0)
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'), 0)
 
     WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'))
 
     WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterToggle_Oops Something went wrong.'))
 } else {
-    WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Email Template/Btn_Disable'), 0)
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Btn_Disable'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Welcome Mail'))
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Offer Declined'))
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'))
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'), 0)
 
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterMsg_Oops Something went wrong.'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'))
+
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterToggle_Oops Something went wrong.'))
 }
 

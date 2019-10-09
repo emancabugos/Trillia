@@ -21,15 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textlabel_Sent From'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textlabel_Sent From'))
 

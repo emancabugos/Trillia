@@ -19,17 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'))
+
+WebUI.callTestCase(findTestCase('Utilities/switch to 2nd tab'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

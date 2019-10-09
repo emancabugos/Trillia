@@ -19,17 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Consumer', 
+    false)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Address'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Contact'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Email'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Firstname'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer Lastname'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Consumer LoginID'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Address'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Method Name'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Consumer Parameters/Delivery Method'))
 

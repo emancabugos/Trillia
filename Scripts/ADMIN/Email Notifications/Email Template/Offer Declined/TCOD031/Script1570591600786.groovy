@@ -19,17 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Marketplace', 
+    false)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Logo'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Market Domain'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Market name'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Marketplace Parameters/Marketplace URL'))
 
