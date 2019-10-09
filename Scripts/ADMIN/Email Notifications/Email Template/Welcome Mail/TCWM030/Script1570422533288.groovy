@@ -24,21 +24,21 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Items', 
     false)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Add Ons'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Add Ons'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Image URL'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Image URL'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Item Name'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Name'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Item Price Unit Plural'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price Unit Plural'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Item Price Unit'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price Unit'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Item Price'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item Price'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Item SubTotal'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Item SubTotal'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Variants Detail'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Variants Detail'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Items Parameters/Variants'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Items Parameters/Variants'))
 

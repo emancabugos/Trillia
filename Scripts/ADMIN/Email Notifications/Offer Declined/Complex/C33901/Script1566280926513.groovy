@@ -22,69 +22,69 @@ import internal.GlobalVariable as GlobalVariable
 'Verify after clicking Save button system will display a toaster message\r\n'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))) {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Enable'))
+if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.click(findTestObject('ADMIN/Email Notifications/button_Enable'))
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'), 0)
-} else if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))) {
-    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/button_Disable'))
-
-    WebUI.delay(2)
-}
-
-WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'), 0)
-
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
-
-if (true == WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))) {
-    WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
-
-    WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/toggle_emailNotification'))
-
-    WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'), 0)
-} else if (true == WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))) {
-    WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'), 0)
+} else if (true == WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
 
     WebUI.delay(2)
 }
 
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/toggle_emailNotification'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'))
 
-WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+if (true == WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))) {
+    WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-WebUI.setText(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textfield_SentFrom'), '')
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/toggle_emailNotification'))
 
-WebUI.setText(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textfield_CC'), '')
+    WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'), 0)
+} else if (true == WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))) {
+    WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-WebUI.setText(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textfield_Bcc'), '')
+    WebUI.delay(2)
+}
 
-WebUI.setText(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/texfield_Subject'), '')
+WebUI.verifyElementNotClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-WebUI.setText(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textarea_HTML'), '')
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/toggle_emailNotification'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_bottomSave'))
+WebUI.waitForElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/toaster_successPopup'), 0)
+WebUI.verifyElementClickable(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/toaster_successTitle'))
+WebUI.setText(findTestObject('ADMIN/Email Notifications/Offer from Seller/textfield_SentFrom'), '')
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/toaster_sucessDesc'))
+WebUI.setText(findTestObject('ADMIN/Email Notifications/Offer from Seller/textfield_CC'), '')
+
+WebUI.setText(findTestObject('ADMIN/Email Notifications/Offer from Seller/textfield_Bcc'), '')
+
+WebUI.setText(findTestObject('ADMIN/Email Notifications/Offer from Seller/texfield_Subject'), '')
+
+WebUI.setText(findTestObject('ADMIN/Email Notifications/Offer from Seller/textarea_HTML'), '')
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_bottomSave'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/toaster_successPopup'), 0)
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/toaster_successTitle'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/toaster_sucessDesc'))
 

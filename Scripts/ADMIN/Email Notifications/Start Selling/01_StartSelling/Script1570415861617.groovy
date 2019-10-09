@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_EmailTemplate'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_SellerBuyer'))
 

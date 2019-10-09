@@ -22,21 +22,21 @@ import internal.GlobalVariable as GlobalVariable
 'Verify if the user will be redirected to Email Template Edit page after clicking "Offer Declined".'
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'), 0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'), 0)
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer Declined/linktext_OfferDeclinedEdit'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer Declined/linktext_OfferDeclinedEdit'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 

@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if "Revet to Default" button is displayed '
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ReverttoDefault'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ReverttoDefault'))
 

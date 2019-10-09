@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_HTML'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_HTML'), 0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_HTML'), 0)
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_HTML'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_HTML'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_HTML'))
 

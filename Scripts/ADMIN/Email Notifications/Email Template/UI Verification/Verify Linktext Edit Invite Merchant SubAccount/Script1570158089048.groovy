@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/linktext_Edit Invite Merchant SubAcct'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_Edit Invite Merchant SubAcct'))
 

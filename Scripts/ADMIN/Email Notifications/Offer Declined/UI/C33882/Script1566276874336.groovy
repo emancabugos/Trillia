@@ -20,11 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if "Cc:" label is displayed'
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_ShowCcBcc'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_ShowCcBcc'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_CC'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_CC'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_CC'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_CC'))
 

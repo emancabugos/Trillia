@@ -26,19 +26,19 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Pricing', 
     true)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Bulk Delivery Cost'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Bulk Delivery Cost'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Bulk Delivery Cost'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Bulk Delivery Cost'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Delivery Price'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Delivery Price'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Freight Cost'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Freight Cost'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/Shipping Cost'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Shipping Cost'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Pricing Parameter/SubTotal'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/SubTotal'))
 
 WebUI.delay(2)
 

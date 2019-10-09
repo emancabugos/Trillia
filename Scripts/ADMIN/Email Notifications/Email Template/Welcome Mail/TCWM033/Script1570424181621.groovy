@@ -24,31 +24,31 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Order', 
     false)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Booking End Time'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Booking End Time'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Booking'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Booking'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/CheckInCheckOutHour'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/CheckInCheckOutHour'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Invoice No'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Invoice No'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Order History URL'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Order History URL'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Order ID'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Order ID'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Order Item String'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Order Item String'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Order Item'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Order Item'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Paid'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Paid'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Quantity'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Quantity'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Review Prompt Item String'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Review Prompt Item String'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Show Time'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Show Time'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/Timestamp'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/Timestamp'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Order Parameter/To Be Collected'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Order Parameter/To Be Collected'))
 

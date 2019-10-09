@@ -26,19 +26,19 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mai
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Admin', 
     true)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Admin Contact'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Admin Contact'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Admin Contact'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Admin Contact'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Admin Email'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Admin Email'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Admin Full Name'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Admin Full Name'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Admin Name'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Admin Name'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Email from Domain'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Email from Domain'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Admin Parameters/Support Email'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Admin Parameters/Support Email'))
 
 WebUI.delay(2)
 

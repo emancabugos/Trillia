@@ -19,18 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailNotifications'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_Reset password'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset password'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/textlabel_Reset password'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset password'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/dropdown_Template'), 'Reset Password', 
+WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Email Notifications/Offer from Seller/dropdown_Template'), 'Reset Password', 
     true, 0)
 

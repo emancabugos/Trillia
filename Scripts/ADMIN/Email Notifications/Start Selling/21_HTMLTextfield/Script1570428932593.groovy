@@ -19,10 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Page_0314APRILJOY5/textarea_html2'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textarea_html2'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Page_0314APRILJOY5/textarea_html2'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textarea_html2'))
 
-String startselling = WebUI.getAttribute(findTestObject('ADMIN/Email Notifications/Page_0314APRILJOY5/textarea_html2'), 
+String startselling = WebUI.getAttribute(findTestObject('ADMIN/Email Notifications/Offer from Seller/textarea_html2'), 
     'data-original-database-value')
 

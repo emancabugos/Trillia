@@ -20,8 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if "Sent to the Seller when their offer is declined by the Buyer." label is present'
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/logo_emailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/logo_emailTemplate'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/linktext_OfferFromSellerEdit'), 
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Offer from Seller/linktext_OfferFromSellerEdit'), 
     0)
 

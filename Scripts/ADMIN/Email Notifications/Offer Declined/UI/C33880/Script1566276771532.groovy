@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Verify if "Sent From" textfield is displayed'
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/button_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/button_Preview'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/textlabel_SentFrom'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/textlabel_SentFrom'))
 

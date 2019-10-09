@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_EmailTemplate'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_SellerBuyer'))
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_Orders'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Start Selling'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Start Selling'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Linktext_Edit Start Selling'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Start Selling'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/a_Offer from Seller/dropdown_Template'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Offer from Seller/dropdown_Template'))
 
