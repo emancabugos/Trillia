@@ -19,15 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/icon_beta'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Seller Invite'))
+if (WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 3) == true) {
+    
+	WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'), FailureHandling.CONTINUE_ON_FAILURE)
+} else 
+ {
+	     WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
+	 
+		 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 0)
+	 
+		 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
+	 
+		 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'))
+        }
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Start Selling Desc'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
-
-WebUI.back()
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
 

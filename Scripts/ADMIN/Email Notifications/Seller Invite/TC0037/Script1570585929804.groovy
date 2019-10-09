@@ -19,15 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/button_Preview'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Seller Invite'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Account Suspended/button_Preview'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Start Selling Desc'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
-
-WebUI.back()
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
+WebUI.comment('Popup to be changed')
 
