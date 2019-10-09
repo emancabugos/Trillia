@@ -19,15 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Seller Invite'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Start Selling Desc'))
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_AdminConsumerGeneralIte'), 'Pricing', 
+    true)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Bulk Delivery Cost'), 
+    0)
 
-WebUI.back()
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Bulk Delivery Cost'), 
+    0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Seller Invite'), 0)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Delivery Price'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Freight Cost'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/Shipping Cost'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Parameters/Pricing Parameter/SubTotal'))
+
+WebUI.delay(2)
 
