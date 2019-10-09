@@ -19,8 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_New Order Desc'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'), 0)
 
-WebUI.verifyMatch('Sent to the Seller when their offer is declined by the Buyer', 'Sent to the Seller when their offer is declined by the Buyer', 
-    false)
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'), 0)
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/menu_Email Template'))
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'), 0)
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'))
+
+WebUI.callTestCase(findTestCase('Utilities/switch to 2nd tab'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

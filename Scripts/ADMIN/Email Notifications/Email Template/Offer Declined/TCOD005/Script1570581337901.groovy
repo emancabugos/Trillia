@@ -19,8 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_New Order Desc'))
-
-WebUI.verifyMatch('Sent to the Seller when their offer is declined by the Buyer', 'Sent to the Seller when their offer is declined by the Buyer', 
-    false)
+WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
 

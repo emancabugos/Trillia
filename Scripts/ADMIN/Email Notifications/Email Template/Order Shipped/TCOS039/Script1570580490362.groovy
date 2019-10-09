@@ -19,9 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'), 0)
+
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
+
+if (true) {
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Order Shipped'))
+
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'), 0)
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'))
+
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterToggle_Oops Something went wrong.'))
+} else {
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Order Shipped'))
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Order Shipped'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToggleBtn_onoffswitch-inner'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterToggle_Oops Something went wrong.'))
+}
 

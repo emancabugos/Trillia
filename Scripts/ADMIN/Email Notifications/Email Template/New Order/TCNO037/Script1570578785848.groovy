@@ -19,8 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_New Order Desc'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Customize the email'), 0)
 
-WebUI.verifyMatch('Sent to the Seller when their offer is declined by the Buyer', 'Sent to the Seller when their offer is declined by the Buyer', 
-    false)
+if (true) {
+    WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 0)
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
+
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'))
+
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterMsg_Oops Something went wrong.'))
+} else {
+    WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Email Template/Btn_Disable'), 0)
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Btn_Disable'))
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
+
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'), 0)
+
+    WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Save1'))
+
+    WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/ToasterMsg_Oops Something went wrong.'))
+}
 
