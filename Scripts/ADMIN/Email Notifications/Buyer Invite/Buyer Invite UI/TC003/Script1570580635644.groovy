@@ -27,5 +27,5 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/linktext_E
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Buyer Invite'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Buyer Invite'), 0)
 

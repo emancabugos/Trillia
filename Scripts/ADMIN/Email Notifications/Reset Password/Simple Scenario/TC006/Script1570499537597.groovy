@@ -27,9 +27,9 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Temp
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset password'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Reset password'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Reset password'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Reset password'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Email Notifications/Offer from Seller/dropdown_Template'), 'Reset Password', 
     true, 0)
