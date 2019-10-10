@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>linktext_Click here to view and respo</name>
+   <tag></tag>
+   <elementGuidId>97e2137d-c46a-4832-9c5c-9e7c6a02a4df</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeC7JAJtsGihCa8Zs6Eo4wPl-2F3B8z6Apa5TnA8EkCbd3x5iizT7Gi8WgC-2FvUyi6X5LCjuxYc0WqDAsIRzaBHoesiJ-2FMAHdqlk-2Bvdec0V-2FsxjxosBwBIGAhf7VMg-2FIlAotd9fiutx1dF9wIyoWPTXe5g7iZ-2FRQ3YpdK-2FKO-2BZeumNyww-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwn7WaHqI7MoY6rdOLWteTeKhf7iz25LcNEcVmHCZIL-2Bg0uGO2qP4bHS5IX-2BZ-2Bcan6cBaqCuZS0zes5lOYA1M9iYQBSdUBg3SOXhLnr6VPFBgB3HAGvDdIL1Vyn1XvxHfaESPZDyyNREI8jLWKWQwxTfhU6tG0LUbVAywiAcqh5T-2F-2BQwA6FJXZ-2F0pBULxrhG7nE-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeC7JAJtsGihCa8Zs6Eo4wPl-2F3B8z6Apa5TnA8EkCbd3x5iizT7Gi8WgC-2FvUyi6X5LCjuxYc0WqDAsIRzaBHoesiJ-2FMAHdqlk-2Bvdec0V-2FsxjxosBwBIGAhf7VMg-2FIlAotd9fiutx1dF9wIyoWPTXe5g7iZ-2FRQ3YpdK-2FKO-2BZeumNyww-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwn7WaHqI7MoY6rdOLWteTeKhf7iz25LcNEcVmHCZIL-2Bg0uGO2qP4bHS5IX-2BZ-2Bcan6cBaqCuZS0zes5lOYA1M9iYQBSdUBg3SOXhLnr6VPFBgB3HAGvDdIL1Vyn1XvxHfaESPZDyyNREI8jLWKWQwxTfhU6tG0LUbVAywiAcqh5T-2F-2BQwA6FJXZ-2F0pBULxrhG7nE-3D&amp;source=gmail&amp;ust=1570770013854000&amp;usg=AFQjCNGcHAyaeVdcYqwwrLKELNT7LlkhVg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click here to view and respond to Sellertrisha offer.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:wx&quot;)/div[2]/div[2]/div[2]/p[3]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
