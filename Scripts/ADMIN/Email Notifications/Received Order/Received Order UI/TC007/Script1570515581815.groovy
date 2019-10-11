@@ -34,6 +34,6 @@ WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Ed
 WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Email Notifications/Offer from Seller/dropdown_Template'), 'Received Order', 
     true, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Email Notifications/Welcome Mail/textarea (1)'), 'value', '                                                                                <body><div style="max-width:700px; width:100%; margin:0 auto; border:1px solid #ddd; color:#999; font-size:16px; font-family:sans-serif; line-height:25px;">', 
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Email Notifications/Welcome Mail/text_area'), 'value', '                                                                                <body><div style="max-width:700px; width:100%; margin:0 auto; border:1px solid #ddd; color:#999; font-size:16px; font-family:sans-serif; line-height:25px;">', 
     0)
 

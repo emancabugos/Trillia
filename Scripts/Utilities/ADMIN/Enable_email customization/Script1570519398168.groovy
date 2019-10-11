@@ -19,9 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), 0)
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailNotifications'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), 0)
+
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
+
 if (WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 3) == true) {
     WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
     WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 }
+
+WebUI.delay(1)
 

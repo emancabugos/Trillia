@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/TextArea_WelcomeMail'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/text_area'), 0)
 

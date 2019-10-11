@@ -19,5 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/text_area'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Admin Logout/button_Logout'), 0)
+
+WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
 
