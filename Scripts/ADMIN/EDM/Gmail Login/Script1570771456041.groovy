@@ -18,8 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.openBrowser('')
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.MerchantNotif)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 

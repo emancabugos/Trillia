@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Show Cc  Bcc'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textlabel_Cc'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textlabel_Cc'))

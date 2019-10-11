@@ -18,8 +18,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Start Selling')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Start Selling'), 0)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(0)
+
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Start Selling'))
+
+WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_Email Subject'), 0)
+
+WebUI.click(findTestObject('EDM/Common/btn_Show Details'))
+
+WebUI.verifyElementVisible(findTestObject('EDM/Common/textfield_to'))
+
+strEmail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_to'), 'email')
+
+not_run: WebUI.verifyMatch(Email, to, false)
+
+WebUI.verifyElementVisible(findTestObject('EDM/Common/textfield_cc'))
+
+strMail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_cc'), 'email')
+
+WebUI.verifyMatch(Mail, cc, false)
 

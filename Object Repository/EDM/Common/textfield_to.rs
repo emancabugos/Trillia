@@ -1,54 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Show Details</name>
+   <name>textfield_to</name>
    <tag></tag>
-   <elementGuidId>60fbf567-16bc-431f-b88c-d991990545d5</elementGuidId>
+   <elementGuidId>28096feb-5834-4b1c-a06c-ca9e934c69ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'ajy' and @id = ':qq']</value>
+         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span[count(. | //span[@data-hovercard-id = 'trishatest01@gmail.com']) = count(//span[@data-hovercard-id = 'trishatest01@gmail.com'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;:qq&quot;]</value>
+         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>email</name>
+      <type>Main</type>
+      <value>trishatest01@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-hovercard-id</name>
       <type>Main</type>
-      <value>ajy</value>
+      <value>trishatest01@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>data-hovercard-owner-id</name>
       <type>Main</type>
-      <value>images/cleardot.gif</value>
+      <value>130</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>trishatest01@gmail.com</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:qq&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>:qq</value>
+      <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

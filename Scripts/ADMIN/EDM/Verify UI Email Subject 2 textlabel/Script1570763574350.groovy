@@ -18,8 +18,44 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Preview'))
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.MerchantNotif)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Start Selling')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Start Selling'), 0)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(0)
+
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Start Selling'))
+
+WebUI.waitForElementVisible(findTestObject('EDM/Common/btn_Show Details'), 0)
+
+WebUI.click(findTestObject('EDM/Common/btn_Show Details'))
+
+WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_subject'), 0)
+
+WebUI.verifyElementVisible(findTestObject('EDM/Common/textlabel_subject'))
 

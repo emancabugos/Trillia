@@ -19,14 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Email Notifications'))
-
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/linktext_EmailTemplate'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'), 0)
-
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_Welcome MailStart Selli'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_Welcome MailStart Selli'))
