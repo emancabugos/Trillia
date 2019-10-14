@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_Regards</name>
+   <name>marketplace Name</name>
    <tag></tag>
-   <elementGuidId>693c8a87-73d2-421d-8119-39ce864cd0b7</elementGuidId>
+   <elementGuidId>a5ce50e4-9d62-4957-b170-079628564718</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[5]/p[1]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[5]/p[1]</value>
@@ -19,22 +15,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>p</value>
+      <value>/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[5]/p[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Regards,</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[5]/p[1]</value>
+      <value>
+        0625UN</value>
    </webElementProperties>
 </WebElementEntity>

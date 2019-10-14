@@ -6,12 +6,12 @@
    <elementGuidId>28096feb-5834-4b1c-a06c-ca9e934c69ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span[count(. | //span[@data-hovercard-id = 'trishatest01@gmail.com']) = count(//span[@data-hovercard-id = 'trishatest01@gmail.com'])]</value>
+         <key>XPATH</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
+         <key>BASIC</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>trishatest01@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-hovercard-id</name>
       <type>Main</type>
@@ -56,6 +56,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[2]/td[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

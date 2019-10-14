@@ -22,47 +22,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Start Selling')
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Reset Password')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Start Selling'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Reset Password'), 0)
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('ADMIN/Gmail Page/link_Start Selling'))
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Reset Password'))
 
 WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_Email Subject'), 0)
 
 WebUI.click(findTestObject('EDM/Common/btn_Show Details'))
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_to'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Reset Password/textfield_to'), 0)
 
-strEmail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_to'), 'email')
+strEmail = WebUI.getAttribute(findTestObject('EDM/Reset Password/textfield_to'), 'email')
 
 WebUI.verifyElementAttributeValue(Email, 'email', to, 0)
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_cc'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Reset Password/textfield_cc'), 0)
 
-strMail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_cc'), 'email')
+strMail = WebUI.getAttribute(findTestObject('EDM/Reset Password/textfield_cc'), 'email')
 
 WebUI.verifyElementAttributeValue(Mail, 'email', cc, 0)
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_Hi'), 'Hi Seller,')
+WebUI.verifyElementText(findTestObject('EDM/Reset Password/textlabel_Weve received a request to'), 'We’ve received a request to reset the password for 0625UN.')
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_We are excited to'), 'We are excited to have you onboard!')
+WebUI.verifyElementText(findTestObject('EDM/Reset Password/textlabel_Please reset your password'), 'Please reset your password by clicking here ')
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_We look forward to'), 'We look forward to you filling up your store with lots and lots of items!')
+WebUI.verifyElementText(findTestObject('EDM/Reset Password/linktext_resetUrl'), 'https://625un.test.arcadier.io/user/marketplace/resetpassword?userId=62646&code=KRex%2b9RZXUfY18LFew7lTnnToE2Kh4DAw7HK%2fXqbjfjdL0L59KBj99pmn52BJj%2b58if1L2bsEudyuoIhb7YHS3lJ5gs0mSWolLesDjjXbm6rJkM9QuMqSVqfr1D2U1vEi12qVvhIm8MXxypcN2Ju6NuWGbo%3d')
 
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/btn_START SELLING'), 0)
-
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/textlabel_Regards'), 0)
-
-WebUI.verifyTextPresent('Regards,', false)
-
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/marketplace Name'), 0)
-
-WebUI.verifyTextPresent('0625UN', false)
-
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/linktext_url'), 'https://625un.test.arcadier.io')
+WebUI.verifyElementText(findTestObject('EDM/Reset Password/textlabel_If you did not request to ch'), 'If you did not request to change your password, please contact your marketplace administrator immediately.')
 

@@ -6,12 +6,12 @@
    <elementGuidId>9be00f07-1ca2-4272-8dec-b7c9e642eb53</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
+         <key>XPATH</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
+         <key>BASIC</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span[count(. | //span[@email = 'qadianne@gmail.com']) = count(//span[@email = 'qadianne@gmail.com'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>email</name>
       <type>Main</type>
@@ -56,6 +56,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:mm&quot;]/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

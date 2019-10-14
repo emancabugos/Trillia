@@ -83,7 +83,7 @@
       <name>mpURL</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('EDM/Common/textfield_to (1)')</defaultValue>
+      <defaultValue>findTestObject('EDM/Common/textfield_to')</defaultValue>
       <description></description>
       <id>417fdc23-7465-4302-a2dd-64a10302a167</id>
       <masked>false</masked>
@@ -95,5 +95,12 @@
       <id>36b28d06-28ba-4336-aca6-99d00d254ea9</id>
       <masked>false</masked>
       <name>Mail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('EDM/Start Selling/textlabel_Hi')</defaultValue>
+      <description></description>
+      <id>4783597d-1059-4c03-b6b7-f64fdbf1298c</id>
+      <masked>false</masked>
+      <name>Hi</name>
    </variable>
 </TestCaseEntity>

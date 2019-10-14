@@ -6,8 +6,12 @@
    <elementGuidId>8620e9df-2de7-41b3-8b07-b116817b117f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id = '//*[@id=&quot;:q1&quot;]/div[1]/div[2]/div[2]']</value>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -31,6 +35,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:n7&quot;)/div[@class=&quot;adn ads&quot;]/div[@class=&quot;gs&quot;]/div[@class=&quot;ajA SK&quot;]/div[@class=&quot;ajB gt&quot;]/table[@class=&quot;ajC&quot;]/tbody[1]/tr[@class=&quot;ajv&quot;]/td[@class=&quot;gG&quot;]/span[@class=&quot;gI&quot;]</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
    </webElementProperties>
 </WebElementEntity>

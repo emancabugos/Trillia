@@ -4,12 +4,19 @@
    <name>Start Selling</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-10-14T10:20:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>03ca8462-6fa5-4734-89c6-c179df4e5c28</testSuiteGuid>
+   <testCaseLink>
+      <guid>b9b0cd21-6fec-4f74-b7b5-c06183ffb518</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>2d9050b3-0340-4642-9199-cd33293191f9</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -27,7 +34,7 @@
       <variableLink>
          <testDataLinkId>90581287-43b0-4642-b5e3-6391a0437ca0</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>adminEmail</value>
+         <value>recipient</value>
          <variableId>c0d5dd1d-c096-4bfb-b1aa-0924f5ace828</variableId>
       </variableLink>
       <variableLink>
@@ -101,6 +108,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>36b28d06-28ba-4336-aca6-99d00d254ea9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4783597d-1059-4c03-b6b7-f64fdbf1298c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

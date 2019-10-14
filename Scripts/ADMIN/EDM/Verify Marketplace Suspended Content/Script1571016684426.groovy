@@ -22,15 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Start Selling')
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Marketplace Suspended')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Start Selling'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_marketplace suspended'), 0)
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('ADMIN/Gmail Page/link_Start Selling'))
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_marketplace suspended'))
 
 WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_Email Subject'), 0)
 
@@ -48,21 +48,23 @@ strMail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_cc'), 'email')
 
 WebUI.verifyElementAttributeValue(Mail, 'email', cc, 0)
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_Hi'), 'Hi Seller,')
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_Hi'), 'Hi Seller,')
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_We are excited to'), 'We are excited to have you onboard!')
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_It seems that your items are'), 'It seems that your items are no longer discoverable at the moment!')
 
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/textlabel_We look forward to'), 'We look forward to you filling up your store with lots and lots of items!')
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_You will receive an email'), 'You will receive an email with more information shortly. If you do not receive the email, please contact us at "')
 
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/btn_START SELLING'), 0)
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/admin notif'), '01qabonsol@gmail.com')
 
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/textlabel_Regards'), 0)
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_or'), 'or')
+
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/number'), '111111')
+
+WebUI.verifyElementPresent(findTestObject('EDM/Marketplace Account Suspended/textlabel_Regards'), 0)
 
 WebUI.verifyTextPresent('Regards,', false)
 
-WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/marketplace Name'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Marketplace Account Suspended/marketplace Name'), 0)
 
 WebUI.verifyTextPresent('0625UN', false)
-
-WebUI.verifyElementText(findTestObject('EDM/Start Selling/linktext_url'), 'https://625un.test.arcadier.io')
 
