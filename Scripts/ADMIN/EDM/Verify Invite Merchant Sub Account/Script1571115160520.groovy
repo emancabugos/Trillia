@@ -22,45 +22,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'New Order')
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Invite Merchant Sub-Account')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_New Order'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Invite Merchant Sub Account'), 0)
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('ADMIN/Gmail Page/link_New Order'))
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Invite Merchant Sub Account'))
 
 WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_Email Subject'), 0)
 
 WebUI.click(findTestObject('EDM/Common/btn_Show Details'))
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_to'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Invite Sub Merchant/textfield_to'), 0)
 
-strEmail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_to'), 'email')
+strEmail = WebUI.getAttribute(findTestObject('EDM/Invite Sub Merchant/textfield_to'), 'email')
 
 WebUI.verifyElementAttributeValue(Email, 'email', to, 0)
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_cc'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Invite Sub Merchant/textfield_cc'), 0)
 
-strMail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_cc'), 'email')
+strMail = WebUI.getAttribute(findTestObject('EDM/Invite Sub Merchant/textfield_cc'), 'email')
 
 WebUI.verifyElementAttributeValue(Mail, 'email', cc, 0)
-
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Hi'), 0)
-
-WebUI.verifyTextPresent('Hi Seller,', false)
-
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_You have a new order from'), 0)
-
-WebUI.verifyTextPresent('You have a new order from trisha.', false)
-
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_ORDER IDvalue'), 0)
-
-WebUI.verifyTextPresent('ORDER ID : 38896', false)
-
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_INVOICE ID'), 0)
-
-WebUI.verifyTextPresent('INVOICE ID 0625UN1571037953UDXF', false)
 

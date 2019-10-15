@@ -22,45 +22,49 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'New Order')
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Welcome Mail')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_New Order'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Welcome Mail'), 0)
 
 WebUI.delay(0)
 
-WebUI.click(findTestObject('ADMIN/Gmail Page/link_New Order'))
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Welcome Mail'))
 
 WebUI.waitForElementVisible(findTestObject('EDM/Common/textlabel_Email Subject'), 0)
 
 WebUI.click(findTestObject('EDM/Common/btn_Show Details'))
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_to'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Welcome Mail/textfield_to'), 0)
 
-strEmail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_to'), 'email')
+strEmail = WebUI.getAttribute(findTestObject('EDM/Welcome Mail/textfield_to'), 'email')
 
 WebUI.verifyElementAttributeValue(Email, 'email', to, 0)
 
-WebUI.verifyElementPresent(findTestObject('EDM/Common/textfield_cc'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Welcome Mail/textfield_cc'), 0)
 
-strMail = WebUI.getAttribute(findTestObject('EDM/Common/textfield_cc'), 'email')
+strMail = WebUI.getAttribute(findTestObject('EDM/Welcome Mail/textfield_cc'), 'email')
 
 WebUI.verifyElementAttributeValue(Mail, 'email', cc, 0)
 
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Hi'), 0)
+WebUI.verifyElementText(findTestObject('EDM/Welcome Mail/textlabel_hi'), 'Hi buyer002 ,')
 
-WebUI.verifyTextPresent('Hi Seller,', false)
+WebUI.verifyElementText(findTestObject('EDM/Welcome Mail/textlabel_Welcome to marketplace'), 'Welcome to marketplace!')
 
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_You have a new order from'), 0)
+WebUI.verifyElementText(findTestObject('EDM/Welcome Mail/textlabel_We hope that you enjoy shopp'), 'We hope that you enjoy shopping at marketplace as much as we enjoy bringing you new content!')
 
-WebUI.verifyTextPresent('You have a new order from trisha.', false)
+WebUI.verifyElementText(findTestObject('EDM/Welcome Mail/textlabel_Your login ID is trishatest0'), 'Your login ID is trishatest01@gmail.com.')
 
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_ORDER IDvalue'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Welcome Mail/btn_START SHOPPING'), 0)
 
-WebUI.verifyTextPresent('ORDER ID : 38896', false)
+WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/textlabel_Regards'), 0)
 
-WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_INVOICE ID'), 0)
+WebUI.verifyTextPresent('Regards,', false)
 
-WebUI.verifyTextPresent('INVOICE ID 0625UN1571037953UDXF', false)
+WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/marketplace Name'), 0)
+
+WebUI.verifyTextPresent('0625UN', false)
+
+not_run: WebUI.verifyElementText(findTestObject('EDM/Welcome Mail/url_https625un.test.arcadier.io'), 'https://625un.test.arcadier.io')
 

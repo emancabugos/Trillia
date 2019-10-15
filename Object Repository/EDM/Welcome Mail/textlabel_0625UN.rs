@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_ORDER IDvalue</name>
+   <name>textlabel_0625UN</name>
    <tag></tag>
-   <elementGuidId>a04b8296-7dc6-4471-8fb4-0231420a619d</elementGuidId>
+   <elementGuidId>131f7c65-7b67-4396-aff7-cc3d035933b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[3]/p[3]</value>
+         <value>///div[2]/div[2]/div[2]/div[5]/p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,22 +15,22 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>p</value>
+      <value>///div[2]/div[2]/div[2]/div[5]/p[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ORDER ID : 30260</value>
+      <value>0625UN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[3]/p[3]</value>
+      <value>p</value>
    </webElementProperties>
 </WebElementEntity>

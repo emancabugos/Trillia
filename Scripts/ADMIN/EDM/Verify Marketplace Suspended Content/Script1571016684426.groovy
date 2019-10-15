@@ -52,19 +52,22 @@ WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textla
 
 WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_It seems that your items are'), 'It seems that your items are no longer discoverable at the moment!')
 
-WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_You will receive an email'), 'You will receive an email with more information shortly. If you do not receive the email, please contact us at "')
+WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_You will receive an email'), 'You will receive an email with more information shortly. If you do not receive the email, please')
 
 WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/admin notif'), '01qabonsol@gmail.com')
 
 WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_or'), 'or')
 
-WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/number'), '111111')
-
-WebUI.verifyElementPresent(findTestObject('EDM/Marketplace Account Suspended/textlabel_Regards'), 0)
+//WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/admin notif'), '01qabonsol@gmail.com')
+//WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/textlabel_or'), 'or')
+//WebUI.verifyElementText(findTestObject('EDM/Marketplace Account Suspended/number'), '111111')
+WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/textlabel_Regards'), 0)
 
 WebUI.verifyTextPresent('Regards,', false)
 
-WebUI.verifyElementPresent(findTestObject('EDM/Marketplace Account Suspended/marketplace Name'), 0)
+WebUI.verifyElementPresent(findTestObject('EDM/Start Selling/marketplace Name'), 0)
 
 WebUI.verifyTextPresent('0625UN', false)
+
+WebUI.verifyElementText(findTestObject('EDM/Start Selling/linktext_url'), 'https://625un.test.arcadier.io')
 

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Marketplace Suspended</name>
+   <name>Invite Merchant Sub Account</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-15T10:33:03</lastRun>
+   <lastRun>2019-10-15T15:38:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>f5e0675a-717a-474c-b5d9-653b36a2a0b3</testSuiteGuid>
+   <testSuiteGuid>f54abe60-671f-44f5-b889-450e59c22f5e</testSuiteGuid>
    <testCaseLink>
-      <guid>bc3d2bd2-f352-4252-aebf-5b80aa2b2503</guid>
+      <guid>ac5d61eb-458a-468d-a7b0-98afe76382dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>34f6a810-dfb8-4b98-b9e6-51f0e481f80c</guid>
+      <guid>6af66282-8587-466f-a28f-6452ec9cdf85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/EDM/Verify Marketplace Suspended Content</testCaseId>
+      <testCaseId>Test Cases/ADMIN/EDM/Verify Invite Merchant Sub Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>437d72d5-03ad-48a1-9761-dcf6a1a3bdae</id>
+         <id>e91c02be-daab-4638-a04b-77ed6fedfc40</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -32,40 +32,40 @@
          <testDataId>Data Files/EDM/Start Selling</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>437d72d5-03ad-48a1-9761-dcf6a1a3bdae</testDataLinkId>
+         <testDataLinkId>e91c02be-daab-4638-a04b-77ed6fedfc40</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>recipient</value>
-         <variableId>9f40249f-ca31-4211-a9e7-787180d67856</variableId>
+         <variableId>71116008-2c97-43f9-b917-f4ed7a130b0e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>437d72d5-03ad-48a1-9761-dcf6a1a3bdae</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Cc</value>
-         <variableId>94f51b56-5a3d-47b2-a739-56c99fd2eafe</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>437d72d5-03ad-48a1-9761-dcf6a1a3bdae</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Bcc</value>
-         <variableId>25e481df-c757-4ab7-86c6-1c59ae7671e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>437d72d5-03ad-48a1-9761-dcf6a1a3bdae</testDataLinkId>
+         <testDataLinkId>e91c02be-daab-4638-a04b-77ed6fedfc40</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Subject</value>
-         <variableId>2665ac5b-3e31-43e3-aa06-3bc5d3be9470</variableId>
+         <variableId>66f5f9c7-4536-4e40-adc5-1e1f6037cd9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e91c02be-daab-4638-a04b-77ed6fedfc40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Cc</value>
+         <variableId>355b4531-21e2-4369-945b-f39f1ffe1be0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e91c02be-daab-4638-a04b-77ed6fedfc40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bcc</value>
+         <variableId>c41f4040-7539-4694-862b-f51e8c5910c0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b3d3e107-eded-4148-a9df-3b2042c5f53f</variableId>
+         <variableId>a4fe41af-224f-4dae-87e8-366b0bf5af7b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ae189e16-2c77-4c28-98a4-999d7bb0a38e</variableId>
+         <variableId>99bc5719-902e-4719-8170-e857bf3fea80</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

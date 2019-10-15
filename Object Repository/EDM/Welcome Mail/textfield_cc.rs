@@ -3,11 +3,11 @@
    <description></description>
    <name>textfield_cc</name>
    <tag></tag>
-   <elementGuidId>9be00f07-1ca2-4272-8dec-b7c9e642eb53</elementGuidId>
+   <elementGuidId>1a03a069-933d-494f-a7bf-28519e1883e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span[count(. | //span[@email = 'qadianne@gmail.com']) = count(//span[@email = 'qadianne@gmail.com'])]</value>
+         <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[2]/div/table/tbody/tr[3]/td[2]/span/span</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>email</name>
       <type>Main</type>
