@@ -4,6 +4,12 @@
    <name>textlabel_Qty</name>
    <tag></tag>
    <elementGuidId>96472a9e-c81c-44bc-8a70-1d4208bda98a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Qty: 1' or . = 'Qty: 1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Qty: 12</value>
+      <value>Qty: 1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

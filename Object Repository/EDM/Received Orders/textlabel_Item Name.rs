@@ -4,6 +4,12 @@
    <name>textlabel_Item Name</name>
    <tag></tag>
    <elementGuidId>afb0c6fa-a2b3-4236-a0e9-d6a2d6eb2da4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Item AAAA' or . = 'Item AAAA')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>New item sub01</value>
+      <value>Item AAAA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

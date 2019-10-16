@@ -4,6 +4,14 @@
    <name>textlabel_Regards</name>
    <tag></tag>
    <elementGuidId>2677532d-72d4-4d77-a17d-896c57693ebd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Regards,
+        Seller Lastname' or . = 'Regards,
+        Seller Lastname')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,10 +26,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                 Regards,
-                unjune
-            </value>
+      <value>Regards,
+        Seller Lastname</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

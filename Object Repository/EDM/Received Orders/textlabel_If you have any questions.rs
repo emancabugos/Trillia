@@ -4,6 +4,12 @@
    <name>textlabel_If you have any questions</name>
    <tag></tag>
    <elementGuidId>590642a3-c37d-4a9a-8091-0314e2a08b44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'If you have any questions, please contact us at 01qabonsol@gmail.com. If you wish to change your order please contact your seller directly and let us know.' or . = 'If you have any questions, please contact us at 01qabonsol@gmail.com. If you wish to change your order please contact your seller directly and let us know.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>If you have any questions, please contact us at 09qabonsol@gmail.com. If you wish to change your order please contact your seller directly and let us know.</value>
+      <value>If you have any questions, please contact us at 01qabonsol@gmail.com. If you wish to change your order please contact your seller directly and let us know.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

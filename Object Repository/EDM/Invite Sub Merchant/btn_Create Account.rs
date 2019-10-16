@@ -4,6 +4,12 @@
    <name>btn_Create Account</name>
    <tag></tag>
    <elementGuidId>8a271ce8-804e-40bf-adc3-91ada35d1b54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjm90ZAZtZhF-2B4SjybiZ3-2F-2ByYPT98lBFl92zDOx51-2FAREXijkm-2BY4rRiaukXpkdKnVSzLewoaplI3ZtwHDE2rW2WKncQEmmPiuYUV7rcJBjKucVZSo9e5ieAGk2Rppz6UgCM2wlcxvHJfDefx40OJE6x_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMvBaOHM-2Bt1429Z3WeEPssxC-2BlK4058k3Lq0ZceH3YFATooZolvHzAD-2BbZZ7lWz-2Bf0-2FdjnUpxGIdUYOHg8HUqpAKTXoHLIaV9823Uz44V2ZZoE71J6QVElk-2FOg4ZUDYl108jIvesy59LI7QFKHbdJYU5GdB7wa-2BF9UKB500LaE4EAcQx8OUKcju6QBcaFw2950w-3D' and (text() = 'Create Account' or . = 'Create Account')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeCQG1YLZ3dhfx3KlzPj-2B8HWLuib9eP1v3lGsCMXOLLsF-2BJFFMwSOoMg80oJrD31TegWuWVdOa7qCa7nYJxBpprMncom7CqtmCancHTUrwruK7xJafXoZoAZV2x80DQ8SQi_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwkd2ZpPvFEOakph6zV8KH5jUyZSDbqg08bWs2t5hHXuNS9zAYUtKvHoW-2BWATLYxwM0LM-2FjCSGVP1Wl9MrdiXFZU2-2F-2F1EDXc0DR-2Bk4LP11ThesZaTlAZio-2Buj9oJrfQ45wGpsa-2FzHI39-2BCdgHFsuXp-2F7gJn9ZAuLEC11IkTO9ZAOIkUIiNztZJ1EF0Vb1RJBwLc-3D</value>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjm90ZAZtZhF-2B4SjybiZ3-2F-2ByYPT98lBFl92zDOx51-2FAREXijkm-2BY4rRiaukXpkdKnVSzLewoaplI3ZtwHDE2rW2WKncQEmmPiuYUV7rcJBjKucVZSo9e5ieAGk2Rppz6UgCM2wlcxvHJfDefx40OJE6x_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMvBaOHM-2Bt1429Z3WeEPssxC-2BlK4058k3Lq0ZceH3YFATooZolvHzAD-2BbZZ7lWz-2Bf0-2FdjnUpxGIdUYOHg8HUqpAKTXoHLIaV9823Uz44V2ZZoE71J6QVElk-2FOg4ZUDYl108jIvesy59LI7QFKHbdJYU5GdB7wa-2BF9UKB500LaE4EAcQx8OUKcju6QBcaFw2950w-3D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

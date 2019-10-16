@@ -41,7 +41,7 @@
       <name>Email</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('EDM/Common/textfield_cc')</defaultValue>
+      <defaultValue>findTestObject('EDM/Invite Sub Merchant/textfield_cc')</defaultValue>
       <description></description>
       <id>99bc5719-902e-4719-8170-e857bf3fea80</id>
       <masked>false</masked>

@@ -48,3 +48,13 @@ strMail = WebUI.getAttribute(findTestObject('EDM/Invite Sub Merchant/textfield_c
 
 WebUI.verifyElementAttributeValue(Mail, 'email', cc, 0)
 
+WebUI.verifyElementPresent(findTestObject('EDM/Invite Sub Merchant/textlabel_Hi'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/Invite Sub Merchant/textlabel_You have been given access'), 'You have been given access to ‘0625UN’ storefront!')
+
+WebUI.verifyElementText(findTestObject('EDM/Invite Sub Merchant/textlabel_Kindly follow the link below'), 'Kindly follow the link below to get your login access.')
+
+WebUI.verifyElementPresent(findTestObject('EDM/Invite Sub Merchant/btn_Create Account'), 0)
+
+WebUI.verifyElementPresent(findTestObject('EDM/Invite Sub Merchant/textlabel_Best'), 0)
+

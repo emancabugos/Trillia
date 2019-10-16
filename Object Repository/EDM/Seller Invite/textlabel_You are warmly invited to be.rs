@@ -4,6 +4,12 @@
    <name>textlabel_You are warmly invited to be</name>
    <tag></tag>
    <elementGuidId>4f5e04df-343d-4b6c-9c06-ccfb282a515b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'You are warmly invited to become a seller on 0625UN!' or . = 'You are warmly invited to become a seller on 0625UN!')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You are warmly invited to become a seller on trilliademo!</value>
+      <value>You are warmly invited to become a seller on 0625UN!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
