@@ -4,7 +4,7 @@
    <name>New Order</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-15T12:35:35</lastRun>
+   <lastRun>2019-10-17T10:53:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1779e223-d0be-498f-b374-d8c31933a19a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
    </testCaseLink>
    <testCaseLink>

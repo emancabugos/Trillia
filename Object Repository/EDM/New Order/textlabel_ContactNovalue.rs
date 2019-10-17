@@ -4,6 +4,12 @@
    <name>textlabel_ContactNovalue</name>
    <tag></tag>
    <elementGuidId>a5a11882-2d25-499d-8b0b-ba6fe5843b31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Buyer Contact Number: 12345678' or . = 'Buyer Contact Number: 12345678')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Buyer Contact Number: 09556342180</value>
+      <value>Buyer Contact Number: 12345678</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

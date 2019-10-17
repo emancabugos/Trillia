@@ -4,6 +4,12 @@
    <name>linktext_url</name>
    <tag></tag>
    <elementGuidId>948e47bc-b770-4ee5-8e90-42dfe0d96a9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjk4YqKUFnNzckm-2BXsveA2Na_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwmVhfTt2kJ-2FCcUSFHfyl7P94BJnaEd09l4-2BOFYoDP74oD3PlZRKQ0aX4nf11OgSkFcfrnWMBeRIR0ZC4KujMfyVDZSNqNqIkgJaRqCASLqQPYCIGziB00zzpxT5uLTBI1pvRGzu6ve8JW5X6UBmzS6knwZuzjxjkCpEj5-2FYAszX0-2BVNGjXTZaflLSN4bUWLy8I-3D' and (text() = 'https://625un.test.arcadier.io' or . = 'https://625un.test.arcadier.io')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd4QN6iUMgSmHm2VJ0cA-2FKzy_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwnAq1Cm62uZgtn90eRA-2Fehg7vv-2BEdRZ7r99U9zHHtyCdgZP9Ztnw1-2F0DEFzzhHC57CtNcGjKWnai6WxA5gbaUwOW6lA7Va31zl9CEHGjkzzK8Lbzk7-2FAcoEZ1CpmQorAViA5noCxTHfAQFFopO68NZsR4NM3N-2BRfegsDAHT7fbHmTdKgyUtrCEVr4X5puX6l-2BI-3D</value>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjk4YqKUFnNzckm-2BXsveA2Na_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwmVhfTt2kJ-2FCcUSFHfyl7P94BJnaEd09l4-2BOFYoDP74oD3PlZRKQ0aX4nf11OgSkFcfrnWMBeRIR0ZC4KujMfyVDZSNqNqIkgJaRqCASLqQPYCIGziB00zzpxT5uLTBI1pvRGzu6ve8JW5X6UBmzS6knwZuzjxjkCpEj5-2FYAszX0-2BVNGjXTZaflLSN4bUWLy8I-3D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>https://dncddemo.staging.arcadier.io</value>
+      <value>https://625un.test.arcadier.io</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

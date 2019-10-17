@@ -4,6 +4,12 @@
    <name>Textlabel_Sub Total</name>
    <tag></tag>
    <elementGuidId>383d00c7-d48c-44c1-ba8b-57d7477bb818</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Sub TotalSGD 100.00' or . = 'Sub TotalSGD 100.00')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sub TotalSGD 14,784.00</value>
+      <value>Sub TotalSGD 100.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

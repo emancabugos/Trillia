@@ -4,6 +4,12 @@
    <name>textlabel_INVOICE ID</name>
    <tag></tag>
    <elementGuidId>4db4ef2d-4b43-45f8-b3f7-0420fbc4243c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'INVOICE ID 0625un15711921148r1i' or . = 'INVOICE ID 0625un15711921148r1i')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>INVOICE ID qatrill15683527529jrs</value>
+      <value>INVOICE ID 0625un15711921148r1i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

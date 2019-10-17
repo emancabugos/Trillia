@@ -4,7 +4,7 @@
    <name>Order Confirmation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-16T15:33:56</lastRun>
+   <lastRun>2019-10-17T08:42:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>cb353356-e513-4a36-9bf0-c2996e55b04a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/EDM/Login Gmail Buyer</testCaseId>
    </testCaseLink>
    <testCaseLink>

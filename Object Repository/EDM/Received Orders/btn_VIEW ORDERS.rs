@@ -4,6 +4,12 @@
    <name>btn_VIEW ORDERS</name>
    <tag></tag>
    <elementGuidId>e731add0-ccb6-4827-a681-1ad18717bd72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjlISGVjJsxSi3b5GsR5iby5Wnr7NRurw3ME1Po-2FRQOVj22wLwG77YBKdubQc1py4fsJ5yIrumvR7nOYYwQ91sHpbuOFP5VixajGxGfZhAxwBg-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwlKyA1Iev1HIpqn-2BQtvel-2B31y-2BX3vrJMho-2BjLljUh66MI9qvkqDWjQRHBTrnIdUvEd2GkQSuCpUnbnshiKPYUftof3IBAaFIBipyEpO3m1sERDzC-2F1EVKeQT8qt8IPKjs70h7XyWFxLDNSaZlVNOtwoQB7rB9kvnzrPavnTOvvWKz4emsn8LOtj2D6mW73cGjA-3D' and (text() = 'VIEW ORDERS' or . = 'VIEW ORDERS')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW4eEWD3eOuCUNR6YW7lDvglGwdlFiZOUY-2BuhO0oennz945vwKkxTLlxbN1MhUghrO5rExYlceQdlsVfsoQ-2BU9Q5i6H-2FJJOp1b-2Bg3YOkkxNdirVuSXnmODvxWd6ZgDbSI8g-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwkYfLKTO2tZnquDA8-2FqwAZcB3UwV6eZS7KwNAPMascHTfxxVNhS-2BZFMWP3-2FKV29Q1VF6TVkciXHUe1wMwMwp-2BKE3Au3iZ4X38ib9LtB4ygaLZ-2F21MV75dCxDBbuBoT9bB84-2BhcrfaOaVo1jQnQmmlDcKtWOtx0HBQNQJX4TJ7SStbbdzHJUOX57NJBKkgNxuGo-3D</value>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjlISGVjJsxSi3b5GsR5iby5Wnr7NRurw3ME1Po-2FRQOVj22wLwG77YBKdubQc1py4fsJ5yIrumvR7nOYYwQ91sHpbuOFP5VixajGxGfZhAxwBg-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwlKyA1Iev1HIpqn-2BQtvel-2B31y-2BX3vrJMho-2BjLljUh66MI9qvkqDWjQRHBTrnIdUvEd2GkQSuCpUnbnshiKPYUftof3IBAaFIBipyEpO3m1sERDzC-2F1EVKeQT8qt8IPKjs70h7XyWFxLDNSaZlVNOtwoQB7rB9kvnzrPavnTOvvWKz4emsn8LOtj2D6mW73cGjA-3D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

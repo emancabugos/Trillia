@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'Hi Trisha,' or . = 'Hi Trisha,')]</value>
+         <value>//p[(text() = 'Hi trisha 
+ 02 ,' or . = 'Hi trisha 
+ 02 ,')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +26,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hi Trisha,</value>
+      <value>Hi trisha 
+ 02 ,</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,6 +4,12 @@
    <name>textlabel_You have a new offer from</name>
    <tag></tag>
    <elementGuidId>e4764fa9-f2ce-4101-b435-2b2641ec5034</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'You have a new offer from 625Seller.' or . = 'You have a new offer from 625Seller.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> You have a new offer from Trisha Seller.</value>
+      <value>You have a new offer from 625Seller.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

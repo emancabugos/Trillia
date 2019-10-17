@@ -3,7 +3,21 @@
    <description></description>
    <name>textlabel_Delivery Address</name>
    <tag></tag>
-   <elementGuidId>4a4e8d79-e1ca-4cce-bcb8-9ab0c1a40439</elementGuidId>
+   <elementGuidId>db887fe8-afc4-4951-a700-baad1d11df91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Delivery Address :
+            Trisha Buyer
+Makati
+Makati,  
+Philippines 1226' or . = 'Delivery Address :
+            Trisha Buyer
+Makati
+Makati,  
+Philippines 1226')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,13 +33,9 @@
       <name>text</name>
       <type>Main</type>
       <value>Delivery Address :
-            Trisha BuyerMakati PhilippinesaaaPhilippines1245</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;:14l&quot;)/div[2]/div[1]/div[2]/div[6]/table[1]/tbody[1]/tr[1]/td[1]</value>
+            Trisha Buyer
+Makati
+Makati,  
+Philippines 1226</value>
    </webElementProperties>
 </WebElementEntity>

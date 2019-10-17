@@ -4,6 +4,12 @@
    <name>textlabel_Paid value</name>
    <tag></tag>
    <elementGuidId>f569ff2f-3a34-43d9-b57e-d0df9b5983fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'SGD $ 0' or . = 'SGD $ 0')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>USD $ 0</value>
+      <value>SGD $ 0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

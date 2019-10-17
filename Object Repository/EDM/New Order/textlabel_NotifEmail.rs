@@ -4,6 +4,12 @@
    <name>textlabel_NotifEmail</name>
    <tag></tag>
    <elementGuidId>80cb2976-7047-4cc6-8444-ff133be97d4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'trisha 02trishatest02@gmail.com' or . = 'trisha 02trishatest02@gmail.com')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,10 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                    Trisha UN
-                                    trishatest02@gmail.com
-                                </value>
+      <value>trisha 02trishatest02@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

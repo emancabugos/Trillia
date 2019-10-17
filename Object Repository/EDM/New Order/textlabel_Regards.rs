@@ -4,6 +4,14 @@
    <name>textlabel_Regards</name>
    <tag></tag>
    <elementGuidId>9c3870f6-5ac1-4839-a1cb-9d2cfeaa3be9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Regards,
+        0625UN' or . = 'Regards,
+        0625UN')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,10 +26,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                    Regards,
-                    trilliademo
-                </value>
+      <value>Regards,
+        0625UN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

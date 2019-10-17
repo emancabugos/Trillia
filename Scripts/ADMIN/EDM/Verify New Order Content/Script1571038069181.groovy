@@ -64,3 +64,49 @@ WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_INVOICE ID'),
 
 WebUI.verifyTextPresent('INVOICE ID 0625UN1571037953UDXF', false)
 
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_timestamp'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Item Name'), 'Item AAAA')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Qty'), 'Qty: 1')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Delivery'), 'Delivery')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Item Price'), 0)
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_NotifEmail'), 0)
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Delivery Addressvalue'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_SubTotalvalue'), 'Sub TotalSGD $ 200.00')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Delivery Costsvalue'), 'Delivery CostsSGD $ 20.00')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Bulk Cost'), 'Bulk Costs- SGD $ 0.00')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_TOTAL'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Total Value'), 'SGD $ 220.00')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Paid'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_Paid value'), 'SGD $ 0')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_To be collected'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_To be collected value'), 'SGD $ 220.00')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/btn_VIEW ORDER DETAILS'), 0)
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_If you have any concerns a'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_BuyerNamevalue'), 'Buyer Name: trisha')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_ContactNovalue'), 'Buyer Contact Number: 12345678')
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/textlabel_EmailAddvalue'), 'Buyer Email Address: trishatest02@gmail.com')
+
+WebUI.verifyElementPresent(findTestObject('EDM/New Order/textlabel_Regards'), 0)
+
+WebUI.verifyElementText(findTestObject('EDM/New Order/link_url'), 'https://625un.test.arcadier.io')
+

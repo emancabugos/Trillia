@@ -4,6 +4,12 @@
    <name>textlabel_Item Price</name>
    <tag></tag>
    <elementGuidId>0c42c524-c781-4313-b351-8d5ba3bb3ef7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = ' SGD $24.50 ' or . = ' SGD $24.50 ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SGD $ 500.50 </value>
+      <value> SGD $24.50 </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
