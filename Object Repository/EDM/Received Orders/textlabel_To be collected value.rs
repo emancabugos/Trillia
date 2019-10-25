@@ -4,6 +4,12 @@
    <name>textlabel_To be collected value</name>
    <tag></tag>
    <elementGuidId>9b77234d-aa9e-4930-8480-dd9890097aa2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'SGD 110.00' or . = 'SGD 110.00')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SGD 14,789.00</value>
+      <value>SGD 110.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

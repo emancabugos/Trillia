@@ -4,6 +4,12 @@
    <name>linktext_Click here to continue negot</name>
    <tag></tag>
    <elementGuidId>8ee2423d-54e0-40ab-88ef-5e8d6c9329d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjkabeWu8G-2BaDQ1czcPa9SmkP8L4a7OGmFq-2FN8icBlPFhobXNviHdelO2-2BPivfovnfmrDhdcmxpxFIQswXBwyybNpOuZiDVIPsS4yiej9M4enNYsX837bqdf6DoM-2FZodcDel7YC55hQyX8IcBH9ZzmJgpMiGtoaJsxfQUyv9BPmpgA-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMvrCetOjV8ggM5xX5Qor9WIbOKU83BLB-2F8n7kEMP-2F43pPPbUcHSsFBa5MvetuiQT53ylEOWpwI18Koy0yZdJcXGOSbgrIfE54elnQ1-2BJ0rbJDxU9NV-2Fv-2FrpapSQTYBx2gMWIXthkviNWYURZLmWEgld431ja1u-2BKdLyB-2Bk6WgP1lqje2dq1EGfIgsTRno8ucuc-3D' and (text() = 'Click hereto continue negotiating.' or . = 'Click hereto continue negotiating.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW0kTBu3aV1-2FAN6WDmQo63-2B3H5ygYoFH5maAmepBiD1XweD2vOfbBAjxjglk64Iv5-2BJYSaeJSVIvL8eyRxXalA3uNJup1b3m8PRseFx2gJPxqNs-2BraFxXPa9JmUnny30rQn-2FHb1qYHpmD9Dji8W04yzut43g3lHAYf9Phi8TRz8-2FW-2FEof1mOBDhupMQv6mnr4e3RHLWzHfmUWkuuLdmcQDZc-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwngzbf9uU0WIAyf1KUt5KySyQ1v0xDwvtrrd5f9fs6lxHCrAB7hTqJhPtRdFr83fngff5e-2FYJ0cGxfrIAoviEsp2-2FC5eH-2BEnOa11HWBN5MGLe7e-2BjCQHuNQB-2BbQHwB0ThE-2F51T9jsum37jTpXZMiep73zS59ZgPbqtIxQNo78qwX3Ogg3W-2F-2F3EmscQMBm6pnIA-3D</value>
+      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dW8ERAZvAWRd-2BXuEZAIGLKjkabeWu8G-2BaDQ1czcPa9SmkP8L4a7OGmFq-2FN8icBlPFhobXNviHdelO2-2BPivfovnfmrDhdcmxpxFIQswXBwyybNpOuZiDVIPsS4yiej9M4enNYsX837bqdf6DoM-2FZodcDel7YC55hQyX8IcBH9ZzmJgpMiGtoaJsxfQUyv9BPmpgA-3D-3D_-2FlVKhLauYRHm-2FC8Ownvq0M-2FbE54I2y8XhETw2ZJvdMvrCetOjV8ggM5xX5Qor9WIbOKU83BLB-2F8n7kEMP-2F43pPPbUcHSsFBa5MvetuiQT53ylEOWpwI18Koy0yZdJcXGOSbgrIfE54elnQ1-2BJ0rbJDxU9NV-2Fv-2FrpapSQTYBx2gMWIXthkviNWYURZLmWEgld431ja1u-2BKdLyB-2Bk6WgP1lqje2dq1EGfIgsTRno8ucuc-3D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Click here to continue negotiating.</value>
+      <value>Click hereto continue negotiating.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

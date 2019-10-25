@@ -31,6 +31,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Temp
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Offer Declined'))
 
+WebUI.click(findTestObject('ADMIN/Email Notifications/Welcome Mail/Btn_Show Cc  Bcc'))
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textfield_Bcc'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/textfield_Bcc'))

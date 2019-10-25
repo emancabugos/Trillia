@@ -4,6 +4,12 @@
    <name>textlabel_Total Value</name>
    <tag></tag>
    <elementGuidId>9dbd5c16-86ab-41b1-834f-a75f79960e54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'SGD 110.00' or . = 'SGD 110.00')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SGD 14,789.00</value>
+      <value>SGD 110.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

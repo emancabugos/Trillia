@@ -4,6 +4,12 @@
    <name>linktext_Click here to respond.</name>
    <tag></tag>
    <elementGuidId>cb6b9687-a690-4154-adea-338a5c773a0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Click here to respond.' or . = 'Click here to respond.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,28 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://u2507958.ct.sendgrid.net/wf/click?upn=llNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeC7JAJtsGihCa8Zs6Eo4wPl-2F3B8z6Apa5TnA8EkCbd3x5Dvjx6m4joObL7TiPHEwhep1uaJYvde-2FarL-2BHbbsEtNVLNNL6WILvWJLPmd9Bt6BrFvOhAOvrCKhA-2FqIJlFrVNkZSU-2BfvEloyBJf5zXeQurkd2NtW-2BqxWsegn-2BYXDJhq4-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwlqnJvTYTfTAG6grkXmp1e2zvdwFCsaAwg1ist3W0uwhRZrKxNZ1rFeL-2F4PMSZ-2BuVUHvCvFyRDIsmbYlwMdqJYpc5ILVsiH6dDskf53tF5Wmg-2BmPtvfGRNbDxfoPIy7giV35ySOi4qkCwhTKjSs5tGBGpGSnnR2LUpOBdPQ516kOdzf8o1jgq-2BD2z0lHul7VN4-3D</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>target</name>
-      <type>Main</type>
-      <value>_blank</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-saferedirecturl</name>
-      <type>Main</type>
-      <value>https://www.google.com/url?q=https://u2507958.ct.sendgrid.net/wf/click?upn%3DllNWqR-2FTpI64syuC183dWwc4SMWk2f3P44yNyFB1Xd6vxx9o-2Bt7I-2Bc10RKi-2ByyeC7JAJtsGihCa8Zs6Eo4wPl-2F3B8z6Apa5TnA8EkCbd3x5Dvjx6m4joObL7TiPHEwhep1uaJYvde-2FarL-2BHbbsEtNVLNNL6WILvWJLPmd9Bt6BrFvOhAOvrCKhA-2FqIJlFrVNkZSU-2BfvEloyBJf5zXeQurkd2NtW-2BqxWsegn-2BYXDJhq4-3D_-2FlVKhLauYRHm-2FC8Ownvq0PwwVxsfvOLahAVFSwBsMwlqnJvTYTfTAG6grkXmp1e2zvdwFCsaAwg1ist3W0uwhRZrKxNZ1rFeL-2F4PMSZ-2BuVUHvCvFyRDIsmbYlwMdqJYpc5ILVsiH6dDskf53tF5Wmg-2BmPtvfGRNbDxfoPIy7giV35ySOi4qkCwhTKjSs5tGBGpGSnnR2LUpOBdPQ516kOdzf8o1jgq-2BD2z0lHul7VN4-3D&amp;source=gmail&amp;ust=1570761530098000&amp;usg=AFQjCNG0nCd1R5jB7-dt8oFyDNq27Dyw7A</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

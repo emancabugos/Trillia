@@ -4,6 +4,14 @@
    <name>textlabel_Delivery</name>
    <tag></tag>
    <elementGuidId>57013d42-16dc-4253-ae63-a11c2790d745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Delivery
+            LBC SGD $  10.00' or . = 'Delivery
+            LBC SGD $  10.00')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,14 +19,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery</value>
+      <value>Delivery
+            LBC SGD $  10.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

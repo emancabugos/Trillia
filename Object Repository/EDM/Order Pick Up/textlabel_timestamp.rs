@@ -4,6 +4,12 @@
    <name>textlabel_timestamp</name>
    <tag></tag>
    <elementGuidId>301874c6-9d7b-434a-91bd-10cdf5c89bd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '10/17/2019 01:30:17 ' or . = '10/17/2019 01:30:17 ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>09/12/2019 01:26:02 </value>
+      <value>10/17/2019 01:30:17 </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

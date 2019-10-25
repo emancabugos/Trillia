@@ -4,6 +4,12 @@
    <name>btn_START SELLING</name>
    <tag></tag>
    <elementGuidId>b39ebcb1-c2db-4916-a224-30685255c229</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[4]/a[count(. | //a[(text() = 'START SELLING' or . = 'START SELLING')]) = count(//a[(text() = 'START SELLING' or . = 'START SELLING')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -42,10 +48,10 @@
       <value>START SELLING</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:o0&quot;)/div[2]/div[1]/div[2]/div[4]/a[1]</value>
+      <value>/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[4]/div[3]/div/div[2]/div/div[2]/div[4]/a</value>
    </webElementProperties>
 </WebElementEntity>

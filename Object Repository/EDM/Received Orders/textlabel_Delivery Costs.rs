@@ -4,6 +4,12 @@
    <name>textlabel_Delivery Costs</name>
    <tag></tag>
    <elementGuidId>ea64f5ef-9d24-4650-a5dd-b6fc42ddbf51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Delivery CostsSGD 10.00' or . = 'Delivery CostsSGD 10.00')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery CostsSGD 5.00</value>
+      <value>Delivery CostsSGD 10.00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

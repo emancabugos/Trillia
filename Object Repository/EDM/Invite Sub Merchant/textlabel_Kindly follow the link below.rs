@@ -4,6 +4,12 @@
    <name>textlabel_Kindly follow the link below</name>
    <tag></tag>
    <elementGuidId>05d4dadf-1253-4050-a006-7a0ecba22998</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Kindly follow the link below to get your login access.' or . = 'Kindly follow the link below to get your login access.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:192&quot;)/div[1]/div[2]/div[2]/div[3]/p[3]</value>
+      <value>//div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div[1]/div[2]/div[2]/div[3]/p[3]</value>
    </webElementProperties>
 </WebElementEntity>

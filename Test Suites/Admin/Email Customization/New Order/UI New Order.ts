@@ -4,7 +4,7 @@
    <name>UI New Order</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-10T14:28:24</lastRun>
+   <lastRun>2019-10-11T08:39:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -30,16 +30,16 @@
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO001</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6a7762a-2944-476e-9a81-53f6173c6794</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO002</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6be20662-4812-4b84-8bad-53ccf48afb83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO003</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6a7762a-2944-476e-9a81-53f6173c6794</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO002</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>609b43b6-6bf6-4778-b217-323da78bfb64</guid>
@@ -54,16 +54,16 @@
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO008</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e58c840-502b-4f5a-b2d2-00b57848fb24</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO009</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cf33236a-82ef-4cf6-85a5-9185298fc8d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO010</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e58c840-502b-4f5a-b2d2-00b57848fb24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO009</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85f91c8b-f3d0-435e-a5de-db917c559b5b</guid>
@@ -90,16 +90,16 @@
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO014</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d720288-bdbe-4a17-bd1b-38fe17d65fc6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO015</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a7ce8444-32d0-4bf1-8c3b-e6458a4f0064</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO016</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d720288-bdbe-4a17-bd1b-38fe17d65fc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Email Notifications/New Order/TCNO015</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bb4045a5-0940-485f-8247-e2dd5ce3ecc8</guid>

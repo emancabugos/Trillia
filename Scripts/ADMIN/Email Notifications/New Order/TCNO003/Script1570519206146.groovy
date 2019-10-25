@@ -23,5 +23,3 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Temp
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit New Order'))
-

@@ -4,6 +4,12 @@
    <name>textlabel_BuyerNamevalue</name>
    <tag></tag>
    <elementGuidId>77881c9c-2d40-4809-9d70-3a84413ffb6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Buyer Name: trisha' or . = 'Buyer Name: trisha')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Buyer Name: Trisha UN</value>
+      <value>Buyer Name: trisha</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

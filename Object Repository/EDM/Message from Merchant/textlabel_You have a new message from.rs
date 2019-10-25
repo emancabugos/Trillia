@@ -4,6 +4,12 @@
    <name>textlabel_You have a new message from</name>
    <tag></tag>
    <elementGuidId>d60dae4b-b479-4b1f-9c29-749596ee9667</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'You have a new message from Seller Lastname.' or . = 'You have a new message from Seller Lastname.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You have a new message from Angel Locsin.</value>
+      <value>You have a new message from Seller Lastname.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

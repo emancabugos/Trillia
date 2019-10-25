@@ -4,6 +4,14 @@
    <name>textlabel_Regards</name>
    <tag></tag>
    <elementGuidId>078f023b-e4bc-4fb0-aa94-bd7073590ac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Regards,
+        0625UN' or . = 'Regards,
+        0625UN')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,7 +27,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Regards,
-        DEMOTRILLIA</value>
+        0625UN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

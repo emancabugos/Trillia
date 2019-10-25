@@ -4,6 +4,14 @@
    <name>textlabel_ Pickupvalue</name>
    <tag></tag>
    <elementGuidId>5e07bd35-d2d4-44b1-b41e-6d3c96c60edc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Pickup
+            Boni Station' or . = 'Pickup
+            Boni Station')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,7 +27,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pickup
-            LIPA</value>
+            Boni Station</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

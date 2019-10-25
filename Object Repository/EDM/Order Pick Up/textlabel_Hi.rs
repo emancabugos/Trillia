@@ -4,6 +4,12 @@
    <name>textlabel_Hi</name>
    <tag></tag>
    <elementGuidId>06c318e5-3067-417d-8903-8a90433b6510</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Hi trisha,' or . = 'Hi trisha,')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Hi Trisha,</value>
+      <value>Hi trisha,</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

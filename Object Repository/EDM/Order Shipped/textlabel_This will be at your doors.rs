@@ -4,6 +4,14 @@
    <name>textlabel_This will be at your doors</name>
    <tag></tag>
    <elementGuidId>260628a4-dcd3-43f8-bf32-ed7a1484cf49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'This will be at your doorstep shortly! If you have any questions about your order feel free to
+      contact your seller or drop us an email at 01qabonsol@gmail.com' or . = 'This will be at your doorstep shortly! If you have any questions about your order feel free to
+      contact your seller or drop us an email at 01qabonsol@gmail.com')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,9 +26,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                This will be at your doorstep shortly! If you have any questions about your order feel free to contact your seller or drop us an email at 09qabonsol@gmail.com
-            </value>
+      <value>This will be at your doorstep shortly! If you have any questions about your order feel free to
+      contact your seller or drop us an email at 01qabonsol@gmail.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
