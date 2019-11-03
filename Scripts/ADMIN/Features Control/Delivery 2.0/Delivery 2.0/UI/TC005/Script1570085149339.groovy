@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabel_DeliversTo'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabel_DeliversTo'), FailureHandling.CONTINUE_ON_FAILURE)
 

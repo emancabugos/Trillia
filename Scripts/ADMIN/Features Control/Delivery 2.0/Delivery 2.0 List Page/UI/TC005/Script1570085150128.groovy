@@ -22,5 +22,5 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/button_Add Delivery Option'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/icon_delivery 2.0'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option List/icon_DeliverySettings'))
 

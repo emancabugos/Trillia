@@ -21,18 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/icon_beta'), 0)
 
-if (WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 3) == true) {
-    
-	WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'), FailureHandling.CONTINUE_ON_FAILURE)
-} else 
- {
-	     WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/button_Disable'))
-	 
-		 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'), 0)
-	 
-		 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/button_Enable'))
-	 
-		 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'))
-        }
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Enable_email customization'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Disable_email customization'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.getText(findTestObject(null), FailureHandling.CONTINUE_ON_FAILURE)
 

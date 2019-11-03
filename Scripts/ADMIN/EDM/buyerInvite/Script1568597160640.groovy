@@ -54,3 +54,5 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/button_Create Accou
 
 WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.verifyElementText(findTestObject('ADMIN/Edit Text/textlabel_Translate'), '')
+
