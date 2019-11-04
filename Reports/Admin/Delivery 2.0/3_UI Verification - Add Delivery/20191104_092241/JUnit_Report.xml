@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3_UI Verification - Add Delivery" time="88" tests="37" failures="2" errors="0">
+   <testsuite name="3_UI Verification - Add Delivery" tests="37" failures="2" errors="0" time="88" timestamp="2019-11-04 09:22:43" hostname="April - April-PC" id="Test Suites/Admin/Delivery 2.0/3_UI Verification - Add Delivery">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241\\1572830585503.png, C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241\\1572830589658.png"/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="10.10.31.99"/>
+         <property name="sessionId" value="d2900c2cb706ce13af848f11a6af85cd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:22:43 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-11-04 09:22:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-11-04 09:22:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-04 09:22:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-11-04 09:22:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 09:22:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 09:22:50 - [MESSAGE][PASSED] - Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 09:22:50 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 09:22:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 09:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 09:22:50 - [TEST_STEP][PASSED] - setText: Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 09:22:50 - [MESSAGE][PASSED] - Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 09:22:50 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 09:22:50 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 09:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 09:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:22:54 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0
+
+2019-11-04 09:22:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is visible
+
+2019-11-04 09:22:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is visible
+
+2019-11-04 09:22:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is clicked on
+
+2019-11-04 09:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is clicked on
+
+2019-11-04 09:22:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is visible
+
+2019-11-04 09:22:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is visible
+
+2019-11-04 09:22:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 09:22:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 09:22:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is clicked on
+
+2019-11-04 09:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:22:57 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020
+
+2019-11-04 09:22:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is visible
+
+2019-11-04 09:22:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is visible
+
+2019-11-04 09:22:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 09:22:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 09:22:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is clicked on
+
+2019-11-04 09:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is clicked on
+
+2019-11-04 09:23:00 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC001" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC001" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC001: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC001
+
+2019-11-04 09:23:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible
+
+2019-11-04 09:23:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible
+
+2019-11-04 09:23:00 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible
+
+2019-11-04 09:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC002" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC002" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:00 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC002: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC002
+
+2019-11-04 09:23:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible
+
+2019-11-04 09:23:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/icon_DeliverySettings' is visible
+
+2019-11-04 09:23:00 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/textlabel_Delivery2.0' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/textlabel_Delivery2.0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC003" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC003" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC003: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC003
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC004" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC004" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC004: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC004
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC005" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC005" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC005: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC005
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliversTo' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliversTo' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC006" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC006" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC006: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC006
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country' is visible
+
+2019-11-04 09:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC007" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC007" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:01 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC007: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC007
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_MinimumLeadTime' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_MinimumLeadTime' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC008" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC008" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC008: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC008
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC009" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC009" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC009: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC009
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_WhereAreYouDelivering' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_WhereAreYouDelivering' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC010" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC010" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC010: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC010
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC011" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC011" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:02 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC011: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC011
+
+2019-11-04 09:23:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_radioSelection' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_radioSelection' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC012" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC012" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC012: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC012
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC013" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC013" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC013: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC013
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' are matched.
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC014" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC014" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC014: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC014
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Weight' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC016" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC016" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:03 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC016: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC016
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC017" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC017" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC017: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC017
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC018" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC018" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC018: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC018
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryRates' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryRates' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC019" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC019" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC019: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC019
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC021" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC021" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC021: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC021
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible
+
+2019-11-04 09:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC022" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC022" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:04 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC022: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC022
+
+2019-11-04 09:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible
+
+2019-11-04 09:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023" status="FAILED">
+         <failure type="FAILED" message="Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched."/>
+         <system-out><![CDATA[2019-11-04 09:23:05 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023 FAILED because (of) Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.
+
+2019-11-04 09:23:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is clicked on
+
+2019-11-04 09:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/radio_Price' is clicked on
+
+2019-11-04 09:23:05 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible
+
+2019-11-04 09:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/column_Range' is visible
+
+2019-11-04 09:23:05 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.
+
+2019-11-04 09:23:05 - [MESSAGE][FAILED] - Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.
+[[ATTACHMENT|C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241\\1572830585503.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-04 09:23:05 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023 FAILED because (of) Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC024" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC024" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:05 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC024: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC024
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC025" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC025" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC025: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC025
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabellabel_DeliveryCost' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabellabel_DeliveryCost' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC027" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC027" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC027: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC027
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/button_DeliveryRate' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/button_DeliveryRate' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC030" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC030" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC030: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC030
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Cancel' is visible
+
+2019-11-04 09:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Cancel' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC031" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC031" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:06 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC031: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC031
+
+2019-11-04 09:23:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC054" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC054" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC054: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC054
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_radioSelection' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_radioSelection' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC055" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC055" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC055: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC055
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryRates' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryRates' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC056" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC056" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC056: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC056
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_Range' is visible
+
+2019-11-04 09:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_Range' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC057" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC057" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC057: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC057
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/start_Range' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/start_Range' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC058" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC058" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC058: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC058
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_unit' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_unit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC060" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC060" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC060: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC060
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC061" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC061" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC061: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC061
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_unit' is visible
+
+2019-11-04 09:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/textlabel_unit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC062" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC062" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:08 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC062: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC062
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC063" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC063" status="PASSED">
+         <system-out><![CDATA[2019-11-04 09:23:09 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC063: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC063
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;label for=&quot;Onwards&quot;>...&lt;/label> is not clickable at point (958, 912). Other element would receive the click: &lt;div id=&quot;cover&quot; style=&quot;display: block;&quot;>&lt;/div>
+  (Session info: chrome=78.0.3904.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\April\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: d2900c2cb706ce13af848f11a6af85cd)"/>
+         <system-out><![CDATA[2019-11-04 09:23:09 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <label for="Onwards">...</label> is not clickable at point (958, 912). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\April\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: d2900c2cb706ce13af848f11a6af85cd)
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible
+
+2019-11-04 09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is visible
+
+2019-11-04 09:23:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <label for="Onwards">...</label> is not clickable at point (958, 912). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\April\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: d2900c2cb706ce13af848f11a6af85cd)
+
+2019-11-04 09:23:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <label for="Onwards">...</label> is not clickable at point (958, 912). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\April\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: d2900c2cb706ce13af848f11a6af85cd)
+[[ATTACHMENT|C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\3_UI Verification - Add Delivery\\20191104_092241\\1572830589658.png]]
+
+2019-11-04 09:23:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_Range' is not visible after 30 second(s)
+
+2019-11-04 09:23:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:23:40 - [MESSAGE][WARNING] - Object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_Range' is not visible after 30 second(s)
+
+2019-11-04 09:23:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is clicked on
+
+2019-11-04 09:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' is clicked on
+
+2019-11-04 09:23:40 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/numericUpDown_RangeTo' located by 'By.xpath: //input[@name = 'range_end' and @id = 'range_end' and @type = 'number' and @placeholder = '0.00']' not found
+
+2019-11-04 09:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 09:24:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/numericUpDown_RangeTo' located by 'By.xpath: //input[@name = 'range_end' and @id = 'range_end' and @type = 'number' and @placeholder = '0.00']' not found]]></system-out>
+         <system-err><![CDATA[2019-11-04 09:23:09 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064 FAILED because (of) Unable to click on object 'Object Repository/ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/label_Onwards' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <label for="Onwards">...</label> is not clickable at point (958, 912). Other element would receive the click: <div id="cover" style="display: block;"></div>
+  (Session info: chrome=78.0.3904.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.99', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\April\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.87, webStorageEnabled: true}
+Session ID: d2900c2cb706ce13af848f11a6af85cd)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-04 09:22:43 - [TEST_SUITE][FAILED] - 3_UI Verification - Add Delivery: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023 FAILED because (of) Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.]]></system-out>
+      <system-err><![CDATA[2019-11-04 09:22:43 - [TEST_SUITE][FAILED] - 3_UI Verification - Add Delivery: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023 FAILED because (of) Actual text 'Name' and expected text '' of test object 'Object Repository/ADMIN/Admin Delivery Option/column_Name' are NOT matched.]]></system-err>
+   </testsuite>
+</testsuites>

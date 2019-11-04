@@ -1,0 +1,171 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+3_UI Verification - Add Delivery,Chrome 78.0.3904.87,,2019-11-04 09:22:43,2019-11-04 09:24:11,1m - 28.084s,FAILED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 78.0.3904.87,,2019-11-04 09:22:43,2019-11-04 09:22:54,10.418s,PASSED
+openBrowser,Chrome 78.0.3904.87,,2019-11-04 09:22:44,2019-11-04 09:22:47,3.051s,PASSED
+maximizeWindow,Chrome 78.0.3904.87,,2019-11-04 09:22:47,2019-11-04 09:22:48,1.130s,PASSED
+navigateToUrl,Chrome 78.0.3904.87,,2019-11-04 09:22:48,2019-11-04 09:22:50,2.369s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 78.0.3904.87,,2019-11-04 09:22:50,2019-11-04 09:22:54,3.554s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0,Chrome 78.0.3904.87,,2019-11-04 09:22:54,2019-11-04 09:22:57,3.331s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:22:54,2019-11-04 09:22:54,0.052s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:22:54,2019-11-04 09:22:54,0.563s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:22:54,2019-11-04 09:22:54,0.054s,PASSED
+delay,Chrome 78.0.3904.87,,2019-11-04 09:22:54,2019-11-04 09:22:56,2.023s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:22:56,2019-11-04 09:22:57,0.485s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020,Chrome 78.0.3904.87,,2019-11-04 09:22:57,2019-11-04 09:23:00,3.089s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:22:57,2019-11-04 09:22:57,0.191s,PASSED
+delay,Chrome 78.0.3904.87,,2019-11-04 09:22:57,2019-11-04 09:22:59,2.003s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:22:59,2019-11-04 09:23:00,0.680s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:00,0.077s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC001,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:00,0.302s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:00,0.131s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:00,0.026s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC002,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:01,0.148s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:00,0.026s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:00,2019-11-04 09:23:01,0.030s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC003,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.175s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.027s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.024s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC004,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.190s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.033s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.045s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC005,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.270s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.114s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.049s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC006,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.272s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.084s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:01,0.074s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC007,Chrome 78.0.3904.87,,2019-11-04 09:23:01,2019-11-04 09:23:02,0.187s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.028s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.030s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC008,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.182s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.048s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC009,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.271s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.149s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.032s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC010,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.319s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.036s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:02,0.028s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC011,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:03,0.153s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:02,2019-11-04 09:23:03,0.020s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.041s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC012,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.193s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.022s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.096s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC013,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.286s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.092s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.031s,PASSED
+verifyElementText,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.070s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC014,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.295s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.023s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.020s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC016,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:04,0.244s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:03,0.026s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:03,2019-11-04 09:23:04,0.140s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC017,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.155s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.025s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.049s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC018,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.195s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.098s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC019,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.249s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.116s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.030s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC021,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.192s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.097s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:04,0.032s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC022,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:05,0.193s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:04,2019-11-04 09:23:05,0.097s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.020s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC023,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.834s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.020s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.155s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.022s,PASSED
+verifyElementText,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:05,0.439s,FAILED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC024,Chrome 78.0.3904.87,,2019-11-04 09:23:05,2019-11-04 09:23:06,0.110s,PASSED
+Statement - return null,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.000s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC025,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.182s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.026s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.043s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC027,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.123s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.025s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.034s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC030,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.120s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.026s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:06,0.024s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC031,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:07,0.714s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:06,2019-11-04 09:23:07,0.622s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.028s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC054,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.333s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.024s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.117s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC055,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.263s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.034s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.155s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC056,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.196s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.029s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:07,0.078s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC057,Chrome 78.0.3904.87,,2019-11-04 09:23:07,2019-11-04 09:23:08,0.204s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.089s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.027s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC058,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.236s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.133s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.032s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC060,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.219s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.103s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC061,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.350s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.023s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:08,0.020s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC062,Chrome 78.0.3904.87,,2019-11-04 09:23:08,2019-11-04 09:23:09,0.251s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.020s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.139s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC063,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.144s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.025s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.059s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/UI/TC064,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:24:11,1m - 2.040s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.129s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.020s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:09,0.397s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:09,2019-11-04 09:23:40,30.037s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 09:23:40,2019-11-04 09:23:40,0.094s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 09:23:40,2019-11-04 09:24:11,31.297s,PASSED

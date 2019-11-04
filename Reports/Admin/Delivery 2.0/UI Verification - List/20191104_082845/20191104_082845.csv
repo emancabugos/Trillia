@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UI Verification - List,Chrome 78.0.3904.87,,2019-11-04 08:28:47,2019-11-04 08:29:19,32.003s,FAILED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 78.0.3904.87,,2019-11-04 08:28:47,2019-11-04 08:29:11,24.075s,PASSED
+openBrowser,Chrome 78.0.3904.87,,2019-11-04 08:28:48,2019-11-04 08:28:51,2.994s,PASSED
+maximizeWindow,Chrome 78.0.3904.87,,2019-11-04 08:28:51,2019-11-04 08:28:52,1.147s,PASSED
+navigateToUrl,Chrome 78.0.3904.87,,2019-11-04 08:28:52,2019-11-04 08:29:04,12.036s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 78.0.3904.87,,2019-11-04 08:29:04,2019-11-04 08:29:11,7.535s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0,Chrome 78.0.3904.87,,2019-11-04 08:29:11,2019-11-04 08:29:15,3.264s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:11,2019-11-04 08:29:11,0.040s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 08:29:11,2019-11-04 08:29:12,0.494s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:12,2019-11-04 08:29:12,0.039s,PASSED
+delay,Chrome 78.0.3904.87,,2019-11-04 08:29:12,2019-11-04 08:29:14,2.021s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 08:29:14,2019-11-04 08:29:15,0.500s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC005,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.680s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.491s,FAILED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.045s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC006,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.177s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.074s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:15,0.029s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC007,Chrome 78.0.3904.87,,2019-11-04 08:29:15,2019-11-04 08:29:16,0.157s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.024s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.025s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC008,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.226s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.025s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.053s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC009,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.165s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.057s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.034s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC010,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.184s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.049s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.034s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC011,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.267s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.045s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:16,0.104s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC012,Chrome 78.0.3904.87,,2019-11-04 08:29:16,2019-11-04 08:29:17,0.579s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:17,0.029s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:17,0.035s,PASSED
+verifyElementHasAttribute,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:17,0.400s,FAILED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC013,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:18,0.490s,FAILED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:17,0.027s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:17,2019-11-04 08:29:18,0.357s,FAILED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC014,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.193s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.042s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC015,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.142s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.022s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.035s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC016,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.390s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.020s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.287s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC017,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.159s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.037s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:18,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC018,Chrome 78.0.3904.87,,2019-11-04 08:29:18,2019-11-04 08:29:19,0.229s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:19,2019-11-04 08:29:19,0.084s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:19,2019-11-04 08:29:19,0.031s,PASSED
+,,,,,,
+Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC019,Chrome 78.0.3904.87,,2019-11-04 08:29:19,2019-11-04 08:29:19,0.202s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:19,2019-11-04 08:29:19,0.062s,PASSED
+verifyElementVisible,Chrome 78.0.3904.87,,2019-11-04 08:29:19,2019-11-04 08:29:19,0.035s,PASSED

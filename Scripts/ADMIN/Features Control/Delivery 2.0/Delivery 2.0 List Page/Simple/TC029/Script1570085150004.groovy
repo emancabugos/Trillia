@@ -19,13 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/button_Add Delivery Option'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_Add Delivery Option'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'))
 
-WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_Add Delivery Option'))
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/toaster_EmptyUnit'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/toaster_EmptyUnit'), 0)
 

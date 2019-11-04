@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Verify Select None Working'
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName'), 0)
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_arrowDown'))
@@ -37,7 +38,9 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/linktext
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/linktext_SelectNone'))
 
-WebUI.waitForElementNotVisible(findTestObject('ADMIN/Admin Delivery Option/button_deleteCountry'), 0)
+WebUI.delay(2)
+
+WebUI.verifyElementNotVisible(findTestObject('ADMIN/Admin Delivery Option/button_deleteCountry'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementNotVisible(findTestObject('ADMIN/Admin Delivery Option/selected_Country'))
 

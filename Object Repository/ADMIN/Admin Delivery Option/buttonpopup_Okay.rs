@@ -4,6 +4,16 @@
    <name>buttonpopup_Okay</name>
    <tag></tag>
    <elementGuidId>bedd956f-89e8-481b-975f-291db7e79437</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;popupConfirmOpt&quot;]/div/div[2]/input[count(. | //input[@type = 'button' and @value = 'Okay']) = count(//input[@type = 'button' and @value = 'Okay'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,17 +45,17 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Okay</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupConfirmOpt&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;btn-area text-center&quot;]/input[@class=&quot;my-btn btn-black&quot;]</value>
+      <value>//*[@id=&quot;popupConfirmOpt&quot;]/div/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

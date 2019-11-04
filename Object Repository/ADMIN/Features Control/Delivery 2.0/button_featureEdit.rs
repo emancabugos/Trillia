@@ -40,11 +40,4 @@
       <type>Main</type>
       <value>Edit</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[2]/div/div[3]/div/div[2]/a</value>
-   </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1_UI Verification,Chrome 78.0.3904.87,,2019-11-04 14:27:02,2019-11-04 14:27:30,27.973s,PASSED
+,,,,,,
+Test Cases/Utilities/ADMIN/Admin Login,Chrome 78.0.3904.87,,2019-11-04 14:27:02,2019-11-04 14:27:15,12.289s,PASSED
+openBrowser,Chrome 78.0.3904.87,,2019-11-04 14:27:03,2019-11-04 14:27:06,3.147s,PASSED
+maximizeWindow,Chrome 78.0.3904.87,,2019-11-04 14:27:06,2019-11-04 14:27:07,1.169s,PASSED
+navigateToUrl,Chrome 78.0.3904.87,,2019-11-04 14:27:07,2019-11-04 14:27:10,3.380s,PASSED
+"Statement - If (AdminAccountType == ""custom"")",Chrome 78.0.3904.87,,2019-11-04 14:27:10,2019-11-04 14:27:15,4.304s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/goto_PrivateSettings,Chrome 78.0.3904.87,,2019-11-04 14:27:15,2019-11-04 14:27:17,2.677s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 14:27:15,2019-11-04 14:27:15,0.129s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:15,2019-11-04 14:27:15,0.094s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 14:27:15,2019-11-04 14:27:16,0.613s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:16,2019-11-04 14:27:17,1.595s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-04 14:27:17,2019-11-04 14:27:17,0.039s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/00_sidemenuPrivate settings,Chrome 78.0.3904.87,,2019-11-04 14:27:17,2019-11-04 14:27:18,0.609s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:17,2019-11-04 14:27:17,0.023s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:17,2019-11-04 14:27:18,0.495s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/07_RestrictedDescription,Chrome 78.0.3904.87,,2019-11-04 14:27:18,2019-11-04 14:27:24,5.841s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:18,2019-11-04 14:27:18,0.122s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:18,2019-11-04 14:27:24,5.554s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:24,2019-11-04 14:27:24,0.033s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/01_HeaderIcon,Chrome 78.0.3904.87,,2019-11-04 14:27:24,2019-11-04 14:27:25,1.472s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:24,2019-11-04 14:27:24,0.131s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:24,2019-11-04 14:27:25,1.161s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:25,2019-11-04 14:27:25,0.036s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/02_HeaderRestricted Settings,Chrome 78.0.3904.87,,2019-11-04 14:27:25,2019-11-04 14:27:26,1.002s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:25,2019-11-04 14:27:25,0.187s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:25,2019-11-04 14:27:26,0.624s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:26,2019-11-04 14:27:26,0.023s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/03_RestrictedAccessIcon,Chrome 78.0.3904.87,,2019-11-04 14:27:26,2019-11-04 14:27:27,0.978s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:26,2019-11-04 14:27:26,0.056s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:26,2019-11-04 14:27:27,0.774s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:27,2019-11-04 14:27:27,0.029s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/04_SetyourMarketplaceRestrictedAccess,Chrome 78.0.3904.87,,2019-11-04 14:27:27,2019-11-04 14:27:28,0.893s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:27,2019-11-04 14:27:27,0.176s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:27,2019-11-04 14:27:28,0.560s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:28,2019-11-04 14:27:28,0.043s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/05_togglebutton,Chrome 78.0.3904.87,,2019-11-04 14:27:28,2019-11-04 14:27:29,0.887s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:28,2019-11-04 14:27:28,0.116s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:28,2019-11-04 14:27:29,0.519s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:29,2019-11-04 14:27:29,0.127s,PASSED
+,,,,,,
+Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace,Chrome 78.0.3904.87,,2019-11-04 14:27:29,2019-11-04 14:27:30,0.751s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:29,2019-11-04 14:27:29,0.053s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-04 14:27:29,2019-11-04 14:27:30,0.550s,PASSED
+verifyElementPresent,Chrome 78.0.3904.87,,2019-11-04 14:27:30,2019-11-04 14:27:30,0.037s,PASSED

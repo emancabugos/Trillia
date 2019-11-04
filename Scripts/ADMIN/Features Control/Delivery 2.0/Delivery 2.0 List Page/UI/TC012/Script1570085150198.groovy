@@ -23,6 +23,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/but
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option List/textfield_defineWeight'))
 
-WebUI.verifyElementHasAttribute(findTestObject('ADMIN/Admin Delivery Option List/textfield_defineWeight'), '(e.g. kg, lb, oz, etc...)', 
-    0)
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Admin Delivery Option List/textfield_defineWeight'), 'placeholder', 
+    '(e.g. kg, lb, oz, etc...)', 0)
 

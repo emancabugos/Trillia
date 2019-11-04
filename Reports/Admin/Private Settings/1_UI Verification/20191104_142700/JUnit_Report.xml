@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1_UI Verification" time="27" tests="10" failures="0" errors="0">
+   <testsuite name="1_UI Verification" tests="10" failures="0" errors="0" time="27" timestamp="2019-11-04 14:27:02" hostname="April - April-PC" id="Test Suites/Admin/Private Settings/1_UI Verification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Private Settings\\1_UI Verification\\20191104_142700"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Private Settings\\1_UI Verification\\20191104_142700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="10.10.31.99"/>
+         <property name="sessionId" value="5c82ffd95a540000e65e38769a70ef9d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:02 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-11-04 14:27:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-11-04 14:27:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-04 14:27:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-11-04 14:27:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 14:27:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 14:27:10 - [MESSAGE][PASSED] - Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 14:27:10 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 14:27:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 14:27:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 14:27:10 - [TEST_STEP][PASSED] - setText: Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 14:27:10 - [MESSAGE][PASSED] - Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 14:27:10 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 14:27:10 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 14:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 14:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/goto_PrivateSettings" classname="Test Cases/ADMIN/Advanced/Private Settings/goto_PrivateSettings" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:15 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/goto_PrivateSettings: Test Cases/ADMIN/Advanced/Private Settings/goto_PrivateSettings
+
+2019-11-04 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Private Settings/sidemenu_Advanced' is visible
+
+2019-11-04 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/sidemenu_Advanced' is visible
+
+2019-11-04 14:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/sidemenu_Advanced' is clicked on
+
+2019-11-04 14:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/sidemenu_Advanced' is clicked on
+
+2019-11-04 14:27:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Private Settings/sidemenu_Private Settings' is visible
+
+2019-11-04 14:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/sidemenu_Private Settings' is visible
+
+2019-11-04 14:27:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Private Settings/textlabel_Restricted Access Setting' is visible
+
+2019-11-04 14:27:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/textlabel_Restricted Access Setting' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/00_sidemenuPrivate settings" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/00_sidemenuPrivate settings" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:17 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/00_sidemenuPrivate settings: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/00_sidemenuPrivate settings
+
+2019-11-04 14:27:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/07_RestrictedDescription" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/07_RestrictedDescription" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:18 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/07_RestrictedDescription: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/07_RestrictedDescription
+
+2019-11-04 14:27:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_Restricted Access Marketplac' is present
+
+2019-11-04 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_Restricted Access Marketplac' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/01_HeaderIcon" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/01_HeaderIcon" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:24 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/01_HeaderIcon: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/01_HeaderIcon
+
+2019-11-04 14:27:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/header_icon' is present
+
+2019-11-04 14:27:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/header_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/02_HeaderRestricted Settings" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/02_HeaderRestricted Settings" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:25 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/02_HeaderRestricted Settings: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/02_HeaderRestricted Settings
+
+2019-11-04 14:27:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/header_Restricted Access Setting' is present
+
+2019-11-04 14:27:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/header_Restricted Access Setting' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/03_RestrictedAccessIcon" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/03_RestrictedAccessIcon" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:26 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/03_RestrictedAccessIcon: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/03_RestrictedAccessIcon
+
+2019-11-04 14:27:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:26 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/icon_privatesettings' is present
+
+2019-11-04 14:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/icon_privatesettings' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/04_SetyourMarketplaceRestrictedAccess" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/04_SetyourMarketplaceRestrictedAccess" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:27 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/04_SetyourMarketplaceRestrictedAccess: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/04_SetyourMarketplaceRestrictedAccess
+
+2019-11-04 14:27:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_Set your Marketplace Restri' is present
+
+2019-11-04 14:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_Set your Marketplace Restri' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/05_togglebutton" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/05_togglebutton" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/05_togglebutton: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/05_togglebutton
+
+2019-11-04 14:27:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/toggle_private' is present
+
+2019-11-04 14:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/toggle_private' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace" classname="Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace" status="PASSED">
+         <system-out><![CDATA[2019-11-04 14:27:29 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace
+
+2019-11-04 14:27:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is present
+
+2019-11-04 14:27:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings' is clicked on
+
+2019-11-04 14:27:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_What is Restricted Access M' is present
+
+2019-11-04 14:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 14:27:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Private Settings/Private Off UI/textlabel_What is Restricted Access M' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-04 14:27:02 - [TEST_SUITE][PASSED] - 1_UI Verification: Test Cases/ADMIN/Advanced/Private Settings/Private Off UI/06_WhatisRestrictedAccessMarketplace]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,5 +23,5 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabe
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/radio_Weight'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('ADMIN/Admin Delivery Option/radio_Weight'), '')
+WebUI.verifyElementText(findTestObject('ADMIN/Admin Delivery Option/radio_Weight'), 'Weight (kg)')
 

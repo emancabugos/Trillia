@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>UI Verification - List</name>
+   <name>1_UI Verification - List</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-30T15:14:56</lastRun>
+   <lastRun>2019-11-04T08:37:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -114,33 +114,9 @@
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC019</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d1865d9-7ae9-4a67-8759-cf59675c7a3b</guid>
+      <guid>0da6ec18-d4cd-4d90-84c1-c0ff11b2d9b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC045</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a8799e20-1607-429f-af00-df6590c360f0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC046</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>de8828be-f1c0-41af-aa51-20188dbadb04</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC047</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b4d5ab72-0c7c-4d66-a575-5941c9055129</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC048</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>14be6f2b-8b9c-4449-ade6-0de524111fc6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/UI/TC049</testCaseId>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

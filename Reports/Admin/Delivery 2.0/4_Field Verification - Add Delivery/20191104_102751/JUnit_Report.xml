@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="4_Field Verification - Add Delivery" time="130" tests="8" failures="1" errors="0">
+   <testsuite name="4_Field Verification - Add Delivery" tests="8" failures="1" errors="0" time="130" timestamp="2019-11-04 10:27:53" hostname="April - April-PC" id="Test Suites/Admin/Delivery 2.0/4_Field Verification - Add Delivery">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751\\1572834546651.png, C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751\\1572834578332.png"/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="10.10.31.99"/>
+         <property name="sessionId" value="2b7b78b6abc2bcd7c0476f741dae20c1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Utilities/ADMIN/Admin Login" classname="Test Cases/Utilities/ADMIN/Admin Login" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:27:53 - [TEST_CASE][PASSED] - Test Cases/Utilities/ADMIN/Admin Login: Test Cases/Utilities/ADMIN/Admin Login
+
+2019-11-04 10:27:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-11-04 10:27:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-04 10:27:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-11-04 10:27:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-04 10:27:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 10:28:00 - [MESSAGE][PASSED] - Navigate to 'http://1104bp1.test.arcadier.io/admin' successfully
+
+2019-11-04 10:28:00 - [TEST_STEP][PASSED] - Statement - If (AdminAccountType == "custom"): Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 10:28:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 10:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Login Page/textbox_username' is visible
+
+2019-11-04 10:28:00 - [TEST_STEP][PASSED] - setText: Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 10:28:00 - [MESSAGE][PASSED] - Text '1104bp1' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_username'
+
+2019-11-04 10:28:00 - [TEST_STEP][PASSED] - setText: Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 10:28:00 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/ADMIN/Admin Login Page/textbox_password'
+
+2019-11-04 10:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on
+
+2019-11-04 10:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Login Page/button_SignIn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:28:05 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0
+
+2019-11-04 10:28:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is visible
+
+2019-11-04 10:28:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is visible
+
+2019-11-04 10:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is clicked on
+
+2019-11-04 10:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/sidemenu_Features Control' is clicked on
+
+2019-11-04 10:28:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is visible
+
+2019-11-04 10:28:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:06 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is visible
+
+2019-11-04 10:28:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is clicked on
+
+2019-11-04 10:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Features Control/Delivery 2.0/button_featureEdit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:28:09 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020
+
+2019-11-04 10:28:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is visible
+
+2019-11-04 10:28:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is visible
+
+2019-11-04 10:28:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is clicked on
+
+2019-11-04 10:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option List/button_Add Delivery Option' is clicked on
+
+2019-11-04 10:28:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC033" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC033" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:28:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC033: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC033
+
+2019-11-04 10:28:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:28:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:13 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:28:13 - [TEST_STEP][PASSED] - setText: Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:28:13 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:28:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:28:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:28:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:28:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - setText: Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:28:16 - [MESSAGE][PASSED] - Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:28:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:28:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:28:21 - [TEST_STEP][PASSED] - comment: Verification red highlight 
+
+2019-11-04 10:28:21 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:28:21 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC034" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC034" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:28:21 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC034: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC034
+
+2019-11-04 10:28:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:21 - [TEST_STEP][PASSED] - setText: Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:28:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - setText: Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:28:22 - [MESSAGE][PASSED] - Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:28:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:28:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - comment: Verification red highlight 
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:28:27 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC036" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC036" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:28:27 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC036: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC036
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is clicked on
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is clicked on
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:29 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:28:30 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found"/>
+         <system-out><![CDATA[2019-11-04 10:28:30 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037 FAILED because (of) Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found
+
+2019-11-04 10:28:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:28:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is clicked on
+
+2019-11-04 10:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is clicked on
+
+2019-11-04 10:28:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' is visible
+
+2019-11-04 10:28:32 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' is visible
+
+2019-11-04 10:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:28:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:28:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/linktext_Select all' is visible
+
+2019-11-04 10:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_SelectNone' is clicked on
+
+2019-11-04 10:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/linktext_SelectNone' is clicked on
+
+2019-11-04 10:28:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:28:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:28:35 - [TEST_STEP][FAILED] - verifyElementNotVisible: Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found
+
+2019-11-04 10:29:07 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found
+[[ATTACHMENT|C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751\\1572834546651.png]]
+
+2019-11-04 10:29:07 - [TEST_STEP][FAILED] - verifyElementNotVisible: Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' located by 'By.xpath: //div[@class = 'sol-selected-display-item']' not found
+
+2019-11-04 10:29:38 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/selected_Country' located by 'By.xpath: //div[@class = 'sol-selected-display-item']' not found
+[[ATTACHMENT|C:\\Users\\April\\git\\Trillia\\Reports\\Admin\\Delivery 2.0\\4_Field Verification - Add Delivery\\20191104_102751\\1572834578332.png]]
+
+2019-11-04 10:29:38 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:29:39 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[2019-11-04 10:28:30 - [TEST_CASE][FAILED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037 FAILED because (of) Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC038" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC038" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:29:39 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC038: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC038
+
+2019-11-04 10:29:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:29:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:29:40 - [TEST_STEP][PASSED] - setText: Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:29:45 - [MESSAGE][PASSED] - Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:29:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:29:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:45 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:45 - [TEST_STEP][PASSED] - setText: Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:29:46 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:29:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - setText: Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Text 'PH' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:29:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - setText: Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:29:48 - [MESSAGE][PASSED] - Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:29:48 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:29:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:29:49 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:29:49 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:29:49 - [TEST_STEP][PASSED] - setText: Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:29:49 - [MESSAGE][PASSED] - Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:29:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:29:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:29:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:29:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:29:53 - [TEST_STEP][PASSED] - comment: Verification red highlight 
+
+2019-11-04 10:29:53 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:29:53 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC039" classname="Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC039" status="PASSED">
+         <system-out><![CDATA[2019-11-04 10:29:53 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC039: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC039
+
+2019-11-04 10:29:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:29:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName' is visible
+
+2019-11-04 10:29:54 - [TEST_STEP][PASSED] - setText: Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:29:54 - [MESSAGE][PASSED] - Text 'Delivery 01' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'
+
+2019-11-04 10:29:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_arrowDown' is clicked on
+
+2019-11-04 10:29:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:54 - [TEST_STEP][PASSED] - setText: Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:29:55 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/ADMIN/Admin Delivery Option/dropdownselect_Country'
+
+2019-11-04 10:29:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is visible
+
+2019-11-04 10:29:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/checkbox_Country' is clicked on
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Text '1 Week' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:29:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Admin Delivery Option/end_Range' is visible
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Text 'Rate 1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_DeliveryRateName'
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/ADMIN/Admin Delivery Option/start_Range'
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:29:57 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/ADMIN/Admin Delivery Option/end_Range'
+
+2019-11-04 10:29:57 - [TEST_STEP][PASSED] - setText: Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:29:58 - [MESSAGE][PASSED] - Text '1.50' is set on object 'Object Repository/ADMIN/Admin Delivery Option/textfield_deliveryCost'
+
+2019-11-04 10:29:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:30:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:30:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_Save' is clicked on
+
+2019-11-04 10:30:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-11-04 10:30:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-04 10:30:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Admin Delivery Option/button_bottomSave' is clicked on
+
+2019-11-04 10:30:02 - [TEST_STEP][PASSED] - comment: Verification red highlight 
+
+2019-11-04 10:30:02 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-11-04 10:30:03 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-04 10:27:53 - [TEST_SUITE][FAILED] - 4_Field Verification - Add Delivery: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037 FAILED because (of) Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found]]></system-out>
+      <system-err><![CDATA[2019-11-04 10:27:53 - [TEST_SUITE][FAILED] - 4_Field Verification - Add Delivery: Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Complex/TC037 FAILED because (of) Web element with id: 'Object Repository/ADMIN/Admin Delivery Option/button_deleteCountry' located by 'By.xpath: //span[(text() = '×' or . = '×')]' not found]]></system-err>
+   </testsuite>
+</testsuites>

@@ -21,29 +21,34 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabel_DeliveryOptionName'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'), '')
+'Empty MLT'
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'), 'Delivery 01')
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_arrowDown'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), 'Singapore')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'), 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'))
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'), '')
+
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'), 'PH')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/end_Range'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryRateName'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryRateName'), 'Rate 1')
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/start_Range'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/start_Range'), '1')
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/end_Range'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/end_Range'), '2')
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_deliveryCost'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_deliveryCost'), '1.50')
 
 WebUI.delay(2)
 

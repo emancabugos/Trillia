@@ -3,6 +3,6 @@
    <description></description>
    <name>TC081</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Range from must be empty</comment>
    <testCaseGuid>a7438495-7b84-4cc9-bdc6-b86cf3d89657</testCaseGuid>
 </TestCaseEntity>

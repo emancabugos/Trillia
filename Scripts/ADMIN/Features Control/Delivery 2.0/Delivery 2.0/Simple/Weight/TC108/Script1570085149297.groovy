@@ -56,7 +56,5 @@ WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliv
 WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/errortext_message'), 
     0)
 
-WebUI.comment('error message displayed')
-
 WebUI.refresh()
 

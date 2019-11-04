@@ -4,6 +4,12 @@
    <name>button_Add Delivery Option</name>
    <tag></tag>
    <elementGuidId>2601a3c4-b638-4874-8719-9833774b6d10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'black-btn pull-right' and (text() = 'Add Delivery Option' or . = 'Add Delivery Option')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>delivery2.addDeliveryMethod()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
