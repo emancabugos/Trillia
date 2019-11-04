@@ -19,17 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.scrollToElement(findTestObject('ADMIN/Admin Login Page/button_SignIn'), 0)
-//WebUI.click(findTestObject('ADMIN/Admin Login Page/button_SignIn'))
-WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Domain/additional customdomain/textlabel_tableSSL'), 
+    0)
 
-WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Domain/linktext_CustomDomain'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Domain/linktext_CustomDomain'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Domain/logo_customDomain1st'), 0)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Custom Domain/logo_customDomain1st'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Custom Domain/additional customdomain/textlabel_tableSSL'))
 
