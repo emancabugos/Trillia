@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//*[@id=&quot;dropdown-opt-draggble&quot;]/li[5]/div/div[2]/input</value>
       </entry>
       <entry>
          <key>XPATH</key>

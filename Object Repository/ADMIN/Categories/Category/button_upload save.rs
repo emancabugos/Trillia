@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;_2_1_imagecropperModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;html5imageupload modaldialog done&quot;]/div[@class=&quot;download final&quot;]/a[@class=&quot;btn btn-warning download&quot;][count(. | //*[@class = 'btn btn-warning download' and (text() = ' Add Photo' or . = ' Add Photo')]) = count(//*[@class = 'btn btn-warning download' and (text() = ' Add Photo' or . = ' Add Photo')])]</value>
+         <value>//*[@class = 'btn btn-warning download' and @id = 'btnSaveParentCategory']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,14 +34,14 @@
       <value>orange.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Add Photo</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

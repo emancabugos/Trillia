@@ -6,14 +6,18 @@
    <elementGuidId>6b2d42c9-5649-448f-8c87-a8050800c4fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;pcateglist&quot;]/li[2]/ul/li[1]/div/label</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[3]/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[2]/ul/li[2]/ul/li[1]/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>xpath1557897224609</value>
+      <value>//*[@id=&quot;pcateglist&quot;]/li[2]/ul/li[1]/div/label</value>
    </webElementProperties>
 </WebElementEntity>

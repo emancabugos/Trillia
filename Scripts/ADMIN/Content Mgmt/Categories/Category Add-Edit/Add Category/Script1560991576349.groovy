@@ -45,7 +45,7 @@ WebUI.selectOptionByLabel(findTestObject('ADMIN/Categories/Category/dropdown_Par
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/button_Browse'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('ADMIN/Categories/Category/image_input image'), CategoryImageUpload)
 
@@ -56,6 +56,8 @@ WebUI.click(findTestObject('ADMIN/Categories/Category/button_upload check'))
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/button_upload save'), 0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/button_upload save'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ADMIN/Categories/Category/textfield_category_description'), Description)
 

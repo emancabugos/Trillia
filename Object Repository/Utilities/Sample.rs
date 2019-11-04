@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//a[@href = '/admin/plugins/details?packageId=925c168e-ddd1-4e62-97b1-e2d7d3a5b057' and @class = 'btn install-btn' and (text() = 'Install' or . = 'Install')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,29 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>href</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div/div/div/div[2]/div[2]/div/table/tbody/tr[1]/td[1]</value>
+      <value>/admin/plugins/details?packageId=925c168e-ddd1-4e62-97b1-e2d7d3a5b057</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn install-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Install</value>
    </webElementProperties>
 </WebElementEntity>
