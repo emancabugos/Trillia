@@ -25,9 +25,9 @@ WebUI.click(findTestObject('ADMIN/External Links/sidemenu_External Links'), Fail
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/External Links/textbox_page title'), 0)
 
-WebUI.setText(findTestObject('ADMIN/External Links/textbox_page title'), '')
+WebUI.setText(findTestObject('ADMIN/External Links/textbox_page title'), 'Youtube')
 
-WebUI.setText(findTestObject('ADMIN/External Links/textbox_link'), '')
+WebUI.setText(findTestObject('ADMIN/External Links/textbox_link'), 'youtube.com')
 
 WebUI.click(findTestObject('ADMIN/External Links/button_Add'))
 
