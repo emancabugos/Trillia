@@ -20,10 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Custom Code/sidemenu_Custom Code'), 0)
-
-WebUI.click(findTestObject('ADMIN/Custom Code/sidemenu_Custom Code'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementPresent(findTestObject('ADMIN/Custom Code/textbox_1 header code'), 0)
 
 String headerplaceholder = WebUI.getAttribute(findTestObject('ADMIN/Custom Code/textbox_1 header code'), 'placeholder')
