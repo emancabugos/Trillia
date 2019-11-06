@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -35,11 +33,12 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Se
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/tab_PRIVACY POLICY'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Privacy Policy/textbox_edit text privacy'), 0)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('ADMIN/Customize Policies/Privacy Policy/textbox_edit text privacy'), 'Sample Privacy Policy')
+WebUI.waitForElementVisible(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/privacy policy/textarea_privacy'), 
+    0)
 
-WebUI.scrollToElement(findTestObject('ADMIN/Customize Policies/Privacy Policy/button_Preview'), 0)
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/privacy policy/textarea_privacy'), 'Sample Privacy Policy')
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Privacy Policy/button_Preview'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -67,7 +66,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Privacy Pol
 WebUI.verifyElementText(findTestObject('ADMIN/Customize Policies/Privacy Policy/Sucess Toaster Message/div_privacy policy was success'), 
     'privacy policy was successfully saved.')
 
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/Customize Policies/Privacy Policy/Sucess Toaster Message/div_privacy policy was success'), 
+    0)
 

@@ -38,23 +38,23 @@ WebUI.click(findTestObject('ADMIN/Admin Login Page/Google Accounts/button_next_p
 
 WebUI.comment('EDM search')
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/textbox_search mail'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/Seller Invite/textbox_search mail'), 0)
 
-WebUI.setText(findTestObject('Utilities/Gmail/textbox_search mail'), 'Seller Invite')
+WebUI.setText(findTestObject('Utilities/Gmail/Seller Invite/textbox_search mail'), 'Seller Invite')
 
-WebUI.sendKeys(findTestObject('Utilities/Gmail/textbox_search mail'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Utilities/Gmail/Seller Invite/textbox_search mail'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/textlink_seller invite'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/Seller Invite/textlink_seller invite'), 0)
 
-WebUI.click(findTestObject('Utilities/Gmail/textlink_seller invite'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/button_Create Account'), 0)
+WebUI.click(findTestObject('Utilities/Gmail/Seller Invite/textlink_seller invite'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Utilities/Gmail/button_Create Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Utilities/Gmail/Seller Invite/button_Create Account'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Utilities/Gmail/Seller Invite/button_Create Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Seller Register Page')
 

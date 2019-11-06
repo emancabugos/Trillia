@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -40,8 +38,4 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Privacy Pol
 WebUI.verifyElementPresent(findTestObject('ADMIN/Customize Policies/Privacy Policy/button_Preview'), 0)
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Customize Policies/Privacy Policy/button_Save'), 0)
-
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'))
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

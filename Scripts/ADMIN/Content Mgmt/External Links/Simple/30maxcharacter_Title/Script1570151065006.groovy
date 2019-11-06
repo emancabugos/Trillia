@@ -23,7 +23,7 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/External Links/sidemenu_Externa
 
 WebUI.click(findTestObject('ADMIN/External Links/sidemenu_External Links'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/External Links/textbox_page title'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/External Links/textbox_page title'), 0)
 
 WebUI.setText(findTestObject('ADMIN/External Links/textbox_page title'), 'Testing30Testing30Testing30Testing30Last')
 

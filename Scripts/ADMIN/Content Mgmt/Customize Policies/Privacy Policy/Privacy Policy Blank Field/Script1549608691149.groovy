@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -33,11 +31,14 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Se
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/tab_PRIVACY POLICY'), 0)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/tab_PRIVACY POLICY'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Privacy Policy/textbox_edit text privacy'), 0)
+WebUI.waitForElementVisible(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/privacy policy/textarea_privacy'), 
+    0)
 
-WebUI.setText(findTestObject('ADMIN/Customize Policies/Privacy Policy/textbox_edit text privacy'), '')
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/privacy policy/textarea_privacy'), '')
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Privacy Policy/button_Save'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -47,7 +48,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Privacy Pol
 WebUI.verifyElementText(findTestObject('ADMIN/Customize Policies/Privacy Policy/Error Toaster Message/div_You must add content to th'), 
     'You must add content to the privacy policy section')
 
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'))
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/Customize Policies/Privacy Policy/Error Toaster Message/div_You must add content to th'), 
+    0)
 

@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), 0)
 
 WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_Content Mgmt.'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -31,7 +29,7 @@ WebUI.click(findTestObject('ADMIN/Customize Policies/Terms of Service/textlink_C
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Service/icon_customize policy'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Customize Policies/Terms of Service/textbox_edit text terms'), 'Sample Terms of Service')
+WebUI.setText(findTestObject('Utilities/Text Editor Icon/Text Area/text area object/p'), 'Sample Terms of Service')
 
 WebUI.scrollToElement(findTestObject('ADMIN/Customize Policies/Terms of Service/button_Preview'), 0)
 
@@ -60,8 +58,4 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Customize Policies/Terms of Se
 
 WebUI.verifyElementText(findTestObject('ADMIN/Customize Policies/Terms of Service/Success Toaster Message/div_terms of service was succe'), 
     'terms of service was successfully saved.')
-
-WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
 

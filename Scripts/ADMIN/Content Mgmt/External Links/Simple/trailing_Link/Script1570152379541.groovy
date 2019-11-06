@@ -31,5 +31,5 @@ WebUI.click(findTestObject('ADMIN/External Links/button_Add'), FailureHandling.C
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/External Links/toaster_InvalidFormat'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/External Links/toaster_InvalidFormat'))
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/External Links/toaster_InvalidFormat'), 0)
 
