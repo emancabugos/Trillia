@@ -21,6 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), '+631234567890')
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 'value', '+631234567890', 
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 'value', '631234567890', 
     0)
 

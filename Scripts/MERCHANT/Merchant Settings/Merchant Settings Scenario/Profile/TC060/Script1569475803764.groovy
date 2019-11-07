@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNBuyer')
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNSeller')
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'value', 'UNBuyer', 
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'value', 'UNSeller', 
     0)
 

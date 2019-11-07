@@ -41,3 +41,25 @@ WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), Failure
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/address_box'), 0)
 
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/Add Delivery Address'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 0)
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_first_name'), 'Tea')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_last name'), 'Cool')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_address'), '29th Flr Rufino Plaza V.A. Rufino Ave.')
+
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Address/dropdown_country'), 'Philippines', false)
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_state'), 'Philippines')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_City'), 'Makati')
+
+WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_postal_code'), '1200')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+

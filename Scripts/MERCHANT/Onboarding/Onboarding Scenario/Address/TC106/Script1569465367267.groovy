@@ -23,3 +23,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Add'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Save'), 0)
+
+WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Save'), FailureHandling.CONTINUE_ON_FAILURE)
+

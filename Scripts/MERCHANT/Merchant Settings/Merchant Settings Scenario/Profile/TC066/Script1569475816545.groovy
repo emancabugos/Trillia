@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNBuyer1')
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNSeller')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_description'), 'Cool Milk Tea')
 

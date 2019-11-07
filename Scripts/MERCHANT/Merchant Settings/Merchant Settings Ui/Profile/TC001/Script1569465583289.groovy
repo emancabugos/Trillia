@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/icon_dropdown'), 0)
 
-WebUI.sendKeys(findTestObject('Utilities/Usermenu/icon_dropdown'), '')
+WebUI.click(findTestObject('Utilities/Usermenu/icon_dropdown'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Usermenu/textlink_Settings'), 0)
 

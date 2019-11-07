@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_last name')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_address'), '29th Flr Rufino Plaza V.A. Rufino Ave.')
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Address/dropdown_country'), '(Select Country)', false)
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/User Settings/Address/dropdown_country'), 'Select your country', false)
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Address/textbox_state'), 'Philippines')
 

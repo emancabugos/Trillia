@@ -4,6 +4,7 @@
    <name>Simple Scenario</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-11-07T08:45:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -19,13 +20,13 @@
    <testCaseLink>
       <guid>4274e104-f9bb-47b7-9339-1a40f40336ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/User Mgmt/Waiting List/Simple Scenario/blank_email field</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4484f5a2-0677-499f-91c4-afb68a0293eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/User Mgmt/Waiting List/Simple Scenario/Invite Consumer</testCaseId>
    </testCaseLink>
    <testCaseLink>
