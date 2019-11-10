@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'submit' and @name = 'login-submit' and @id = 'login-submit' and @value = 'Sign In']</value>
+         <value>//input[@type = 'submit' and @name = 'login-submit' and @id = 'login-submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -55,7 +55,7 @@
       <value>black-btn-full</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

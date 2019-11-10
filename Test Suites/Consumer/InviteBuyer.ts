@@ -20,6 +20,6 @@
       <guid>f105b6b6-0b8a-40d5-93e6-6395351f17ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/User Mgmt/Buyer Invite</testCaseId>
+      <testCaseId>Test Cases/ADMIN/User Mgmt/Users/Buyer Invite</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

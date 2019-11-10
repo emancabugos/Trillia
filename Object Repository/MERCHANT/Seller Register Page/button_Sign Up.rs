@@ -4,6 +4,12 @@
    <name>button_Sign Up</name>
    <tag></tag>
    <elementGuidId>72124260-55dc-441f-aabe-0bea7d15a55a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Sign Up' or . = 'Sign Up')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLK7T0D97IJE&quot;)/div[@class=&quot;login-container&quot;]/div[@class=&quot;login-box&quot;]/div[@class=&quot;lb-body full-width&quot;]/form[3]/div[@class=&quot;btn-signin&quot;]/a[1]</value>
+      <value>//*[@id=&quot;frmlogin&quot;]/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

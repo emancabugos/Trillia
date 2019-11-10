@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNBuyer1')
+WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'UNSeller')
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_description'), 'Cool Milk Tea')
 
@@ -35,9 +35,7 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-loca
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Add'), 0)
-
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/User Settings/Address/button_Previous'), 0)
 
 WebUI.click(findTestObject('MERCHANT/User Settings/Address/button_Previous'), FailureHandling.STOP_ON_FAILURE)
 

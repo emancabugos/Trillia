@@ -38,7 +38,7 @@ WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile
 WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_email'), 'value', 'arcadier.tester1@gmail.com', 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 'value', '+63123456789', 
+WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 'value', '63123456789', 
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-location'), 'value', 'Sorsogon', 

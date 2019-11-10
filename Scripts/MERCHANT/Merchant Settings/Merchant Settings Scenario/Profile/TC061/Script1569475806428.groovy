@@ -36,7 +36,5 @@ WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_contact'), 
 
 WebUI.setText(findTestObject('MERCHANT/User Settings/Profile/textbox_seller-location'), 'Sorsogon')
 
-WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Next_profile'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementAttributeValue(findTestObject('MERCHANT/User Settings/Profile/textbox_display_name'), 'value', '', 0)
 
