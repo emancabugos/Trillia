@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save_Delivery Range</name>
+   <name>label_Price</name>
    <tag></tag>
-   <elementGuidId>5985344f-c1ae-4109-b926-8956af11eabf</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@id = 'btnSaveDeliveryRate']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>3789a59a-b3c5-4591-a077-5a5a851f1a33</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>for</name>
       <type>Main</type>
-      <value>btn-save</value>
+      <value>price</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnSaveDeliveryRate</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Save</value>
+      <value>Price</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnSaveDeliveryRate&quot;)</value>
+      <value>id(&quot;settings-index-container&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;delivery-setting-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dsae-content&quot;]/div[@class=&quot;dsae-content-inputs un-inputs&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;option_box&quot;]/div[@class=&quot;fancy-radio&quot;]/label[1]</value>
    </webElementProperties>
 </WebElementEntity>

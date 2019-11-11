@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save_Delivery Range</name>
+   <name>textlink_Delivery</name>
    <tag></tag>
-   <elementGuidId>5985344f-c1ae-4109-b926-8956af11eabf</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@id = 'btnSaveDeliveryRate']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>7231f79f-b523-484c-8555-df39f677f576</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn-save</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btnSaveDeliveryRate</value>
+      <value>/delivery/settings</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Save</value>
+      <value>Delivery</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnSaveDeliveryRate&quot;)</value>
+      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-bottom&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-extramenus pull-right&quot;]/ul[1]/li[2]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

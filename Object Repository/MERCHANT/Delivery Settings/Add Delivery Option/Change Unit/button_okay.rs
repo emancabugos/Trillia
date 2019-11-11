@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_delivering_from</name>
+   <name>button_okay</name>
    <tag></tag>
-   <elementGuidId>e75e3ed9-aace-43b2-927b-49df840a6631</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@name = 'delivering_from' and @type = 'text']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e92e1b35-fb3d-4bd4-a736-c906395c92c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,38 +14,31 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>delivering-from</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>delivering_from</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>required</value>
+      <value>my-btn btn-black</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>value</name>
       <type>Main</type>
-      <value>text</value>
+      <value>Okay</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivering-from&quot;)</value>
+      <value>id(&quot;popupConfirmOpt&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;btn-area text-center&quot;]/input[@class=&quot;my-btn btn-black&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
