@@ -26,21 +26,41 @@ WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.
 
 WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'), 'Delivery 01')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_DeliveryOptionName'), 'Delivery 03')
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_arrowDown'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/linktext_Select all'), 0)
 
-WebUI.click(findTestObject('ADMIN/Admin Delivery Option/linktext_Select all'))
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), 'Singapore')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/button_deleteCountry'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_SG'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/selected_Country'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_arrowDown'))
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_SG'))
+
+WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/linktext_Select all'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), 'Philippines')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_PH'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_PH'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), 'Malaysia')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_MY'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_MY'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/button_deleteCountry'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -48,7 +68,7 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/selected_
 
 WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'), '3-5 days')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'), '2-3 days')
 
 WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'), 'MAKATI')
 
@@ -329,8 +349,6 @@ WebUI.delay(1)
 WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'), 0)
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/button_Add Delivery Option'), 0)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -24,15 +24,15 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/textlabe
 
 WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_arrowDown'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_SG'), 0)
 
 WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/dropdownselect_Country'), 'Singapore')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_SG'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country'))
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/checkbox_Country_SG'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadTime'), '1 Week')
 

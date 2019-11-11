@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delivery 01</name>
+   <name>Delivery 03</name>
    <tag></tag>
    <comment>Range 1
 Range 2
@@ -13,5 +13,5 @@ Range 7
 Range 8
 Range 9
 Range 10</comment>
-   <testCaseGuid>b4b63827-7d40-4fad-ac16-0940b8dc0206</testCaseGuid>
+   <testCaseGuid>ab0063ad-b2ce-49d0-93d9-1cbf88c6e25b</testCaseGuid>
 </TestCaseEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delivery 01</name>
+   <name>Delivery Maximum Char</name>
    <tag></tag>
    <comment>Range 1
 Range 2
 Range 3
 Range 4
 Range 5
-Range 6
-Range 7
-Range 8
-Range 9
-Range 10</comment>
-   <testCaseGuid>b4b63827-7d40-4fad-ac16-0940b8dc0206</testCaseGuid>
+Range 6</comment>
+   <testCaseGuid>d913b3e3-1b28-48a6-8635-49e6291c3a17</testCaseGuid>
 </TestCaseEntity>
