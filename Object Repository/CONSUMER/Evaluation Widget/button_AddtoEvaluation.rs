@@ -4,6 +4,12 @@
    <name>button_AddtoEvaluation</name>
    <tag></tag>
    <elementGuidId>41841135-2ed2-41f1-87ed-cba7105434ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'btn-group compare-btn' and @id = 'itemAddCompare' and (text() = 'Add to Evaluation' or . = 'Add to Evaluation')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

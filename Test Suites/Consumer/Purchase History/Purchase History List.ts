@@ -4,7 +4,7 @@
    <name>Purchase History List</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-01T13:41:45</lastRun>
+   <lastRun>2019-11-08T14:43:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

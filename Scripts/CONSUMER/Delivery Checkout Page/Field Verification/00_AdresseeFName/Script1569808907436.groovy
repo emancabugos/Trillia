@@ -20,14 +20,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName'), 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), 
     0)
 
-WebUI.clearText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName'))
+WebUI.clearText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'))
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'))
 
-String errornotif = WebUI.getCSSValue(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName'), 
+String errornotif = WebUI.getCSSValue(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), 
     'border-color')
 
 KeywordLogger log = new KeywordLogger()
@@ -36,5 +36,5 @@ log.logInfo(errornotif)
 
 WebUI.verifyMatch(errornotif, 'rgb(202, 11, 11)', false)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'))
 

@@ -4,6 +4,16 @@
    <name>page_1</name>
    <tag></tag>
    <elementGuidId>c60f255f-ef75-42a4-8f92-98ab876936ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/nav/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = '1' or . = '1')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,6 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-inbox&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;inbox-container&quot;]/div[@class=&quot;container&quot;]/nav[@class=&quot;text-center&quot;]/ul[@class=&quot;pagination&quot;]/li[@class=&quot;numeros active&quot;]/a[1]</value>
+      <value>//div[2]/div/div/nav/ul/li/a</value>
    </webElementProperties>
 </WebElementEntity>
