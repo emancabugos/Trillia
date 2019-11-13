@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>image_Item</name>
+   <name>img_img-responsive</name>
    <tag></tag>
-   <elementGuidId>5f2ab026-b878-4ef4-aca9-4343582d67f4</elementGuidId>
+   <elementGuidId>c0781329-8d9f-48ba-b0d5-2ef1f3d99570</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//img[@alt = 'NEW item 5' and @title = 'NEW item 5']</value>
+         <value>id(&quot;react_0HLR7VKSTOMMI&quot;)/div[1]/div[1]/div[@class=&quot;latest-item-list&quot;]/div[@class=&quot;container&quot;]/div[2]/div[@class=&quot;col-md-2 col-sm-4 col-xs-6 xs-mb-15&quot;]/a[@class=&quot;item-box-small&quot;]/div[@class=&quot;item-image&quot;]/img[@class=&quot;img-responsive&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,21 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://dncddemo.staging.arcadier.io/images/items/item-110126-637038708519873273-wcRu5n.jpg</value>
+      <value>https://0314apriljoy5.test.arcadier.io/images/items/item-60194-637042965968411349-db0VaT.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
-      <value>NEW item 5</value>
+      <value>0917diana</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>NEW item 5</value>
+      <value>0917diana</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,10 +52,10 @@
       <value>img-responsive</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLPO3ESJE3OO&quot;)/div[1]/div[1]/div[2]/div[@class=&quot;latest-item-list&quot;]/div[@class=&quot;container&quot;]/div[2]/div[@class=&quot;col-md-2 col-sm-4 col-xs-6 xs-mb-15&quot;]/a[@class=&quot;item-box-small&quot;]/div[@class=&quot;item-image&quot;]/img[@class=&quot;img-responsive&quot;]</value>
+      <value>//div/div/div[3]/div/div[2]/div/a/div[1]/img</value>
    </webElementProperties>
 </WebElementEntity>

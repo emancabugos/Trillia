@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_AddtoEvaluation</name>
+   <name>textlabel_chatHistory</name>
    <tag></tag>
-   <elementGuidId>41841135-2ed2-41f1-87ed-cba7105434ee</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'btn-group compare-btn']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>dd677ffe-63f2-4105-81fb-8301f92ddc1d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,31 +14,24 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-group compare-btn</value>
+      <value>right-message-bar</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itemAddCompare</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to Evaluation</value>
+      <value>Special OfferQuantity:Offer Price: SGD $ BackSend Offer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;itemAddCompare&quot;)</value>
+      <value>id(&quot;react_0HLR80BL4EFBR&quot;)/div[1]/div[@class=&quot;chat-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chat-box-parent&quot;]/div[@class=&quot;right-message-bar&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

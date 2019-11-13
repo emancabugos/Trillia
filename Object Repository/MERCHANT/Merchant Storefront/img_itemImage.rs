@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_AddtoEvaluation</name>
+   <name>img_itemImage</name>
    <tag></tag>
-   <elementGuidId>41841135-2ed2-41f1-87ed-cba7105434ee</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'btn-group compare-btn']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>568f8455-2c36-4e4e-81dc-e0b66ced4600</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://0314apriljoy5.test.arcadier.io/images/items/item-60194-637042965968411349-db0VaT.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>0917diana</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>0917diana</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-group compare-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itemAddCompare</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Add to Evaluation</value>
+      <value>img-responsive</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;itemAddCompare&quot;)</value>
+      <value>id(&quot;storefront-container&quot;)/div[1]/div[@class=&quot;product-list&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-sm-4 col-xs-6 xs-mb-15&quot;]/a[@class=&quot;item-box-small&quot;]/div[@class=&quot;item-image&quot;]/img[@class=&quot;img-responsive&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

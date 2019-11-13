@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Enquiry 25 items</name>
+   <name>Enquiry Contact Supplier</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2019-11-12T09:22:56</lastRun>
@@ -30,7 +30,7 @@
       <guid>924f1566-43c4-475b-8f5d-586189abd6f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Inbox/Enquiry_Nego</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Inbox/Enquiry_contact supplier</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4a0efee5-c068-4066-8196-1915bd841acf</id>

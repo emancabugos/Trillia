@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_AddtoEvaluation</name>
+   <name>textlabel_itemNumber</name>
    <tag></tag>
-   <elementGuidId>41841135-2ed2-41f1-87ed-cba7105434ee</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'btn-group compare-btn']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>2ab4d3b3-fa85-4b59-9c36-337fc86e04ca</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-text-big avail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn-group compare-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>itemAddCompare</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to Evaluation</value>
+      <value>(1) items for sale</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;itemAddCompare&quot;)</value>
+      <value>id(&quot;storefront-container&quot;)/div[1]/div[@class=&quot;sc-upper&quot;]/div[@class=&quot;sc-u sc-u-mid full-width&quot;]/div[@class=&quot;pull-left&quot;]/span[@class=&quot;sc-text-big avail&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

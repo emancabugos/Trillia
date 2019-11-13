@@ -18,32 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
 
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textlabel_sellerdesc'), 0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
-
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), ItemName)
-
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'), 0)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('CONSUMER/Search Result Page/Search Result Objects/Item Name'))
-
-WebUI.scrollToElement(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/span_Contact Supplier'), 0)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/span_Contact Supplier'), 0)
-
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/span_Contact Supplier'), 0)
-
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/span_Contact Supplier'),30)
-WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
-
-WebUI.waitForPageLoad(5)
-
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textlabel_sellerdesc'))
 

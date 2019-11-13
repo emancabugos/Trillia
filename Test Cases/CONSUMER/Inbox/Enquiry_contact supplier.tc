@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Enquiry_Nego</name>
+   <name>Enquiry_contact supplier</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>fa0b7394-e3b7-4106-89bb-3ff737e4f5cc</testCaseGuid>
