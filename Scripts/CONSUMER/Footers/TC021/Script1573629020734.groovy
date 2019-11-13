@@ -19,39 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/textfield_FirstNameAddress'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
 
-WebUI.comment('add First Name')
+WebUI.scrollToElement(findTestObject('CONSUMER/Footer/imagebutton_Twitter'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_FirstNameAddress'), firstName)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/imagebutton_Twitter'))
 
-WebUI.comment('add Last Name')
+WebUI.click(findTestObject('CONSUMER/Footer/imagebutton_Twitter'))
 
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_LastNameAddress'), lastName)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Footer/page_Twitter'), 0)
 
-WebUI.comment('add Address')
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Footer/page_Twitter'))
 
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_Address'), address)
+WebUI.back(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment('add Country')
-
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Settings/dropdown_Country'), country, false)
-
-WebUI.comment('add State')
-
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_State'), state, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('add City')
-
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_City'), city, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('add Postal Code')
-
-WebUI.setText(findTestObject('CONSUMER/Settings/textfield_PostalCode'), postalCode, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('CONSUMER/Settings/button_Add'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Settings/button_Add'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/link_AddDeliveryAddress'), 0)
+WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
 

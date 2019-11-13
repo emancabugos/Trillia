@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+2_Field Verification,Chrome 78.0.3904.87,,2019-11-11 14:05:53,2019-11-11 14:06:33,39.331s,ERROR
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/redirection_homeLinktext,Chrome 78.0.3904.87,,2019-11-11 14:05:54,2019-11-11 14:06:28,34.317s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-11 14:05:54,2019-11-11 14:05:55,1.316s,PASSED
+click,Chrome 78.0.3904.87,,2019-11-11 14:05:55,2019-11-11 14:05:56,0.989s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-11 14:05:56,2019-11-11 14:06:28,31.341s,PASSED
+back,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.291s,PASSED
+waitForElementVisible,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.039s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_DisplayPhoto,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.211s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.023s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.011s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_DisplayName,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.200s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.003s,PASSED
+clearText,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.057s,PASSED
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.001s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:28,0.005s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_FirstName,Chrome 78.0.3904.87,,2019-11-11 14:06:28,2019-11-11 14:06:29,0.278s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:29,2019-11-11 14:06:29,0.002s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:29,2019-11-11 14:06:29,0.007s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_LastName,Chrome 78.0.3904.87,,2019-11-11 14:06:29,2019-11-11 14:06:30,1.076s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:29,2019-11-11 14:06:29,0.001s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:29,2019-11-11 14:06:30,0.904s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_Email,Chrome 78.0.3904.87,,2019-11-11 14:06:30,2019-11-11 14:06:30,0.274s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:30,2019-11-11 14:06:30,0.144s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:30,2019-11-11 14:06:30,0.006s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Settings/Simple/Custom/a_Profile Tab/blank_ContactNo,Chrome 78.0.3904.87,,2019-11-11 14:06:30,2019-11-11 14:06:31,1.311s,ERROR
+comment,Chrome 78.0.3904.87,,2019-11-11 14:06:31,2019-11-11 14:06:31,0.002s,PASSED
+setText,Chrome 78.0.3904.87,,2019-11-11 14:06:31,2019-11-11 14:06:31,0.005s,PASSED
