@@ -54,4 +54,11 @@
       <type>Main</type>
       <value>//*[@id=&quot;react_0HLL0B2H3MB72&quot;]/div/div[2]/div[2]/form[3]/div[1]/input[1]</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>username</value>
+   </webElementProperties>
 </WebElementEntity>

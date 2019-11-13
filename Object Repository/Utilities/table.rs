@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>availability_SKU</name>
+   <name>table</name>
    <tag></tag>
-   <elementGuidId>9cd222fe-0605-44c6-a604-b62a65c0d3e2</elementGuidId>
+   <elementGuidId>5ea0f887-1f79-4b47-a69c-f36a2eb6e544</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[1]/td[2]/input</value>
+         <value>//*[@id = 'rowAvailAD']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>id</name>
       <type>Main</type>
-      <value>th</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>SKU</value>
+      <value>rowAvailAD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[1]/td[2]/input</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[1]</value>
    </webElementProperties>
 </WebElementEntity>
