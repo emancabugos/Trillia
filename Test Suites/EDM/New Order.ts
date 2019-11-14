@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1779e223-d0be-498f-b374-d8c31933a19a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/EDM/Gmail Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
