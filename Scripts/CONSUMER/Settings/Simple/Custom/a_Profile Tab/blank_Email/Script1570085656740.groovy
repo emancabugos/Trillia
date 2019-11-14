@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('add Display Name')
 
 WebUI.setText(findTestObject('CONSUMER/Settings/textfield_DisplayName'), displayName)
@@ -46,6 +44,4 @@ WebUI.scrollToElement(findTestObject('CONSUMER/Settings/button_Next'), 0)
 WebUI.click(findTestObject('CONSUMER/Settings/button_Next'))
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Settings/textfield_DisplayName'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
 

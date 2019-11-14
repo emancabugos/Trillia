@@ -25,7 +25,7 @@ WebUI.click(findTestObject('CONSUMER/Evaluation Table/button_CreatePurchaseOrder
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/logo_AddressBox'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/Page_/DeliveryDetails_edmar bonsolpembo makatiPh'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/Delivery Address fields/DeliveryDetails_edmar bonsolpembo makatiPh'))
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'))
 

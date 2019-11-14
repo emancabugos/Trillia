@@ -4,10 +4,16 @@
    <name>linktext_Settings</name>
    <tag></tag>
    <elementGuidId>cf384fe4-c9c7-4ef2-9fd3-a948726daf45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/users/settings' and (text() = 'Settings' or . = 'Settings')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/user/marketplace/user-settings</value>
+      <value>/users/settings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

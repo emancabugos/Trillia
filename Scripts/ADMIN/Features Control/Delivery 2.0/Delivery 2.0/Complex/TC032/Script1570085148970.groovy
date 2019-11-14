@@ -25,5 +25,5 @@ WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/button_bottomS
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.clickImage(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option/button_bottomSave'))
 

@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Custom Code/sidemenu_Custom Code'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), 0)
+
+WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Code/sidemenu_Custom Code'), 0)
 
 WebUI.click(findTestObject('ADMIN/Custom Code/sidemenu_Custom Code'), FailureHandling.CONTINUE_ON_FAILURE)
 

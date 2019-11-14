@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = ' nicEdit-main']</value>
+         <value>//*[@id=&quot;tab-4&quot;]/div/div/div/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,10 +34,10 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-4&quot;)/div[@class=&quot;customize-tab-container&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;nicEdit-main&quot;]</value>
+      <value>//*[@id=&quot;tab-4&quot;]/div/div/div/div/div[2]/div</value>
    </webElementProperties>
 </WebElementEntity>

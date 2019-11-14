@@ -4,6 +4,12 @@
    <name>textlabel_Category Name</name>
    <tag></tag>
    <elementGuidId>2687c76a-738b-4b6a-b364-5c857dc5deb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Category Name' or . = 'Category Name')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CATEGORY NAME</value>
+      <value>Category Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

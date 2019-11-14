@@ -4,6 +4,12 @@
    <name>radio_Weight</name>
    <tag></tag>
    <elementGuidId>ce9c2504-13dd-4e75-8330-f2cd3765f1db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for = 'weight']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -4,6 +4,12 @@
    <name>textfield_defineWeight</name>
    <tag></tag>
    <elementGuidId>35b13539-14b3-465d-9545-b2a8e14e48cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;unit_force&quot;)[count(. | //input[@type = 'text' and @id = 'unit_force']) = count(//input[@type = 'text' and @id = 'unit_force'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,14 +41,14 @@
       <value>unit_force</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>(e.g. kg, lb, oz, etc...)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

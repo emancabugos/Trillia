@@ -19,8 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
+//WebUI.scrollToElement(findTestObject('ADMIN/Admin Login Page/button_SignIn'), 0)
+//WebUI.click(findTestObject('ADMIN/Admin Login Page/button_SignIn'))
 WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), 0)
 
 WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Advanced'), FailureHandling.CONTINUE_ON_FAILURE)

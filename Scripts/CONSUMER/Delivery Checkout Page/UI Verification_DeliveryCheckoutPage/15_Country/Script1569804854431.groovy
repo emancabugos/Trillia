@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_Country'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_Country'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_Country'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_Country'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/dropdown_Country'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/dropdown_Country'))
 

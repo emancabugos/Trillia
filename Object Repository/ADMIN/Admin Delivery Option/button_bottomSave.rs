@@ -4,6 +4,12 @@
    <name>button_bottomSave</name>
    <tag></tag>
    <elementGuidId>828d7a20-6f89-4420-a2a9-a9349265c07c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'pull-right my-btn btn-black' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>delivery2.saveDeliveryMethod()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

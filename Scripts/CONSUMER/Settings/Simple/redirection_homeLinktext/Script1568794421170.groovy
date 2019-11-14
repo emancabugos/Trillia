@@ -19,21 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_arrowDown'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Homepage/button_arrowDown'))
-
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/linktext_Settings'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Settings/linktext_Settings'))
-
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/linktext_Home'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Settings/linktext_Home'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/image_Item'), 0)
 
-WebUI.closeBrowser()
+WebUI.back()
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/linktext_Home'), 0)
 

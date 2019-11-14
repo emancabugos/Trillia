@@ -21,55 +21,55 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textlabel_FirstName'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Delete'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/textlabel_Warning'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/textlabel_Warning'), 0)
 
 WebUI.comment('UI Verification for Delete popup')
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/textlabel_Warning'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/textlabel_Warning'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Okay'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Okay'))
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Delete'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Delete'))
 
 WebUI.comment('Verify Cancel Functionality')
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Cancel'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Cancel'))
 
-WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Okay'))
+WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Okay'))
 
 WebUI.comment('Verify Okay Functionality')
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Delete'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Delete'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/textlabel_Warning'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/textlabel_Warning'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Okay'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Okay'))
 
-WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeletePopup/button_Delete'))
+WebUI.verifyElementNotVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeletePopup/button_Delete'))
 
 WebUI.comment('Add an Address')
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/add_AddressBox'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), '')
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeLastName'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeLastName'), '')
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlfield_Address'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlfield_Address'), '')
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/dropdown_Country'), '', false)
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/dropdown_Country'), '', false)
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_City'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_City'), '')
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_State'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_State'), '')
 
-WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_PostalCode'), '')
+WebUI.setText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_PostalCode'), '')
 
-WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'))
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/button_Next'), 0)
 

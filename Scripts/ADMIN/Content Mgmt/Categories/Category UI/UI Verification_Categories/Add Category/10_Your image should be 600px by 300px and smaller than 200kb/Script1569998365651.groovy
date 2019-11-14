@@ -19,7 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/textlabel_Your image should be 600px b'), 0)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/textlabel_Your image should be 600px b'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Categories/Category/textlabel_Your image should be 600px b'), 0)
 

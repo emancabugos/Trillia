@@ -19,8 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/a_Edit Unit/textlabel_Warning'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Delivery Option List/textlabel_DeleteWarning'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/a_Edit Unit/button_Close'))
 

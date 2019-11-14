@@ -19,10 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/textbox_weight unit'), '')
+WebUI.setText(findTestObject('ADMIN/Admin Delivery Option List/textfield_defineWeight'), 'kg')
 
-WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/button_Save'))
+WebUI.delay(2)
 
-WebUI.waitForElementNotClickable(findTestObject('ADMIN/Features Control/Delivery 2.0/a_Delivery 2.0 List/textbox_weight unit'), 
-    0)
+WebUI.click(findTestObject('ADMIN/Admin Delivery Option List/button_Save'))
+
+WebUI.waitForElementNotClickable(findTestObject('ADMIN/Admin Delivery Option List/textfield_defineWeight'), 0)
 

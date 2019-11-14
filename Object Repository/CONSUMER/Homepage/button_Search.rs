@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class = 'fa fa-search header-bar-search']</value>
+         <value>//i[@class = 'fa fa-search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-search header-bar-search</value>
+      <value>fa fa-search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

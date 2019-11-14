@@ -59,41 +59,41 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/butto
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/add_AddressBox'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_AddreseeFirstName'), 
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_AddreseeFirstName'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_AddreseeLastName'), 
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_AddreseeLastName'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeFirstName'), 
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_AddreseeLastName'), 
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeLastName'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_Address'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_Address'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlfield_Address'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlfield_Address'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_Country'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_Country'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/dropdown_Country'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/dropdown_Country'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_City'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_City'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_City'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_City'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_State'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_State'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_State'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_State'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textlabel_PostalCode'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textlabel_PostalCode'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/textfield_State'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_State'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Cancel'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/a_DeliveryAddress/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
 

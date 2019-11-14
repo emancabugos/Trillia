@@ -4,6 +4,12 @@
    <name>button_SignIn</name>
    <tag></tag>
    <elementGuidId>c7660b17-7749-4d38-a698-94b10a28f907</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @name = 'login-submit' and @id = 'login-submit']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -19,9 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/External Links/sidemenu_External Links'), 0)
-
-WebUI.click(findTestObject('ADMIN/External Links/sidemenu_External Links'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementPresent(findTestObject('ADMIN/External Links/label_linkedin.com'), 0)
 

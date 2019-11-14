@@ -4,6 +4,7 @@
    <name>UI_Evaluation Widget</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-11-07T12:23:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -19,13 +20,13 @@
    <testCaseLink>
       <guid>1fcce9f6-4793-4dfd-a9bb-8315762cb1a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/item_Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e9fa6887-e83a-4a73-bd81-2587d28c9405</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/select_Item</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -163,7 +164,7 @@
    <testCaseLink>
       <guid>269be532-2ae3-426c-b966-ca5fa7e1a952</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Close_Browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

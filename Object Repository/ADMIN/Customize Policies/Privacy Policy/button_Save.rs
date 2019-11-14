@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;tab-2&quot;]/div[3]/div[1]/span</value>
+         <value>//*[@id=&quot;tab-2&quot;]/div[2]/div[1]/span[count(. | //*[@class = 'button-customize-save policy-save']) = count(//*[@class = 'button-customize-save policy-save'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tab-2&quot;]/div[3]/div[1]/span</value>
+      <value>//*[@id=&quot;tab-2&quot;]/div[2]/div[1]/span</value>
    </webElementProperties>
 </WebElementEntity>

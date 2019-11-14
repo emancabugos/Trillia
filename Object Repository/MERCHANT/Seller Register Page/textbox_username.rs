@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'input-text required' and @name = 'username']</value>
+         <value>//*[@class = 'input-text username' and @name = 'username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-text required</value>
+      <value>input-text username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

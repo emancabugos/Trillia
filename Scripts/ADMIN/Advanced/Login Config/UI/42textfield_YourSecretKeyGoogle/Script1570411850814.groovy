@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Login Conguration/textlabel_YourClientIDGoogle'), 0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Login Conguration/textfield_YourSecretKeyFB'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Login Conguration/textfield_YourSecretKeyGoogle'), 0)
 

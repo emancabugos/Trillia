@@ -33,3 +33,5 @@ WebUI.click(findTestObject('ADMIN/External Links/button_Save2'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/External Links/toaster_dataSave'), 0)
 
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/External Links/toaster_dataSave'), 0)
+

@@ -19,5 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Delivery Settings/DeliveryOptions/textlabel_Delivery Settings'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Delivery Settings/Page_Delivery Settings Page/textlabel_Delivery Settings'), 
+    0)
 

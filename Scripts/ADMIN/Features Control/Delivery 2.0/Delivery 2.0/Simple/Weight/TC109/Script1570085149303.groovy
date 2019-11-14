@@ -33,10 +33,14 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Pa
 
 WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_Range'), '10')
 
+WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryCost'), '10')
+
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/button_Save'))
 
 WebUI.waitForElementNotVisible(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 
     0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryOption/button_AddDeliveryRate'))
 
@@ -47,8 +51,6 @@ WebUI.verifyElementVisible(findTestObject('ADMIN/Installed Packages/Delivery Pac
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementNotClickable(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryCost'))
-
-WebUI.comment('Range from must be empty')
 
 WebUI.refresh()
 

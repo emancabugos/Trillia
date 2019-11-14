@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Address&quot;]/div[2]/div[1]/div[1][count(. | //*[@class = 'pdcb-address-box parent-r-b']) = count(//*[@class = 'pdcb-address-box parent-r-b'])]</value>
+         <value>//*[@class = 'pdcb-address-box  parent-r-b onboarder-address']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pdcb-address-box parent-r-b</value>
+      <value>pdcb-address-box  parent-r-b onboarder-address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <value>Victor  Tambolrufino plazaMakati, PhilippinesPH1200</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
