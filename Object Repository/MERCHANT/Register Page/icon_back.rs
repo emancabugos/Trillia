@@ -4,6 +4,16 @@
    <name>icon_back</name>
    <tag></tag>
    <elementGuidId>7951dd3d-fcbe-4642-ac82-07bf91777b0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;login-page&quot;]/div/div[2]/div[1]/a/img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;login-page&quot;]/div/div[2]/div[1]/a/img</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,17 +24,17 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>/Areas/User/Assets/core/themes/trillia/images/back.svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLQ0EDD8RT2G&quot;)/div[@class=&quot;login-container&quot;]/div[@class=&quot;login-box&quot;]/div[@class=&quot;lb-head full-width head-seller&quot;]/a[1]/img[1]</value>
+      <value>//*[@id=&quot;login-page&quot;]/div/div[2]/div[1]/a/img</value>
    </webElementProperties>
 </WebElementEntity>

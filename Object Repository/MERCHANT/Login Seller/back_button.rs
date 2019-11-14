@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//img</value>
+         <value>//*[@id=&quot;login-page&quot;]/div/div[2]/div[1]/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//img</value>
+      <value>//*[@id=&quot;login-page&quot;]/div/div[2]/div[1]/a/img</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,6 +4,12 @@
    <name>textbox_cookie policy</name>
    <tag></tag>
    <elementGuidId>b467cb16-043a-4175-befb-ec88ae9ccf07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = '62862-Cookiepolicylinkbutton-3A6muXzc6T' and @id = '62862-Cookiepolicylinkbutton-3A6muXzc6T']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>59090-Cookiepolicylinkbutton-mErN54S361</value>
+      <value>62862-Cookiepolicylinkbutton-3A6muXzc6T</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-code</name>
       <type>Main</type>
-      <value>59090-Cookiepolicylinkbutton-mErN54S361</value>
+      <value>62862-Cookiepolicylinkbutton-3A6muXzc6T</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>59090-Cookiepolicylinkbutton-mErN54S361</value>
+      <value>62862-Cookiepolicylinkbutton-3A6muXzc6T</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

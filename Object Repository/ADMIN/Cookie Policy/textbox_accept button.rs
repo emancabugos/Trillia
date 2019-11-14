@@ -4,6 +4,12 @@
    <name>textbox_accept button</name>
    <tag></tag>
    <elementGuidId>26ea1d81-83a9-4d5e-9d64-26191e248295</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = '59090-AcceptButton-zIbeTljARw' and @id = '62862-AcceptButton-54vV1jeyZz']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>59090-AcceptButton-zIbeTljARw</value>
+      <value>62862-AcceptButton-54vV1jeyZz</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>59090-AcceptButton-zIbeTljARw</value>
+      <value>62862-AcceptButton-54vV1jeyZz</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
