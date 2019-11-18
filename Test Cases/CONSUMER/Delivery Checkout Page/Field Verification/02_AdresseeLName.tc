@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>00_AdresseeLName</name>
+   <name>02_AdresseeLName</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2a590e82-4c58-4ec8-b765-755faa221bed</testCaseGuid>

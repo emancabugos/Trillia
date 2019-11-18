@@ -31,5 +31,5 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textf
 String delfname = WebUI.getAttribute(findTestObject('CONSUMER/Delivery Checkout Page/textfield_FirstName'), 'value')
 
 KeywordLogger log = new KeywordLogger()
-log.logInfo(setfname)
+log.logInfo(delfname)
 

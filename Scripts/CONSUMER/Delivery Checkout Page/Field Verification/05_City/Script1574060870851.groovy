@@ -20,14 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_City'), 0)
 
-WebUI.clearText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'))
+WebUI.clearText(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_City'))
 
 WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/button_Add'))
 
-String errornotif = WebUI.getCSSValue(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_AddreseeFirstName'), 
+String errornotif = WebUI.getCSSValue(findTestObject('CONSUMER/Delivery Checkout Page/DeliveryAddress/textfield_City'), 
     'border-color')
 
 KeywordLogger log = new KeywordLogger()

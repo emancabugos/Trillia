@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/header_Sub-accounts'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/header_Sub-accounts'), 
+    0)
 
 WebUI.click(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/header_Sub-accounts'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/button_Invite Sub-Account'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/button_Invite Sub-Account'), 
+    0)
 
 WebUI.click(findTestObject('MERCHANT/Merchant Sub Account/Merchant Sub Account page/button_Invite Sub-Account'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -41,5 +43,9 @@ WebUI.verifyElementPresent(findTestObject('MERCHANT/Merchant Sub Account/Invite 
 WebUI.verifyElementNotPresent(findTestObject('MERCHANT/Merchant Sub Account/Invite Popup/toaster_ErrorOne of the emails are'), 
     0)
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Merchant Sub Account/Invite Popup/button_close'), 0)
+
 WebUI.click(findTestObject('MERCHANT/Merchant Sub Account/Invite Popup/button_close'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
 
