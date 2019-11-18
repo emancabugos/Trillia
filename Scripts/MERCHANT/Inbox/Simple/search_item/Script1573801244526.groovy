@@ -18,27 +18,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/icon_inbox'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Inbox/textlabel_Inbox'), 0)
 
-WebUI.click(findTestObject('Utilities/Header/icon_inbox'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('MERCHANT/Inbox/textbox_search'), itemName)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/textbox_search'), 0)
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('MERCHANT/Inbox/textbox_search'), varItemName)
+WebUI.click(findTestObject('MERCHANT/Inbox/icon_search'))
 
-WebUI.sendKeys(findTestObject('MERCHANT/Inbox/textbox_search'), Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/textlabel_itemname'), 0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status_PreApproved'), 0)
+WebUI.verifyElementText(findTestObject('MERCHANT/Inbox/textlabel_itemname'), itemName)
 
-WebUI.click(findTestObject('MERCHANT/Inbox/status_PreApproved'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/message_box'), 0)
-
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/Offer Action/textlabel_Add offer to comparison'), 0)
-
-WebUI.click(findTestObject('CONSUMER/Chat page/Offer Action/button_Add to Evaluation'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(3)
+WebUI.waitForElementAttributeValue(findTestObject('MERCHANT/Inbox/status_Enquiry'), 'text', 'ENQUIRY', 0)
 
