@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sample Upload</name>
+   <name>CF_category2.1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ef885c9a-6b98-4c7b-a914-dba98bed0c46</testCaseGuid>
+   <testCaseGuid>6c5d0ae1-1fd0-4a65-bf3d-1d5c52514abe</testCaseGuid>
 </TestCaseEntity>

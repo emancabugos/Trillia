@@ -19,13 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 0)
+WebUI.comment('Price')
 
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
+if (varDeliversTo == 'allcountries') {
+    WebUI.callTestCase(findTestCase('MERCHANT/Upload/xpath_iteration Price'), [(varPrice) : varPrice], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varPrice == 'multiplecountries') {
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/PH'), '14.25')
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/SG'), '15')
 
-WebUI.comment('Listing Name')
-
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_listing-name'), varListingName)
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/MY'), '17')
+} else if (varPrice == 'single') {
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_price'), varPrice)
+}
 

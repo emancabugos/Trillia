@@ -9,9 +9,10 @@ Item Cover Image
 Item Description
 Custom Fields
 Country
-Stock/Unlimited
+MOQ
 Stock
 Price
+Bulk Pricing
 Delivery Method
 Pickup
 Click Upload Button</comment>
@@ -78,5 +79,26 @@ Click Upload Button</comment>
       <id>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</id>
       <masked>false</masked>
       <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>bdcbb3fe-b67d-4bf7-a2bc-65d1f25f10e7</id>
+      <masked>false</masked>
+      <name>varBulkPricing</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>b47aaa6b-8a91-45a6-9df7-25f442a66ad1</id>
+      <masked>false</masked>
+      <name>varDiscount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>fe809858-4598-4946-8e89-984b0da6d889</id>
+      <masked>false</masked>
+      <name>varRange</name>
    </variable>
 </TestCaseEntity>

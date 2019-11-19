@@ -24,7 +24,6 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.interactions.Actions as Actions
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -38,11 +37,9 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 'To calculate no of rows In table'
 int rows_count = rows_table.size()
 
-println('No. of rows: ' + rows_count)
-
 for (int pos = 1; pos <= rows_count; pos++) {
-    // WebElement element = WebUiCommonHelper.findWebElements(By.xpath('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + pos + ']/td[2]/input'));//
-    TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr['+pos+']/td[2]/input'))
-    WebUI.setText(element, '200')
+    
+    TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr['+pos+']/td[2]/input'))
+    WebUI.setText(element, 'SKU')
 }
 

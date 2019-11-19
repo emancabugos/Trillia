@@ -4,7 +4,7 @@
    <name>Add Item</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-15T10:00:57</lastRun>
+   <lastRun>2019-11-19T10:16:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -84,6 +84,24 @@
          <type>DATA_COLUMN</type>
          <value>Description</value>
          <variableId>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bulk Pricing</value>
+         <variableId>bdcbb3fe-b67d-4bf7-a2bc-65d1f25f10e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Discount</value>
+         <variableId>b47aaa6b-8a91-45a6-9df7-25f442a66ad1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Range</value>
+         <variableId>fe809858-4598-4946-8e89-984b0da6d889</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

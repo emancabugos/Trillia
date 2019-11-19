@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;saveCustomfield&quot;]/a[count(. | //*[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')]) = count(//*[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')])]</value>
+         <value>//*[@id=&quot;saveCustomfield&quot;]/a[count(. | //a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')]) = count(//a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

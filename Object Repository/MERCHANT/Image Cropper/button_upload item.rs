@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;upload-file&quot;)[count(. | //input[@type = 'file' and @id = 'upload-file']) = count(//input[@type = 'file' and @id = 'upload-file'])]</value>
+         <value>//*[@id=&quot;upload-file&quot;][count(. | //input[@type = 'file' and @id = 'upload-file']) = count(//input[@type = 'file' and @id = 'upload-file'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;upload-file&quot;)</value>
+      <value>//*[@id=&quot;upload-file&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

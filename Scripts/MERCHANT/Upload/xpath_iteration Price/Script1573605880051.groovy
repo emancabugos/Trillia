@@ -41,8 +41,8 @@ int rows_count = rows_table.size()
 println('No. of rows: ' + rows_count)
 
 for (int pos = 1; pos <= rows_count; pos++) {
-    TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, '/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr[+pos+]/td[2]/input')
+    TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, '/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr['+ pos +']/td[2]/input')
 
-    WebUI.setText(element, varPrice)
+    WebUI.setText(element, '200')
 }
 
