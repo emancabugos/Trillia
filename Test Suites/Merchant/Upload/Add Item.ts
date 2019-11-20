@@ -103,5 +103,11 @@
          <value>Range</value>
          <variableId>fe809858-4598-4946-8e89-984b0da6d889</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MOQCount</value>
+         <variableId>0a9a8ab7-0dec-4ace-a4a2-4ea1be88c145</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

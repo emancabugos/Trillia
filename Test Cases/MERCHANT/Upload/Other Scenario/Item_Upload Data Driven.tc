@@ -5,14 +5,15 @@
    <tag></tag>
    <comment>Listing Name
 Categories
+Categories
 Item Cover Image
 Item Description
 Custom Fields
 Country
 MOQ
 Stock
-Price
 Bulk Pricing
+Price
 Delivery Method
 Pickup
 Click Upload Button</comment>
@@ -100,5 +101,12 @@ Click Upload Button</comment>
       <id>fe809858-4598-4946-8e89-984b0da6d889</id>
       <masked>false</masked>
       <name>varRange</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <description></description>
+      <id>0a9a8ab7-0dec-4ace-a4a2-4ea1be88c145</id>
+      <masked>false</masked>
+      <name>varMOQCount</name>
    </variable>
 </TestCaseEntity>

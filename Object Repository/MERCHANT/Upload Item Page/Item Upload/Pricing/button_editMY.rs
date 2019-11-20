@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr[140]/td[5]/span[count(. | //span[@class = 'btn-edit open-bulk-modal' and (text() = 'Edit' or . = 'Edit')]) = count(//span[@class = 'btn-edit open-bulk-modal' and (text() = 'Edit' or . = 'Edit')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,8 +22,22 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data_id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>rowPrice-MM</value>
+      <value>btn-edit open-bulk-modal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-country-code</name>
+      <type>Main</type>
+      <value>MM</value>
    </webElementProperties>
 </WebElementEntity>

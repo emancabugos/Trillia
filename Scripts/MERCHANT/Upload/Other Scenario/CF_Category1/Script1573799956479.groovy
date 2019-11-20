@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/textfield2'), 'Text2')
 
-WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/p1'), 'TextEDITOR')
+WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/Allcat/p'), 'TextEDITOR')
 
 WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category1/hyperlink'), 'arcadier.com')
 

@@ -19,17 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), 0)
-
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/tab_Basic Details'), 0)
-
-WebUI.comment('')
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), 0)
-
-WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 0)
+WebUI.waitForElementVisible(findTestObject(null), 0)
 

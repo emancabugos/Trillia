@@ -39,6 +39,8 @@ WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_list
 
 WebUI.comment('Categories')
 
+WebUI.comment('Categories')
+
 if (varCategory == 'allcategory') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
 
@@ -46,24 +48,21 @@ if (varCategory == 'allcategory') {
 
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'multiplecategory') {
-    for (int pos = 1; pos <= 21; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/ul/li[' + 
-            pos) + ']/label')
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
 
-        WebUI.click(element)
-    }
-    
+    WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
+
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category1') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 1'), 0)
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category2.1') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 2.1'), 0)
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 2.1'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category3.1') {
-    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/Category 3.1.1'), 0)
 
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/Category 3.1.1'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
@@ -167,30 +166,15 @@ int rows_count = rows_table.size()
 
 WebUI.comment('MOQ')
 
-if (varMOQ == 'allcountries') {
+if (varMOQCount == 'allcountries') {
     WebUI.delay(1)
-} else if (varDeliversTo == 'multiplecountries') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[3]/input')
+} else if (varMOQCount == 'multiplecountries') {
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/PH'), '100')
 
-        WebUI.setText(element, varMOQ)
-    }
-} else if (varDeliversTo == 'MY') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[3]/input')
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/SG'), '30')
 
-        WebUI.setText(element, varMOQ)
-    }
-} else if (varDeliversTo == 'PH') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[3]/input')
-
-        WebUI.setText(element, varMOQ)
-    }
-} else if (varDeliversTo == 'SG') {
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/MOQ Field/MY'), '25')
+} else if (varMOQCount == 'SingleCountry') {
     for (int pos = 1; pos <= rows_count; pos++) {
         TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
             pos) + ']/td[3]/input')
@@ -230,6 +214,8 @@ if (varStock == 'unlimited') {
 
 WebUI.comment('Bulk Pricing')
 
+WebUI.delay(1)
+
 if (varBulkPricing == 'yes') {
     if (varDiscount == 'allcountries') {
         WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -257,6 +243,8 @@ if (varBulkPricing == 'yes') {
             WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
         }
     } else if (varDiscount == 'multiplecountries') {
+        WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
         WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editPH'), FailureHandling.CONTINUE_ON_FAILURE)
 
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
@@ -282,6 +270,8 @@ if (varBulkPricing == 'yes') {
             WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
         }
         
+        WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
         WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editSG'), FailureHandling.CONTINUE_ON_FAILURE)
 
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
@@ -307,6 +297,8 @@ if (varBulkPricing == 'yes') {
             WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
         }
         
+        WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+
         WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
 
         WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
@@ -363,173 +355,29 @@ if (varBulkPricing == 'yes') {
 
 WebUI.comment('Price')
 
+WebUI.delay(2)
+
 if (varDeliversTo == 'allcountries') {
+    WebUI.delay(2)
+
     for (int pos = 1; pos <= rows_count; pos++) {
         TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr[' + 
             pos) + ']/td[2]/input')
 
         WebUI.setText(element, varPrice)
     }
-} else if (varPrice == 'multiplecountries') {
+} else if (varDeliversTo == 'multiplecountries') {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/PH'), '14.25')
 
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/SG'), '15')
 
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Price/MY'), '17')
 } else if (varDeliversTo == 'PH') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[2]/input')
-
-        WebUI.setText(element, varPrice)
-    }
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/textbox_pricing'), varPrice)
 } else if (varDeliversTo == 'SG') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[2]/input')
-
-        WebUI.setText(element, varPrice)
-    }
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/textbox_pricing'), varPrice)
 } else if (varDeliversTo == 'MY') {
-    for (int pos = 1; pos <= rows_count; pos++) {
-        TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr[' + 
-            pos) + ']/td[2]/input')
-
-        WebUI.setText(element, varPrice)
-    }
-}
-
-WebUI.comment('Bulk Pricing')
-
-if (varBulkPricing == 'yes') {
-    if (varDiscount == 'allcountries') {
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
-            0)
-
-        if (varRange == 'Percentage_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Percentage_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Price_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Combination_1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Combination_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPrice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPrice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards2') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPRice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        }
-    } else if (varDiscount == 'multiplecountries') {
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editPH'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
-            0)
-
-        if (varRange == 'Percentage_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Percentage_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Price_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Combination_1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Combination_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPrice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPrice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards2') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPRice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        }
-        
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editSG'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
-            0)
-
-        if (varRange == 'Percentage_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Percentage_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Price_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Combination_1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Combination_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPrice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPrice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards2') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPRice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        }
-        
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
-            0)
-
-        if (varRange == 'Percentage_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Percentage_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Price_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Combination_1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Combination_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPrice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPrice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards2') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPRice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        }
-    } else if (varDiscount == 'singlecountry') {
-        WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_edit'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 
-            0)
-
-        if (varRange == 'Percentage_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Percentage_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Price_range1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Price_range1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'Combination_1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/Combination_1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'OnwardsPrice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/OnwardsPrice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards1') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwards2') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwards2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPercent') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPercent'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        } else if (varRange == 'CombiOnwardsPRice') {
-            WebUI.callTestCase(findTestCase('MERCHANT/Upload/Other Scenario/Bulk Pricing/CombiOnwardsPRice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-        }
-    }
-} else if (varBulkPricing == 'no') {
-    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_edit'), 0)
+    WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/textbox_pricing'), varPrice)
 }
 
 WebUI.comment('Delivery Method')
@@ -544,5 +392,5 @@ WebUI.comment('Click Upload Button')
 
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/button_ Upload Item'), 60)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/button_ Upload Item'), 0)
 
