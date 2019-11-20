@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('MERCHANT/Inbox/textbox_search'), varItemName)
 
 WebUI.sendKeys(findTestObject('MERCHANT/Inbox/textbox_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status_PreApproved'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Inbox/status'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Inbox/status_PreApproved'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('UI')
 
@@ -56,27 +56,27 @@ WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_order qu
 
 WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/textlabel_offer price'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Chat/Send Offer/button_Create Offer'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Create Offer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Send Offer/textlabel_Special Offer'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/a_Send Offer/textlabel_Special Offer'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/textlabel_Quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/textlabel_Quantity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/textbox _quantity'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/textbox _quantity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/textlabel_offer price'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/textlabel_offer price'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/textbox_price'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/textbox_price'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/textlabel_offer price'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/textlabel_offer price'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/button_Back'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/button_Back'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/Send Offer/button_Send Offer'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/a_Send Offer/button_Send Offer'), 0)
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Chat/message_box'), 0)
 
 WebUI.comment('Back')
 
-WebUI.click(findTestObject('MERCHANT/Chat/Send Offer/button_Back'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Back'), FailureHandling.CONTINUE_ON_FAILURE)
 

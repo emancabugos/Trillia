@@ -6,11 +6,15 @@
    <elementGuidId>c96ee719-baae-4564-abb3-d22c549ec02e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Philippines' or . = 'Philippines')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[3]/div/div/div[1]/div/div[2]/div[2]/div[1]/span[1]/p[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

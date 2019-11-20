@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('MERCHANT/Inbox/textbox_search'), varItemName)
 
 WebUI.sendKeys(findTestObject('MERCHANT/Inbox/textbox_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status_PreApproved'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Inbox/status'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Inbox/status_PreApproved'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/message_box'), 0)
 

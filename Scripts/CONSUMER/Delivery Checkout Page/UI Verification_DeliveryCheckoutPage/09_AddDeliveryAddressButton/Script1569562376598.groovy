@@ -23,3 +23,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/text
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textlabel_AddDeliveryAddress'))
 
+WebUI.click(findTestObject('CONSUMER/Delivery Checkout Page/textlabel_AddDeliveryAddress'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Delivery Checkout Page/textfield_FirstName'), 0)
+

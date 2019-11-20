@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/textlabel_timestamp (1)'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Inbox/textlabel_timestamp (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 

@@ -27,3 +27,9 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Uploa
 
 WebUI.comment('')
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), 0)
+
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/Pricing/button_editMY'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_EDIT BULK PRICING'), 0)
+

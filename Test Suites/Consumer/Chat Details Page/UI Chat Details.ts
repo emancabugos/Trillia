@@ -4,7 +4,7 @@
    <name>UI Chat Details</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-13T15:33:58</lastRun>
+   <lastRun>2019-11-13T15:54:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

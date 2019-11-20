@@ -13,10 +13,10 @@ Video
 URL
 location
 number
-number
 PDF
 percentage
-text field
-text editor</comment>
+text editor
+text field edited
+text field</comment>
    <testCaseGuid>debbf20e-f788-4b40-ae56-ac62f13bfd79</testCaseGuid>
 </TestCaseEntity>

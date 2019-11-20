@@ -4,6 +4,12 @@
    <name>textlabel_AddreseeFirstName</name>
    <tag></tag>
    <elementGuidId>b1bdc8cf-bf4d-4807-adb4-243f2bb32145</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Addressee First Name' or . = 'Addressee First Name')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Addresee First Name</value>
+      <value>Addressee First Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -30,23 +30,23 @@ WebUI.setText(findTestObject('MERCHANT/Inbox/textbox_search'), varItemName)
 
 WebUI.sendKeys(findTestObject('MERCHANT/Inbox/textbox_search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Inbox/status_PreApproved'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Inbox/status'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('MERCHANT/Inbox/status_PreApproved'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Send Offer')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/message_box'), 0)
 
-WebUI.click(findTestObject('MERCHANT/Chat/Send Offer/button_Create Offer'))
+WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Create Offer'))
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Send Offer/textbox _quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/a_Send Offer/textbox _quantity'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Chat/Send Offer/textbox _quantity'), '100')
+WebUI.setText(findTestObject('MERCHANT/Chat/a_Send Offer/textbox _quantity'), '100')
 
-WebUI.setText(findTestObject('MERCHANT/Chat/Send Offer/textbox_price'), '100')
+WebUI.setText(findTestObject('MERCHANT/Chat/a_Send Offer/textbox_price'), '100')
 
-WebUI.click(findTestObject('MERCHANT/Chat/Send Offer/button_Send Offer'))
+WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Send Offer'))
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Header/marketplace_logo'), 0)
 

@@ -4,7 +4,7 @@
    <name>Enquiry Contact Supplier</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-12T09:22:56</lastRun>
+   <lastRun>2019-11-18T12:28:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>d5e417f9-ecef-4edd-8724-ae345e477013</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -27,13 +27,13 @@
       </testDataLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>924f1566-43c4-475b-8f5d-586189abd6f2</guid>
+      <guid>5324857d-d408-4dea-b0b8-f2ed43d55518</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Inbox/Enquiry_contact supplier</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Chat Page/Nego and Contact Supplier/Enquiry_contact and nego</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4a0efee5-c068-4066-8196-1915bd841acf</id>
+         <id>074d761d-68c3-45b5-86fa-d77e521ea4af</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -41,10 +41,16 @@
          <testDataId>Data Files/CONSUMER/Evaluation List</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>4a0efee5-c068-4066-8196-1915bd841acf</testDataLinkId>
+         <testDataLinkId>074d761d-68c3-45b5-86fa-d77e521ea4af</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Item Name</value>
-         <variableId>afc0ea8b-6503-434f-98c3-1f422df017c6</variableId>
+         <value>ItemName</value>
+         <variableId>25dea3e8-ddc3-4fd7-ad3a-e5fa786160f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>074d761d-68c3-45b5-86fa-d77e521ea4af</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemtype</value>
+         <variableId>0c7c49ef-71d6-4bbc-8463-3ef612d343b6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

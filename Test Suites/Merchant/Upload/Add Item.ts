@@ -4,7 +4,7 @@
    <name>Add Item</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-05T14:07:10</lastRun>
+   <lastRun>2019-11-19T10:16:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,66 +18,96 @@
       <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>de18f210-8fd1-41f6-ad66-31b527131ac1</guid>
+      <guid>055118b4-6127-4c7d-856d-adb37592e58f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MERCHANT/Upload/Other Scenario/Item Upload</testCaseId>
+      <testCaseId>Test Cases/MERCHANT/Upload/Other Scenario/Item_Upload Data Driven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>38bd8534-13ab-4938-a023-f3b4110be841</id>
+         <id>82e65ffe-a8ea-4092-a7b2-a9988ec84771</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Item List</testDataId>
+         <testDataId>Data Files/MERCHANT/Item List</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ITEM NAME</value>
-         <variableId>165567ce-16ec-4f2e-a65d-a0c6e7850519</variableId>
+         <value>ItemName</value>
+         <variableId>9008a644-d9e6-443c-b392-7cbccd8e5b79</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CATEGORY</value>
-         <variableId>5eb5a84c-78cf-4394-b1eb-904cd9f5b07d</variableId>
+         <value>Category</value>
+         <variableId>e6211419-3883-4a09-9760-edbb69cdc563</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>IMAGE</value>
-         <variableId>9cb8a5fd-d572-493a-b5fa-b0c3d0d158e1</variableId>
+         <value>ItemImage</value>
+         <variableId>6eaecc15-99ca-48d6-a150-16590c106239</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DELIVERS TO</value>
-         <variableId>0baa928e-8ee5-4561-85f2-c501138f6128</variableId>
+         <value>DeliversTo</value>
+         <variableId>68bd5d31-a040-4c20-9e4c-6afd69214143</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>SKU</value>
-         <variableId>edd7b4b7-d1ac-495c-b8c5-6a718093c3cc</variableId>
+         <variableId>79b4141e-2ed4-4c15-aabb-11fa2383dcd5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>MOQ</value>
-         <variableId>87620e14-5522-4815-a847-878dc450fd60</variableId>
+         <variableId>95f5f6ba-3a33-4c40-9eba-6f2dc13f54ac</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>STOCK</value>
-         <variableId>080cd258-d62d-4f63-a312-cddf77588e73</variableId>
+         <value>QTY</value>
+         <variableId>ec2e9a06-d2d6-4441-8d31-488dfb1aaf67</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>38bd8534-13ab-4938-a023-f3b4110be841</testDataLinkId>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>PRICE</value>
-         <variableId>85608c37-e950-413c-abe5-766f6ddf7dca</variableId>
+         <value>Price</value>
+         <variableId>35defee5-57e2-4cdd-985b-f79695e0fd98</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>ca8ed683-d331-4f67-b9b9-c58f583d3dc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bulk Pricing</value>
+         <variableId>bdcbb3fe-b67d-4bf7-a2bc-65d1f25f10e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Discount</value>
+         <variableId>b47aaa6b-8a91-45a6-9df7-25f442a66ad1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Range</value>
+         <variableId>fe809858-4598-4946-8e89-984b0da6d889</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>82e65ffe-a8ea-4092-a7b2-a9988ec84771</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MOQCount</value>
+         <variableId>0a9a8ab7-0dec-4ace-a4a2-4ea1be88c145</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/Send Offer/textlabel_Special Offer'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/a_Send Offer/textlabel_Special Offer'), 0)
 

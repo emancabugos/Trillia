@@ -79,27 +79,27 @@ WebUI.comment('Verification-2ndAddress')
 
 WebUI.verifyMatch(fname2, findTestData('CONSUMER/Saved Address').getValue(1, 2), false)
 
-WebUI.verifyMatch(address2, findTestData('CONSUMER/Saved Address').getValue(3, 2), false)
+WebUI.verifyMatch(address2, findTestData('CONSUMER/Saved Address').getValue(2, 2), false)
 
-WebUI.verifyMatch(country2, country, false)
+WebUI.verifyMatch(country2, findTestData('CONSUMER/Saved Address').getValue(3, 2), false)
 
-WebUI.verifyMatch(state2, state, false)
+WebUI.verifyMatch(state2, findTestData('CONSUMER/Saved Address').getValue(4, 2), false)
 
-WebUI.verifyMatch(city2, city, false)
+WebUI.verifyMatch(city2, findTestData('CONSUMER/Saved Address').getValue(5, 2), false)
 
-WebUI.verifyMatch(postalcode2, postalcode, false)
+WebUI.verifyMatch(postalcode2, findTestData('CONSUMER/Saved Address').getValue(6, 2), false)
 
 WebUI.comment('Verification-3rdAddress')
 
-WebUI.verifyMatch(fname3, fname, false)
+WebUI.verifyMatch(fname3, findTestData('CONSUMER/Saved Address').getValue(1, 3), false)
 
-WebUI.verifyMatch(address3, address, false)
+WebUI.verifyMatch(address3, findTestData('CONSUMER/Saved Address').getValue(2, 3), false)
 
-WebUI.verifyMatch(country3, country, false)
+WebUI.verifyMatch(country3, findTestData('CONSUMER/Saved Address').getValue(3, 3), false)
 
-WebUI.verifyMatch(state3, state, false)
+WebUI.verifyMatch(state3, findTestData('CONSUMER/Saved Address').getValue(4, 3), false)
 
-WebUI.verifyMatch(city3, city, false)
+WebUI.verifyMatch(city3, findTestData('CONSUMER/Saved Address').getValue(5, 3), false)
 
-WebUI.verifyMatch(postalcode3, postalcode, false)
+WebUI.verifyMatch(postalcode3, findTestData('CONSUMER/Saved Address').getValue(6, 3), false)
 

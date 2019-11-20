@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'value']</value>
+         <value>id(&quot;react_0HLNQ0MBD77CF&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-top preview-image&quot;]/div[@class=&quot;idctl-desc&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;value&quot;][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>100.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

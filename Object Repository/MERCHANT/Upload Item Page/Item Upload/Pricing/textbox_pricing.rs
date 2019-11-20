@@ -7,24 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@class = 'table-input required numbersOnlyD onlyMoney ' and @type = 'number
-']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>table-input required numbersOnlyD onlyMoney </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[5]/div[2]/div/div/div/table/tbody/tr/td[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

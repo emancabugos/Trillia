@@ -4,6 +4,12 @@
    <name>textbox_listing-name</name>
    <tag></tag>
    <elementGuidId>90c7a050-e118-4e5f-9b83-35deca053415</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'listing_name' and @name = 'listing-name']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>textboxItemName</value>
+      <value>listing_name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

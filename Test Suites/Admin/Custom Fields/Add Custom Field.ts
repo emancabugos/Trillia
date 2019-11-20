@@ -4,7 +4,7 @@
    <name>Add Custom Field</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-04T10:36:10</lastRun>
+   <lastRun>2019-11-18T12:36:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>cb127315-cd6b-403a-a300-6cdb8ef47af6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>

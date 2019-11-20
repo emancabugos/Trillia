@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;tabLinkBasic&quot;)/span[1][count(. | //span[(text() = 'Basic Details ' or . = 'Basic Details ')]) = count(//span[(text() = 'Basic Details ' or . = 'Basic Details ')])]</value>
+         <value>//span[(text() = 'Basic Details' or . = 'Basic Details')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,10 +24,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Basic Details </value>
+      <value>Basic Details</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

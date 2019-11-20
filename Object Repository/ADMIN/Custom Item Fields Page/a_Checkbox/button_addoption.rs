@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;contactForm&quot;]/div/div[8]/div/div[2]/a/i[count(. | //*[@class = 'icon icon-addopt']) = count(//*[@class = 'icon icon-addopt'])]</value>
+         <value>//*[@id=&quot;contactForm&quot;]/div/div[8]/div/div[2]/a/i[count(. | //i[@class = 'icon icon-addopt']) = count(//i[@class = 'icon icon-addopt'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
