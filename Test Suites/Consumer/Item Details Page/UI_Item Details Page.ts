@@ -4,6 +4,7 @@
    <name>UI_Item Details Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-11-20T15:22:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -13,19 +14,19 @@
    <testCaseLink>
       <guid>d85edbd9-5770-43f9-b76d-c21834143c3e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5af4a081-580a-4a08-baf6-2aa4fc2378e9</guid>
+      <guid>63438491-6a9e-494b-9962-360058e9953d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/item_Search</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/Category_Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0af701c9-fd5e-4213-a2c2-af6249d0c5fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/select_Item</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -163,7 +164,7 @@
    <testCaseLink>
       <guid>45472328-b0ef-4555-ae48-0dee5e8f75f1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Close_Browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
