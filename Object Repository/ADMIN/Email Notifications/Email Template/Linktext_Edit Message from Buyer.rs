@@ -4,6 +4,12 @@
    <name>Linktext_Edit Message from Buyer</name>
    <tag></tag>
    <elementGuidId>5ecfbbd8-da8a-4bd3-b0d2-cbf888669197</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'action-edit-template' and @href = '/admin/emailcustomisation/edit?templateId=40' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

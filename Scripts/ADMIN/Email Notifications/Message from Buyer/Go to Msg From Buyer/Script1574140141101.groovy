@@ -19,19 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.refresh()
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_EmailTemplate'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/textlabel_EmailTemplate'), 0)
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Message from Buyer'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_Orders'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Message from Buyer'), 0)
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_UserAccount'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Message from Buyer'))
 
-WebUI.delay(0)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Message from Buyer'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Message from Buyer'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Welcome Mail/dropdown_Welcome MailStart Selli'), 0)
 
