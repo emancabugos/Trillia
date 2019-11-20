@@ -36,6 +36,6 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category3.1/
 WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category3.1/select_SPG_Drop Down_M1DD1SPG_'), 
     'SPG_Drop Down_M1DD5', false)
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category3.1/select_SPG_Drop Down_M1DD1SPG_'), 
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category3.1/select_SPG_Drop Down_M2DD1SPG_'), 
     'SPG_Drop Down_M2DD4', false)
 

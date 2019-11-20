@@ -36,6 +36,6 @@ WebUI.click(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category2.1/
 WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category2.1/select_SPC_Drop Down_M1DD1SPC_'), 
     'SPC_Drop Down_M1DD5', false)
 
-WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category2.1/select_SPC_Drop Down_M1DD1SPC_'), 
+WebUI.selectOptionByLabel(findTestObject('MERCHANT/Upload Item Page/Custom Fields/category2.1/select_SPC_Drop Down_M2DD1SPC_'), 
     'SPC_Drop Down_M2DD5', false)
 

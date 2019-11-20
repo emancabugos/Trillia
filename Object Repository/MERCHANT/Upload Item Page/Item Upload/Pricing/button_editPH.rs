@@ -26,4 +26,11 @@
       <type>Main</type>
       <value>rowPrice-PH</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-edit open-bulk-modal</value>
+   </webElementProperties>
 </WebElementEntity>
