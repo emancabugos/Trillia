@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textlabel__Offer PriceSGD'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/textlabel__Offer PriceSGD'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textlabel__Offer PriceSGD'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/textlabel__Offer PriceSGD'))
 

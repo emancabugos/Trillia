@@ -4,6 +4,12 @@
    <name>widget_Evaluate (Untitled)</name>
    <tag></tag>
    <elementGuidId>b888c599-013c-47f4-b724-f1223fc3c781</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'toggle-btn-compare']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,18 +20,18 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>toggle-btn-compare</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Evaluate (Untitled)</value>
+      <value> Comparison Table (Untitled)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

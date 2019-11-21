@@ -36,9 +36,9 @@ WebUI.click(findTestObject('MERCHANT/Inbox/status_PreApproved'), FailureHandling
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Chat/message_box'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/Offer Action/textlabel_Add offer to comparison'), 0)
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Chat page/a_Offer Action/textlabel_Add offer to comparison'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Chat page/Offer Action/button_Add to Evaluation'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('CONSUMER/Chat page/a_Offer Action/button_Add to Evaluation'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)
 
