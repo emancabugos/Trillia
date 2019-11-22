@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[1]/div/div[2]/div[2]/div/div[1]/img</value>
+         <value>//div/div[1]/div/div[2]/div[2]/div/div[1]/img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;react_0HLNQJ0DCQP1P&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-mid&quot;]/div[@class=&quot;idclm-content&quot;]/div[@class=&quot;idclmc-img&quot;]/img[1]</value>
+         <value>//div[2]/div[1]/div/div[2]/div[2]/div/div[1]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,6 +35,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div[1]/div/div[2]/div[2]/div/div[1]/img</value>
+      <value>//div/div[1]/div/div[2]/div[2]/div/div[1]/img</value>
    </webElementProperties>
 </WebElementEntity>

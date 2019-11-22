@@ -21,5 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
 
+WebUI.scrollToElement(findTestObject('CONSUMER/Item Details Page/textlabel_Pickup'), 0)
+
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_Pickup'))
 
