@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario 1</name>
+   <tag></tag>
+   <comment>Search Item 01
+Search Item 02
+Create Offer for Item 01
+Create Offer for Item 02
+Create Offer for Item 01</comment>
+   <testCaseGuid>8a88fa7e-b5d4-4029-8fc1-cd3e4c4abeb8</testCaseGuid>
+</TestCaseEntity>

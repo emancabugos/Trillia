@@ -3,7 +3,7 @@
    <description></description>
    <name>create_Offer</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Send Offer</comment>
    <testCaseGuid>33ab6e3f-6fee-4edb-b136-bc63b0d446e2</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

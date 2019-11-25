@@ -4,6 +4,12 @@
    <name>button_ContactSupplier</name>
    <tag></tag>
    <elementGuidId>3cd5758c-ca08-404c-9200-67dc8eedda8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Contact Supplier' or . = 'Contact Supplier')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-group</value>
+      <value>btn-contact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

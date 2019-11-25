@@ -27,7 +27,7 @@
       <guid>5569887b-5612-43fd-ac9f-bb0c67a5a1ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Merchant Storefront/12_Search</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Merchant Storefront/UI/12_Search</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a0857b07-dba4-4fa3-9dda-0624cf4e7f5c</id>

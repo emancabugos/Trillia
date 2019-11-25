@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
+         <value>//*[@id=&quot;customFields&quot;]/div[1]/input[count(. | //*[@class = 'numbersOnlyD']) = count(//*[@class = 'numbersOnlyD'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,11 +27,11 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>numberDecimalOnly</value>
+      <value>numbersOnlyD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
+      <value>//*[@id=&quot;customFields&quot;]/div[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

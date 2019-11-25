@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/widget_Evaluate (Untitled)'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Widget/textlabel_ComparisonTable'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Buyer Widget/widget_Evaluate (Untitled)'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Buyer Widget/a_Widget/textlabel_ComparisonTable'), FailureHandling.CONTINUE_ON_FAILURE)
 

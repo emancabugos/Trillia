@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('MERCHANT/Chat/a_Send Offer/textbox_price'), offerP
 
 WebUI.click(findTestObject('MERCHANT/Chat/a_Send Offer/button_Send Offer'))
 
-WebUI.delay(0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Utilities/Header/icon_inbox'), FailureHandling.CONTINUE_ON_FAILURE)
 

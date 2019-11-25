@@ -37,5 +37,3 @@ WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Add
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
 
-WebUI.acceptAlert()
-
