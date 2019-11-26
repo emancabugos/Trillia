@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[2]/div[1]/div/div[2]/div[3]/div[2]/div[17]/span[2]/p/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div[1]/div/div[2]/div[3]/div[2]/div[17]/span[2]/p/span/a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

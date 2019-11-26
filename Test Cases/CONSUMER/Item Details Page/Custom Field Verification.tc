@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Custom Field Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c66fb4dc-6376-4109-9716-8ba9beea558f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/Customfields-ItemDetails').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4766af9e-1822-4893-aaa2-a1bc773be9f4</id>
+      <masked>false</masked>
+      <name>customfieldtextlabel1excel</name>
+   </variable>
+</TestCaseEntity>

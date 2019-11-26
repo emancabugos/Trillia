@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_customfield_checkboxvalue2.3 (1)</name>
+   <name>textlabel_Countrycode_priceperitem</name>
    <tag></tag>
-   <elementGuidId>55dc4f84-5ac5-400e-9757-45ac27210e46</elementGuidId>
+   <elementGuidId>8401c5b7-a8fe-4c6d-ac43-1a9484d4921a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[1]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,31 +20,24 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title</value>
+      <value>currencyCode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>SP_Drop Down_M1</value>
+      <value>USD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>SP_Drop Down_M1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>//div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,6 +4,12 @@
    <name>iframe</name>
    <tag></tag>
    <elementGuidId>0ffe185a-11f5-475e-9d62-a600f3e24b7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div/div/div[1]/div[3][count(. | //iframe[@src = 'https://www.google.com/maps/embed/v1/place?q=Makati%20City&amp;key=AIzaSyBPruyQRKvefwKBo1f34BtoG9AfRWXCvtg']) = count(//iframe[@src = 'https://www.google.com/maps/embed/v1/place?q=Makati%20City&amp;key=AIzaSyBPruyQRKvefwKBo1f34BtoG9AfRWXCvtg'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -33,5 +39,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div/div/div[1]/div[3]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/CONSUMER/Item Details Page/customfields/div</value>
    </webElementProperties>
 </WebElementEntity>

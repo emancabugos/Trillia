@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Delivers to</name>
    <tag></tag>
-   <elementGuidId>ea44459f-88f2-460d-b8e7-5407364f70cc</elementGuidId>
+   <elementGuidId>5fc13223-9e91-47c8-96ec-b4eae94459d9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +23,22 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>Delivers to: </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivers to:</value>
+      <value>Delivers to: </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLREQS05GJTS&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_SubTotal</name>
+   <name>textlabel_Countrysymbol_subtotal</name>
    <tag></tag>
-   <elementGuidId>c334d8d3-37f2-408d-a5fc-a3354fe1a82e</elementGuidId>
+   <elementGuidId>92dd8b4a-1ea9-4b4c-8708-ceb871e3dfbf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Sub Total:' or . = 'Sub Total:')]</value>
+         <key>XPATH</key>
+         <value>//div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,24 +20,24 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pull-left</value>
+      <value>currencySymbol</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> $</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Sub Total:</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNQ0MBD77CF&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-total group-buy pull-left w-100&quot;]/span[@class=&quot;pull-left&quot;]</value>
+      <value>//div[2]/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

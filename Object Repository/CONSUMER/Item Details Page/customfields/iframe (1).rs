@@ -4,6 +4,12 @@
    <name>iframe (1)</name>
    <tag></tag>
    <elementGuidId>79a9649f-5af4-4f7f-b1e4-cfd11f9b1708</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>480</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -61,5 +67,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-bot&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/div[@class=&quot;idclt-custom-field full-width&quot;]/span[@class=&quot;custom-field&quot;]/p[1]/span[@class=&quot;normal-black-text&quot;]/iframe[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/CONSUMER/Item Details Page/customfields/div_Underwater Swim Face Hits</value>
    </webElementProperties>
 </WebElementEntity>
