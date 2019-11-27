@@ -4,6 +4,12 @@
    <name>textlabel_Pickup</name>
    <tag></tag>
    <elementGuidId>e1ad56b4-d467-4807-81e7-f74608e74a45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Pickup Locations: ' or . = 'Pickup Locations: ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pick-up Availability</value>
+      <value>Pickup Locations: </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

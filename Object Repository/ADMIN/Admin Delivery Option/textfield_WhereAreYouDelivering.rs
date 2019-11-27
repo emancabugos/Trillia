@@ -4,6 +4,12 @@
    <name>textfield_WhereAreYouDelivering</name>
    <tag></tag>
    <elementGuidId>5f027b43-2540-4fd7-8687-24d76efe6464</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'txt address' and @id = 'delivering-from']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>deliveryFrom</value>
+      <value>delivering-from</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

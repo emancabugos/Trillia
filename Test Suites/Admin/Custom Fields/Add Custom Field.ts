@@ -4,7 +4,11 @@
    <name>Add Custom Field</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-11-26T10:27:07</lastRun>
+=======
+   <lastRun>2019-11-25T10:04:43</lastRun>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Trillia.git
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

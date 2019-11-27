@@ -19,23 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Buyer Widget/widget_Evaluate (Untitled)'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Buyer Widget/widget_Evaluate (Untitled)'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/button_Previous'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/button_Next'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/dropdown_evaluation list'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/button_add list'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/button_Evaluate Items'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
 WebUI.comment('')
 
-WebUI.click(findTestObject('CONSUMER/Buyer Widget/button_add list'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('CONSUMER/Buyer Widget/Add List Popup/textlabel_List Name'), 0)
 

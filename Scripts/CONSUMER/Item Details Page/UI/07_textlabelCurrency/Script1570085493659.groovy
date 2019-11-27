@@ -21,5 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/domainUpDown_Quantity'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_Currency'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/textlabel_Countrycode_priceperitem'))
+
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/textlabel_Countrysymbol_subtotal'))
 

@@ -23,7 +23,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Temp
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'))
 
-WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/textlabel_Account Suspended Desc'))
+WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/LinkText_Edit Account Suspended'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Account Suspended/dropdown_EmailTemplate'), 0)
 

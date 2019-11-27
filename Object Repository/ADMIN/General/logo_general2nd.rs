@@ -4,6 +4,12 @@
    <name>logo_general2nd</name>
    <tag></tag>
    <elementGuidId>e27a1ca5-dd0a-4929-9492-c3fbaad0576c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'icon wallpaper-icon icon-3x']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>icon wallpaper-icon icon-3x</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

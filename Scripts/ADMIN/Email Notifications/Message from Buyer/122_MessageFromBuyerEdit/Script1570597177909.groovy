@@ -29,7 +29,9 @@ WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_User
 
 WebUI.delay(0)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Message from Buyer'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Message from Buyer'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Message from Buyer'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('ADMIN/Email Notifications/Email Template/Linktext_Edit Message from Buyer'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

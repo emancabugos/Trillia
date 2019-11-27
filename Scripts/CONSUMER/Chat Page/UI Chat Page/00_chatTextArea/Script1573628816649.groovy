@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textarea_chatMsg'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Chat page/textarea_chatMsg'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/Page_0314APRILJOY5/textarea_chatMsg'))
+WebUI.verifyElementVisible(findTestObject('CONSUMER/Chat page/textarea_chatMsg'))
 

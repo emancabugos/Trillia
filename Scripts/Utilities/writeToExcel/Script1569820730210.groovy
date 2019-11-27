@@ -53,7 +53,7 @@ for (int row = 0; row < rows_count; row++)
 	
 	FileInputStream fis = new FileInputStream("C:\\Katalon\\Excel Files\\Book1.xlsx");
 	XSSFWorkbook workbook = new XSSFWorkbook(fis);
-	XSSFSheet sheet = workbook.getSheet("Sheet1");
+	XSSFSheet sheet = workbook.getSheet("Sheet1"); 
     int rowCount = sheet.getLastRowNum();
 	Row rows = sheet.createRow(rowCount+1);
 	Cell cell = rows.createCell(0);

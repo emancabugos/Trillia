@@ -23,7 +23,7 @@ WebUI.comment('Search Item')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), findTestData('CONSUMER/checkoutUN').getValue(1, 1))
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemname)
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 

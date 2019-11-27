@@ -4,6 +4,12 @@
    <name>textfield_MinimumLeadTime</name>
    <tag></tag>
    <elementGuidId>a3ac11fc-b11a-4859-93f4-8fd4ac4d13eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'minimum-lead-time']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>minimumLeadTime</value>
+      <value>minimum-lead-time</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

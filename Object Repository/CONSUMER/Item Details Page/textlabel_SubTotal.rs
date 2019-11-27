@@ -4,6 +4,12 @@
    <name>textlabel_SubTotal</name>
    <tag></tag>
    <elementGuidId>c334d8d3-37f2-408d-a5fc-a3354fe1a82e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Sub Total:' or . = 'Sub Total:')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Subtotal:</value>
+      <value>Sub Total:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

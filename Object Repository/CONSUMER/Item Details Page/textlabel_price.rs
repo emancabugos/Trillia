@@ -6,11 +6,19 @@
    <elementGuidId>5e7fa0d7-d87d-4323-9611-abd22a3ed271</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//span[@class = 'priceAmount']</value>
+=======
+         <value>//div/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Trillia.git
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,10 +42,10 @@
       <value>100.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNQ0MBD77CF&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-left&quot;]/div[@class=&quot;idcl-top preview-image&quot;]/div[@class=&quot;idctl-desc&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;value&quot;]</value>
+      <value>//div/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

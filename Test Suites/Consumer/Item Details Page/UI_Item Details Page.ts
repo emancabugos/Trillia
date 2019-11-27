@@ -4,6 +4,7 @@
    <name>UI_Item Details Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-11-25T11:03:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -13,19 +14,19 @@
    <testCaseLink>
       <guid>d85edbd9-5770-43f9-b76d-c21834143c3e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5af4a081-580a-4a08-baf6-2aa4fc2378e9</guid>
+      <guid>63438491-6a9e-494b-9962-360058e9953d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/item_Search</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/Category_Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0af701c9-fd5e-4213-a2c2-af6249d0c5fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/select_Item</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -101,16 +102,16 @@
       <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/12_textlabelMOQValue</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77135b32-9aec-4376-b8b1-9b0f9c7fc39a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/13_textlabelSubTotal</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e38104d3-af00-4edd-af0e-b118537c53e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/14_textlabelSubTotalPrice</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77135b32-9aec-4376-b8b1-9b0f9c7fc39a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/13_textlabelSubTotal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bc76eea9-ffad-4c14-b054-a67348cda293</guid>
@@ -163,7 +164,7 @@
    <testCaseLink>
       <guid>45472328-b0ef-4555-ae48-0dee5e8f75f1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Close_Browser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

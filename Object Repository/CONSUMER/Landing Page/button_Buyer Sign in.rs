@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Buyer Sign in </value>
+      <value>Login as a Buyer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,5 +39,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-angle-right</value>
    </webElementProperties>
 </WebElementEntity>

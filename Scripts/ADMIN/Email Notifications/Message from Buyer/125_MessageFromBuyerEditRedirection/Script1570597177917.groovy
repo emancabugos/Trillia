@@ -27,6 +27,8 @@ WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_Orde
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Email Template/toggle_UserAccount'))
 
+WebUI.scrollToElement(findTestObject('ADMIN/Email Notifications/Linktext_Edit Message from Buyer'), 0)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Email Notifications/Linktext_Edit Message from Buyer'), 0)
 
 WebUI.click(findTestObject('ADMIN/Email Notifications/Linktext_Edit Message from Buyer'))

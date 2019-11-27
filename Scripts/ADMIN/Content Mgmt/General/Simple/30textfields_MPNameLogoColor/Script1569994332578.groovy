@@ -41,5 +41,7 @@ WebUI.click(findTestObject('ADMIN/General/toggle_enableSearch'))
 
 WebUI.click(findTestObject('ADMIN/General/button_SaveHomepage'))
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/General/Toaster_SuccessPanel details were'), 0)
+
 WebUI.verifyElementVisible(findTestObject('ADMIN/General/Toaster_SuccessPanel details were'))
 

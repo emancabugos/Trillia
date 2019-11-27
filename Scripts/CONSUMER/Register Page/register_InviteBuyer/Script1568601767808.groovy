@@ -19,6 +19,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://www.gmail.com')
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.ConsumerNotif)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), 'Buyer Invite')
+
+WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_searchbar'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/link_Buyer Invite'), 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ADMIN/Gmail Page/link_Buyer Invite'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/button_Create Account'), 0)
+
+WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.switchToWindowIndex(1)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Register Page/textlabel_LoginAsBuyer'), 0)
@@ -64,4 +98,10 @@ if (GlobalVariable.ConsumerAccountType == 'custom') {
 
     WebUI.click(findTestObject('ADMIN/Admin Login Page/Login Facebook/button_login'))
 }
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_language'), 0)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
