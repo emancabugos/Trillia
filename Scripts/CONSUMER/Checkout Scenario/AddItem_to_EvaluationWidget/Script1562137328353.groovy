@@ -38,7 +38,7 @@ BigDecimal intprice = new BigDecimal(price)
 
 BigDecimal intquantity = new BigDecimal(quantity)
 
-def subtotal = intprice * quantity
+def subtotal = intprice * intquantity
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
