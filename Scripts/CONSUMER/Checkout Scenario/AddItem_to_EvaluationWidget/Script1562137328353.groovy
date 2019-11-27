@@ -38,7 +38,7 @@ BigDecimal intprice = new BigDecimal(price)
 
 BigDecimal intquantity = new BigDecimal(quantity)
 
-def subtotal = intprice * intquantity
+def subtotal = intprice * quantity
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
@@ -60,7 +60,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/container
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'))
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), 'Create new list', true)
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), 'Create new comparison table', true)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), 0)
 

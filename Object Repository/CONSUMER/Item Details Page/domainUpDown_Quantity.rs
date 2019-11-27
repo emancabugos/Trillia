@@ -4,10 +4,16 @@
    <name>domainUpDown_Quantity</name>
    <tag></tag>
    <elementGuidId>45435adb-13e5-49ae-a292-eb097f7b30ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'number' and @class = 'numbersOnlyD']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>numbersOnly</value>
+      <value>numbersOnlyD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
