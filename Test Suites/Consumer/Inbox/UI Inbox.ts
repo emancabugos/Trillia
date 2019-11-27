@@ -53,4 +53,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Inbox/UI Inbox/06_Pagination</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3fee7ca4-a9a6-4dc0-a468-dfd92a105acf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Inbox/Simple/verify_Enquiry</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b18784d-937d-4307-94fb-3e045a2b9fd1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Inbox/Simple/verify_Pre-approved</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2393719c-3f82-49cf-919d-8add83c448ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Inbox/Simple/verify_Accepted</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ce2ba10-4eb4-4971-87c0-91b8f2d72ceb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Inbox/Simple/verify_Decline</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

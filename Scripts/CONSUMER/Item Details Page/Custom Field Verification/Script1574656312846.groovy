@@ -19,6 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('Search Item')
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+
+itemname = WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item02')
+
+WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
+
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemname)
+
+WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
+
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Page_Item Detail/span_Contact Supplier'), 0)
 
 WebUI.comment('textfield1')
@@ -201,4 +217,6 @@ WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_Pick
 WebUI.comment('verify match')
 
 WebUI.verifyMatch(customfieldtextlabel1, customfieldtextlabel1excel, false)
+
+WebUI.closeBrowser()
 
