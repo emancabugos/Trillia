@@ -22,6 +22,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/switch to 2nd tab</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb436d6c-4664-4569-966e-0e00461bce3a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2d8aea1b-f7a3-4f0e-a7ee-8120f38f0cf3</guid>

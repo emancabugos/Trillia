@@ -4,6 +4,12 @@
    <name>textbox_search-item</name>
    <tag></tag>
    <elementGuidId>194dc3cf-7be3-40f8-a8e1-d7a857d4b0a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Search by item name' and @id = 'item-name']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>search-item</value>
+      <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

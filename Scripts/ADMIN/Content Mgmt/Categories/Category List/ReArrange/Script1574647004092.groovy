@@ -18,16 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.interactions.Actions as Actions
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-TestObject element = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//*[(text()="' + varItemname) + '")]')
+WebUI.dragAndDropByOffset(findTestObject('ADMIN/Categories/Category List/icon_draggable'), 200, -1000)
 
-WebUI.click(element)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/toaster_rearrange succes'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Categories/Category List/toaster_rearrange succes'), 0)
 

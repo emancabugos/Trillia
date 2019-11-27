@@ -39,8 +39,6 @@ WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/textbox_list
 
 WebUI.comment('Categories')
 
-WebUI.comment('Categories')
-
 if (varCategory == 'allcategory') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/textlabel_Select all'), 0)
 
@@ -68,10 +66,14 @@ if (varCategory == 'allcategory') {
 } else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
     WebUI.setText(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_category-name'), varCategory)
 
+    WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Category/maxcat'), 0)
+
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Category/maxcat'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.comment('Item Cover Image')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/icon_browse'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -83,7 +85,7 @@ WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0
 
 WebUI.click(findTestObject('MERCHANT/Image Cropper/div_crop'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.comment('Item Description')
 
@@ -110,6 +112,8 @@ if (varCategory == 'allcategory') {
 }
 
 WebUI.comment('Country')
+
+WebUI.delay(2)
 
 if (varDeliversTo == 'allcountries') {
     WebUI.click(findTestObject('MERCHANT/Upload Item Page/Item Upload/searchbar_country'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -166,6 +170,8 @@ int rows_count = rows_table.size()
 
 WebUI.comment('MOQ')
 
+WebUI.delay(2)
+
 if (varMOQCount == 'allcountries') {
     WebUI.delay(1)
 } else if (varMOQCount == 'multiplecountries') {
@@ -184,6 +190,8 @@ if (varMOQCount == 'allcountries') {
 }
 
 WebUI.comment('Stock')
+
+WebUI.delay(1)
 
 if (varStock == 'unlimited') {
     WebUI.waitForElementVisible(findTestObject('MERCHANT/Upload Item Page/Item Upload/checkbox_unlimited'), 0)
@@ -214,7 +222,7 @@ if (varStock == 'unlimited') {
 
 WebUI.comment('Bulk Pricing')
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 if (varBulkPricing == 'yes') {
     if (varDiscount == 'allcountries') {

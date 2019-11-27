@@ -4,7 +4,7 @@
    <name>Add Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-14T09:46:50</lastRun>
+   <lastRun>2019-11-26T09:36:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -59,7 +59,7 @@
    <testCaseLink>
       <guid>34c62c4d-1b08-4626-b479-781729d27733</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

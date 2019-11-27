@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td/p[count(. | //*[@class = 'sort-item-description text-left']) = count(//*[@class = 'sort-item-description text-left'])]</value>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/p[count(. | //p[@class = 'sort-item-description text-left']) = count(//p[@class = 'sort-item-description text-left'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td/p</value>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/p</value>
    </webElementProperties>
 </WebElementEntity>

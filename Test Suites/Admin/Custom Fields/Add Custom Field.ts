@@ -4,7 +4,7 @@
    <name>Add Custom Field</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-18T12:36:04</lastRun>
+   <lastRun>2019-11-26T10:27:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>985c9d1e-77b7-448e-b498-b0f9328d50f1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

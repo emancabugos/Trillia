@@ -4,7 +4,7 @@
    <name>5_Add_Delivery</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-14T12:36:49</lastRun>
+   <lastRun>2019-11-26T10:50:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>691da30e-0493-4f5e-9c53-145155ed7a46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 01</testCaseId>
    </testCaseLink>
    <testCaseLink>
