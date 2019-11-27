@@ -4,6 +4,12 @@
    <name>textlabel_ItemDescription</name>
    <tag></tag>
    <elementGuidId>fa291a4f-cb0c-433c-9ab7-5f3d5e2be36e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Description' or . = 'Description')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Item Description</value>
+      <value>Description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -146,6 +146,6 @@
       <guid>f9bd324c-5dd6-4f2c-acc1-70cf877d8077</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Close_Browser</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -20,7 +20,13 @@
       <guid>7844cd4e-d8d4-4ede-a834-f2dda9eee9d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search Sceanrios/Blank_Search</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/Search Result Page/Search per Page/Homepage/14_BlankSearch</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13bf6364-e91a-49f8-8ed9-e09a21c76c79</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fba02d1f-32aa-49f0-a799-3f14593c4c8d</guid>
@@ -188,6 +194,6 @@
       <guid>83a018f4-604c-407b-a4b5-0de1d42828b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Utilities/CONSUMER/Close_Browser</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

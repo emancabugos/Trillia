@@ -31,15 +31,15 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/button_Invite Mer
 
 WebUI.click(findTestObject('ADMIN/Waiting List/button_Invite Merchants'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/Invite Popup/textlabel_Invite your Merchant to on'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/a_Invite Popup/textlabel_Invite your Merchant to on'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Waiting List/Invite Popup/textarea_email'), '')
+WebUI.setText(findTestObject('ADMIN/Waiting List/a_Invite Popup/textarea_email'), '')
 
-WebUI.click(findTestObject('ADMIN/Waiting List/Invite Popup/button_send'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Waiting List/a_Invite Popup/button_send'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/Invite Popup/toaster_blank'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/a_Invite Popup/toaster_blank'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ADMIN/Waiting List/Invite Popup/toaster_blank'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/Waiting List/a_Invite Popup/toaster_blank'), 0)
 
-WebUI.click(findTestObject('ADMIN/Waiting List/Invite Popup/icon_x'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Waiting List/a_Invite Popup/icon_x'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Contact Supplier' or . = 'Contact Supplier')]</value>
+         <value>//span[(text() = 'Contact Supplier ' or . = 'Contact Supplier ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -23,7 +23,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/General/button_Browse'), 0)
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('ADMIN/General/button_Browse'), 'C:\\Users\\Diane\\Documents\\Bespoke\\Logos.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/General/button_Browse'), a)
 
 WebUI.click(findTestObject('ADMIN/General/button_Save2'))
 

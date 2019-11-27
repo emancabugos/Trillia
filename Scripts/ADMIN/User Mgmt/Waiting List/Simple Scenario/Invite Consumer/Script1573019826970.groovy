@@ -31,16 +31,16 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/tab_Consumer'), 0
 
 WebUI.click(findTestObject('ADMIN/Waiting List/tab_Consumer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Waiting List/Invite Popup/Invite Popup Consumer/button_Invite Consumer'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Waiting List/a_Invite Popup/Invite Popup Consumer/button_Invite Consumer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/Invite Popup/Invite Popup Consumer/textlabel_Invite your Consumer to on'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/a_Invite Popup/Invite Popup Consumer/textlabel_Invite your Consumer to on'), 
     0)
 
-WebUI.setText(findTestObject('ADMIN/Waiting List/Invite Popup/Invite Popup Consumer/textarea_email'), GlobalVariable.ConsumerNotif)
+WebUI.setText(findTestObject('ADMIN/Waiting List/a_Invite Popup/Invite Popup Consumer/textarea_email'), GlobalVariable.ConsumerNotif)
 
-WebUI.click(findTestObject('ADMIN/Waiting List/Invite Popup/Invite Popup Consumer/button_send'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Waiting List/a_Invite Popup/Invite Popup Consumer/button_send'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/Invite Popup/toaster_success'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/a_Invite Popup/toaster_success'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('ADMIN/Waiting List/Invite Popup/toaster_success'), 0)
+WebUI.verifyElementNotPresent(findTestObject('ADMIN/Waiting List/a_Invite Popup/toaster_success'), 0)
 

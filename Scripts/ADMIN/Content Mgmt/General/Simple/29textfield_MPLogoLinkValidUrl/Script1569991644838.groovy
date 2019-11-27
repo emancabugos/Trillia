@@ -30,3 +30,7 @@ WebUI.setText(findTestObject('ADMIN/General/textfiled_LogoURL'), 'bespoke05.test
 
 WebUI.click(findTestObject('ADMIN/General/button_SaveHomepage'))
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/General/Toaster_SuccessPanel details were'), 0)
+
+WebUI.verifyElementVisible(findTestObject('ADMIN/General/Toaster_SuccessPanel details were'))
+

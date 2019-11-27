@@ -22,5 +22,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Buyer Widget/Complex/Scenario 1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7517bf7f-474f-47bb-bfc4-94c336b84af3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>717b939a-1be3-4877-ad45-77f7a716fedb</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

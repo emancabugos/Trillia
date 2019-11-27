@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customFields&quot;]/div[1]/input[count(. | //*[@class = 'numbersOnlyD']) = count(//*[@class = 'numbersOnlyD'])]</value>
+         <value>//*[@id=&quot;customFields&quot;]/div[1]/input[count(. | //*[@class = 'numberDecimalOnly']) = count(//*[@class = 'numberDecimalOnly'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>numbersOnlyD</value>
+      <value>numberDecimalOnly</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

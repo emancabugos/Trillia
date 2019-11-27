@@ -4,7 +4,7 @@
    <name>UI_Item Details Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-20T15:22:15</lastRun>
+   <lastRun>2019-11-25T11:03:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -102,16 +102,16 @@
       <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/12_textlabelMOQValue</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77135b32-9aec-4376-b8b1-9b0f9c7fc39a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/13_textlabelSubTotal</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e38104d3-af00-4edd-af0e-b118537c53e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/14_textlabelSubTotalPrice</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77135b32-9aec-4376-b8b1-9b0f9c7fc39a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/Item Details Page/UI/13_textlabelSubTotal</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bc76eea9-ffad-4c14-b054-a67348cda293</guid>

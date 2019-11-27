@@ -403,3 +403,5 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textla
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/textlabel_QtyValue'), quantityvalue, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.dragAndDropByOffset(findTestObject(null), 0, 5)
+
