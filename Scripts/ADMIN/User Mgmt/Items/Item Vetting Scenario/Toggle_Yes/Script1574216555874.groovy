@@ -19,5 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), 0)
+
+WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), varItem)
+
+WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Search'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/toggle_purchasable'), 0)
+
+WebUI.click(findTestObject('ADMIN/User Mgmt/Items/toggle_purchasable'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/User Mgmt/Items/toaster_message'), 0)
 

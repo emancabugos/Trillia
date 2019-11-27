@@ -4,7 +4,11 @@
    <name>Checkout_DefaultFlow</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-11-27T11:08:35</lastRun>
+=======
+   <lastRun>2019-11-27T12:44:53</lastRun>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Trillia.git
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,13 +18,13 @@
    <testCaseLink>
       <guid>30ace2c5-8d51-4d46-9c72-5913fa398218</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f9dd15d5-6b93-44cd-921c-13b96a133556</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/search_Item</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,7 +78,7 @@
    <testCaseLink>
       <guid>76c1a8a4-e1a4-4f47-aef1-754ff85e6591</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -95,7 +99,7 @@
    <testCaseLink>
       <guid>376aad24-b175-40ea-bf3a-9951c33a7833</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

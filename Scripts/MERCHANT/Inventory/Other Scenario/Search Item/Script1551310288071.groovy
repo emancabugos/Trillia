@@ -18,29 +18,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), 0)
-
-WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'), FailureHandling.CONTINUE_ON_FAILURE)
+import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 0)
 
-WebUI.setText(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 'item for search')
+WebUI.setText(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), varItem)
 
-WebUI.waitForElementAttributeValue(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 'value', 'item for search', 
-    0)
+WebUI.waitForElementAttributeValue(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), 'value', varItem, 0)
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('MERCHANT/Inventory Page/icon_Search'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('MERCHANT/Inventory Page/textbox_search-item'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Inventory Page/Item Details/textlabel_item name'), 0)
-
-WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/Item Details/textlabel_item name'), 'Item For Search')
-
-WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('MERCHANT/Inventory Page/Item Details/textlabel_item name'), varItem)
 

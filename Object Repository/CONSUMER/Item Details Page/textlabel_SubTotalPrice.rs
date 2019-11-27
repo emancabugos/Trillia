@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@data-subtotal = '0' and @class = 'value subtotal-amount']</value>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,14 +20,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-subtotal</name>
       <type>Main</type>
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -41,10 +41,10 @@
       <value>0.00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNQ0MBD77CF&quot;)/div[1]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-total group-buy pull-left w-100&quot;]/span[@class=&quot;total-price pull-right&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;value subtotal-amount&quot;]</value>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/div/div[3]/div[1]/div[2]/span[4]/div/span[3]</value>
    </webElementProperties>
 </WebElementEntity>

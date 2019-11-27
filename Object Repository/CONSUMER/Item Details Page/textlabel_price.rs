@@ -11,7 +11,15 @@
       </entry>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//span[@class = 'priceAmount']</value>
+=======
+<<<<<<< HEAD
+         <value>//span[@class = 'priceAmount']</value>
+=======
+         <value>//div/div[1]/div/div[3]/div[1]/div[1]/div/span[1]/span[2]/div/span[2][count(. | //span[@class = 'value']) = count(//span[@class = 'value'])]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Trillia.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Trillia.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

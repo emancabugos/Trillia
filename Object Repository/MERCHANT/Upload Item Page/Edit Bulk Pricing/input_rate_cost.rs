@@ -4,6 +4,12 @@
    <name>input_rate_cost</name>
    <tag></tag>
    <elementGuidId>664b49d9-2f11-464d-9a8f-3edfdfade2f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'inputRateCost']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -56,7 +62,7 @@
       <value>100</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

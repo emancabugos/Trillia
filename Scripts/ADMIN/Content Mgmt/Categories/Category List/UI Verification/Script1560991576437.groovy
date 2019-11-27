@@ -59,7 +59,7 @@ WebUI.comment('wala pang validations para sa mga sub categories')
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/button_Edit'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/button_Delete'))
+WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/button_Category Delete'))
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Categories/Category List/logo_Need Help'))
 

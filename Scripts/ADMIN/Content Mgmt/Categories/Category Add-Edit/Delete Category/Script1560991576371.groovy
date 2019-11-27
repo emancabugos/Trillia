@@ -27,9 +27,9 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/butto
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Categories'))
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Delete'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Category Delete'), 0)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Category Delete'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
     0)
@@ -40,7 +40,7 @@ WebUI.comment('insert here verification')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Category Delete'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
     0)
@@ -51,7 +51,7 @@ WebUI.comment('insert validation here')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Delete'))
+WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Category Delete'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/delete pop-up/textlabel_Are you sure you want to d'), 
     0)
