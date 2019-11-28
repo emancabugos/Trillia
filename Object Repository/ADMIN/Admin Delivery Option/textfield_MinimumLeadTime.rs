@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'minimum-lead-time']</value>
+         <value>//input[@type = 'text' and @id = 'minimumLeadTime']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>minimum-lead-time</value>
+      <value>minimumLeadTime</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

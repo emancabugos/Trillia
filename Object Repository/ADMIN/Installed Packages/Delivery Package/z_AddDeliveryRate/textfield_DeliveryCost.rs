@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@class = 'txt cost money-only']</value>
+         <value>//input[@class = 'txt cost']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>txt cost money-only</value>
+      <value>txt cost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

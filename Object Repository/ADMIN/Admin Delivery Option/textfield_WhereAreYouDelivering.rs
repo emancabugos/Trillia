@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'txt address' and @id = 'delivering-from']</value>
+         <value>//input[@type = 'text' and @class = 'txt address' and @id = 'deliveryFrom']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>delivering-from</value>
+      <value>deliveryFrom</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
