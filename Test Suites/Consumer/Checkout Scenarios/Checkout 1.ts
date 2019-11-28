@@ -4,6 +4,7 @@
    <name>Checkout 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-11-27T14:21:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

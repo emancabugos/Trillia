@@ -21,7 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 
-
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'), 0)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/textlabel_MOQValue'), 0)
@@ -47,7 +46,6 @@ println(df.format(new BigDecimal(subtotal)))
 WebUI.verifyEqual(df.format(subtotal), WebUI.getText(findTestObject('CONSUMER/Item Details Page/textlabel_SubTotalPrice')), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-
 WebUI.comment('Add to Evaluation Widget')
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
@@ -60,7 +58,8 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/container
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'))
 
-WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), 'Create new comparison table', true)
+WebUI.selectOptionByLabel(findTestObject('CONSUMER/Evaluation Widget/dropdown_ListName'), 'Create new comparison table', 
+    true)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_Cancel'), 0)
 
@@ -75,11 +74,13 @@ WebUI.waitForElementAttributeValue(findTestObject('CONSUMER/Evaluation Widget/te
 
 WebUI.verifyElementText(findTestObject('CONSUMER/Evaluation Widget/textlabel_ListNameTitle'), listname)
 
-WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_down'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_AddtoEvaluation'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_delete'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_EvaluateItems'))
+
+
 

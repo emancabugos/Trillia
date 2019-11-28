@@ -65,9 +65,9 @@ WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_Sea
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), 0)
-
 WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Item Details Page/button_ContactSupplier'), FailureHandling.CONTINUE_ON_FAILURE)
 

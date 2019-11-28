@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'gr-compare-btn']</value>
+         <value>//a[@class = 'gr-compare-btn' and (text() = 'Compare Now' or . = 'Compare Now')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,11 +34,11 @@
       <value>gr-compare-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Evaluate Items</value>
+      <value>Compare Now</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout 1" time="3" tests="0" failures="2" errors="1">
+   <testsuite name="Checkout 1" tests="0" failures="2" errors="1" time="3" timestamp="2019-11-27 14:11:02" hostname="April - April-PC" id="Test Suites/Consumer/Checkout Scenarios/Checkout 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout 1\\20191127_141059"/>
+         <property name="logFiles" value="C:\\Users\\April\\git\\Trillia\\Reports\\Consumer\\Checkout Scenarios\\Checkout 1\\20191127_141059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="April - April-PC"/>
+         <property name="hostAddress" value="10.10.31.51"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget" classname="Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2019-11-27 14:11:02 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:02 - [TEST_STEP][FAILED] - waitForElementVisible: Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:03 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [TEST_STEP][FAILED] - waitForElementVisible: Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/textlabel_MOQValue' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:03 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/textlabel_MOQValue' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [TEST_STEP][PASSED] - comment: Computation of Sub Total
+
+2019-11-27 14:11:03 - [TEST_STEP][FAILED] - setText: Unable to set text '25' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:03 - [MESSAGE][FAILED] - Unable to set text '25' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [TEST_STEP][FAILED] - Statement - price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/textlabel_price)): Unable to get text of object 'Object Repository/CONSUMER/Item Details Page/textlabel_price' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:03 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/CONSUMER/Item Details Page/textlabel_price' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [TEST_STEP][FAILED] - Statement - quantity = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/domainUpDown_Quantity), "value"): Unable to get attribute 'value' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:03 - [MESSAGE][FAILED] - Unable to get attribute 'value' of object 'Object Repository/CONSUMER/Item Details Page/domainUpDown_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:03 - [TEST_STEP][PASSED] - Statement - intprice = new java.math.BigDecimal(price): null]]></system-out>
+         <system-err><![CDATA[2019-11-27 14:11:02 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable" classname="Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2019-11-27 14:11:03 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable: Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [TEST_STEP][PASSED] - comment: Evaluation Table
+
+2019-11-27 14:11:04 - [TEST_STEP][FAILED] - waitForElementVisible: Unable to wait for object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-27 14:11:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:04 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/CONSUMER/Evaluation Table/textlabel_ItemName' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:04 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/CONSUMER/Evaluation Table/textlabel_ItemName' FAILED. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2019-11-27 14:11:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-11-27 14:11:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2019-11-27 14:11:03 - [TEST_CASE][FAILED] - Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable: Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Evaluation Table/button_CreatePurchaseOrder' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow" classname="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow" status="ERROR">
+         <error type="ERROR" message="Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case."/>
+         <system-out><![CDATA[2019-11-27 14:11:04 - [TEST_CASE][ERROR] - Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case.
+
+2019-11-27 14:11:05 - [TEST_STEP][PASSED] - Statement - df = new java.text.DecimalFormat(#,###.00): null
+
+2019-11-27 14:11:05 - [TEST_STEP][PASSED] - Statement - subtotal = subtotal = df.format(subtotal): null]]></system-out>
+         <system-err><![CDATA[2019-11-27 14:11:04 - [TEST_CASE][ERROR] - Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow: Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow FAILED because (of) Variable 'subtotal' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-27 14:11:02 - [TEST_SUITE][FAILED] - Checkout 1: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2019-11-27 14:11:02 - [TEST_SUITE][FAILED] - Checkout 1: Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget FAILED because (of) Unable to wait for object 'Object Repository/CONSUMER/Item Details Page/button_AddtoEvaluation' to be visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'APRIL-PC', ip: '10.10.31.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

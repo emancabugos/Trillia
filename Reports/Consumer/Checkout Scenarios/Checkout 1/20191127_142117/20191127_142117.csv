@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Checkout 1,Chrome 78.0.3904.108,,2019-11-27 14:21:19,2019-11-27 14:21:36,17.466s,FAILED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget,Chrome 78.0.3904.108,,2019-11-27 14:21:19,2019-11-27 14:21:35,15.592s,FAILED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:19,2019-11-27 14:21:20,0.960s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:20,2019-11-27 14:21:20,0.056s,PASSED
+comment,Chrome 78.0.3904.108,,2019-11-27 14:21:20,2019-11-27 14:21:20,0.030s,PASSED
+setText,Chrome 78.0.3904.108,,2019-11-27 14:21:20,2019-11-27 14:21:21,0.257s,PASSED
+Statement - price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/textlabel_price)),Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.078s,PASSED
+"Statement - quantity = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CONSUMER/Item Details Page/domainUpDown_Quantity), ""value"")",Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.063s,PASSED
+Statement - intprice = new java.math.BigDecimal(price),Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.005s,PASSED
+Statement - intquantity = new java.math.BigDecimal(quantity),Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.002s,PASSED
+Statement - subtotal = intprice * intquantity,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.004s,PASSED
+"Statement - df = new java.text.DecimalFormat(#,###.00)",Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.009s,PASSED
+Statement - println(df.format(new java.math.BigDecimal(subtotal))),Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.007s,PASSED
+verifyEqual,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.063s,PASSED
+comment,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.001s,PASSED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.137s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.046s,PASSED
+verifyElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.052s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.043s,PASSED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:21,0.118s,PASSED
+selectOptionByLabel,Chrome 78.0.3904.108,,2019-11-27 14:21:21,2019-11-27 14:21:22,0.289s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:22,2019-11-27 14:21:22,0.578s,PASSED
+setText,Chrome 78.0.3904.108,,2019-11-27 14:21:22,2019-11-27 14:21:22,0.150s,PASSED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:22,2019-11-27 14:21:22,0.062s,PASSED
+waitForPageLoad,Chrome 78.0.3904.108,,2019-11-27 14:21:22,2019-11-27 14:21:22,0.044s,PASSED
+waitForElementAttributeValue,Chrome 78.0.3904.108,,2019-11-27 14:21:22,2019-11-27 14:21:28,5.231s,PASSED
+verifyElementText,Chrome 78.0.3904.108,,2019-11-27 14:21:28,2019-11-27 14:21:28,0.464s,FAILED
+delay,Chrome 78.0.3904.108,,2019-11-27 14:21:28,2019-11-27 14:21:30,2.004s,PASSED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:30,2019-11-27 14:21:30,0.115s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:30,2019-11-27 14:21:32,2.165s,PASSED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:32,2019-11-27 14:21:35,2.189s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable,Chrome 78.0.3904.108,,2019-11-27 14:21:35,2019-11-27 14:21:36,0.834s,FAILED
+comment,Chrome 78.0.3904.108,,2019-11-27 14:21:35,2019-11-27 14:21:35,0.002s,PASSED
+waitForElementVisible,Chrome 78.0.3904.108,,2019-11-27 14:21:35,2019-11-27 14:21:35,0.153s,PASSED
+verifyElementText,Chrome 78.0.3904.108,,2019-11-27 14:21:35,2019-11-27 14:21:35,0.370s,FAILED
+click,Chrome 78.0.3904.108,,2019-11-27 14:21:35,2019-11-27 14:21:36,0.105s,PASSED
+,,,,,,
+Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow,Chrome 78.0.3904.108,,2019-11-27 14:21:36,2019-11-27 14:21:36,0.604s,ERROR
+"Statement - df = new java.text.DecimalFormat(#,###.00)",Chrome 78.0.3904.108,,2019-11-27 14:21:36,2019-11-27 14:21:36,0.001s,PASSED
+Statement - subtotal = subtotal = df.format(subtotal),Chrome 78.0.3904.108,,2019-11-27 14:21:36,2019-11-27 14:21:36,0.001s,PASSED
