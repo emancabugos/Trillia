@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;tab-4&quot;]/div/div/div/div/div[2]/div</value>
+         <value>/html/body</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;tab-4&quot;]/div/div/div/div/div[2]/div</value>
+      <value>/html/body</value>
    </webElementProperties>
 </WebElementEntity>
