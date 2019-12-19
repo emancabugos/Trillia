@@ -4,6 +4,12 @@
    <name>linktext_Orders</name>
    <tag></tag>
    <elementGuidId>d87f1045-3e72-4f7c-8285-ded844a52c20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/merchants/order/history' and (text() = 'Orders' or . = 'Orders')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/user/manage/orders</value>
+      <value>/merchants/order/history</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

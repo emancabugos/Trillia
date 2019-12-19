@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('Search Item')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
@@ -42,21 +40,33 @@ WebUI.comment('textfield1')
 'customfieldtextlabel1'
 customfieldtextlabel1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfield1'))
 
+WebUI.verifyMatch(customfieldtextlabel1, 'SP_Text field_M1', false)
+
 'customfieldtextlvalue1'
 customfieldtextlvalue1 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfieldvalue1'))
+
+WebUI.verifyMatch(customfieldtextlvalue1, 'Text1', false)
 
 WebUI.comment('textfield2')
 
 customfieldtextlable2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfield2'))
 
+WebUI.verifyMatch(customfieldtextlable2, 'SP_Text field_M2', false)
+
 customfieldtextvalue2 = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_textfieldvalue2'))
+
+WebUI.verifyMatch(customfieldtextvalue2, 'SP_Text field_M2', false)
 
 WebUI.comment('TextEditor')
 
 customfieldTexteditor = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_texteditor'))
 
+WebUI.verifyMatch(customfieldTexteditor, 'SP_Text Editor_M', false)
+
 customfieldTexteditorvalue = WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_customfield_texteditorvalues'), 
     FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(customfieldTexteditorvalue, 'TextEDITOR', false)
 
 WebUI.comment('Hyperlink')
 
@@ -215,8 +225,4 @@ WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_Pick
 WebUI.getText(findTestObject('CONSUMER/Item Details Page/customfields/label_PickupLocationvalue4'))
 
 WebUI.comment('verify match')
-
-WebUI.verifyMatch(customfieldtextlabel1, customfieldtextlabel1excel, false)
-
-WebUI.closeBrowser()
 
