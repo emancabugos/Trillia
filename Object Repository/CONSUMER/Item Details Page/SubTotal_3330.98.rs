@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbs_OrderSummary</name>
+   <name>SubTotal_3330.98</name>
    <tag></tag>
-   <elementGuidId>1c854bcb-c782-4375-a253-3b8a98d8ee8a</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//p[(text() = 'PO History' or . = 'PO History')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>53edfb35-9a3e-4983-8507-c91c66def1fc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>active</value>
+      <value>priceAmount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PO History</value>
+      <value> 3,330.98</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;h-parent-child-txt full-width&quot;]/p[@class=&quot;active&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-total group-buy pull-left w-100&quot;]/span[@class=&quot;total-price pull-right&quot;]/div[@class=&quot;item-price&quot;]/span[@class=&quot;priceAmount&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

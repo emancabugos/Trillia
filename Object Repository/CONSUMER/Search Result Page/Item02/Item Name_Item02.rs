@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>breadcrumbs_OrderSummary</name>
+   <name>Item Name_Item02</name>
    <tag></tag>
-   <elementGuidId>1c854bcb-c782-4375-a253-3b8a98d8ee8a</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//p[(text() = 'PO History' or . = 'PO History')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6b2e8bd5-7bbb-450d-aff3-b72987bdf458</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,20 +18,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>active</value>
+      <value>item-name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PO History</value>
+      <value>Item02</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;h-parent-child-txt full-width&quot;]/p[@class=&quot;active&quot;]</value>
+      <value>id(&quot;items-list&quot;)/div[@class=&quot;item-box&quot;]/a[1]/div[@class=&quot;item-info&quot;]/div[@class=&quot;item-desc&quot;]/p[@class=&quot;item-name&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

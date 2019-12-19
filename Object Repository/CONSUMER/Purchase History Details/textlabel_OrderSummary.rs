@@ -4,6 +4,12 @@
    <name>textlabel_OrderSummary</name>
    <tag></tag>
    <elementGuidId>f9d3b188-228c-4fb9-bd9a-9ffc19407713</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Purchase Order Details' or . = 'Purchase Order Details')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Order Summary</value>
+      <value>Purchase Order Details</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
