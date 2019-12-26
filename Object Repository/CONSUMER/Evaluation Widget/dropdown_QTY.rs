@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>value_nonPurchasable</name>
+   <name>dropdown_QTY</name>
    <tag></tag>
-   <elementGuidId>0f971798-f1db-48b6-9331-bcb1599c11ca</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@data-title = 'PurchasableItems' and @class = 'bold-item-title total-non-purchasable']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>48933076-6c68-4d1a-bfc1-74e1b65c9040</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-title</name>
+      <name>type</name>
       <type>Main</type>
-      <value>PurchasableItems</value>
+      <value>number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>bold-item-title total-non-purchasable</value>
+      <value>item-qty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>10</value>
+      <value>numbersOnlyD</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nonpurchase&quot;)/div[@class=&quot;bold-item-title total-non-purchasable&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;item-detail-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;idc-right&quot;]/div[@class=&quot;idcr-top pull-left w-100&quot;]/div[@class=&quot;idcrt-order-val pull-left w-100&quot;]/div[@class=&quot;idcrt-list-val&quot;]/span[@class=&quot;idcrtl-qty full-width&quot;]/span[@class=&quot;idcrtl-right&quot;]/input[@class=&quot;numbersOnlyD&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

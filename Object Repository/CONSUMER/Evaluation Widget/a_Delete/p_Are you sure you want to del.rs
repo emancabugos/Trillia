@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>value_nonPurchasable</name>
+   <name>p_Are you sure you want to del</name>
    <tag></tag>
-   <elementGuidId>0f971798-f1db-48b6-9331-bcb1599c11ca</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@data-title = 'PurchasableItems' and @class = 'bold-item-title total-non-purchasable']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b48f5b6a-2339-405c-ae9d-fab3c5933ca7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,34 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-title</name>
-      <type>Main</type>
-      <value>PurchasableItems</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>bold-item-title total-non-purchasable</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>10</value>
+      <value>Are you sure you want to delete the product from this list? </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nonpurchase&quot;)/div[@class=&quot;bold-item-title total-non-purchasable&quot;]</value>
+      <value>id(&quot;modalRemove&quot;)/div[@class=&quot;modal-dialog compare-delete-modal-content&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/p[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'btn-group compare-btn' and @id = 'itemAddCompare' and (text() = 'Add to Evaluation' or . = 'Add to Evaluation')]</value>
+         <value>id(&quot;itemAddCompare&quot;)[count(. | //div[@id = 'itemAddCompare' and (text() = 'Add to Evaluation' or . = 'Add to Evaluation')]) = count(//div[@id = 'itemAddCompare' and (text() = 'Add to Evaluation' or . = 'Add to Evaluation')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>Add to Evaluation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

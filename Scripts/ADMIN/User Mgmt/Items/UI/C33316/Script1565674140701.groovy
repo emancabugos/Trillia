@@ -30,5 +30,7 @@ WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
 
+WebUI.delay(10)
+
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Mgmt/Items/value_itemsFound'))
 

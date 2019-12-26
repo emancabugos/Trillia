@@ -19,17 +19,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Search Item')
+'Verify deleted item is not present in the Order Details'
+WebUI.comment('Checkout Scenario')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+'\r\n\r\n\r\n'
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item01')
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/textlink_User Mgmt.'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item01')
+WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
 
-WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
+
+searcheditemname = WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '0917diana')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/User Mgmt/Items/button_Search'))
+
+uon = WebUI.getText(findTestObject('ADMIN/User Mgmt/Items/linktext_itemName'))
+
+WebUI.verifyMatch(uon, searcheditemname, false)
 

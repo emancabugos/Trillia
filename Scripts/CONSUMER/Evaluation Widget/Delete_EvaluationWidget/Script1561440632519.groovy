@@ -18,22 +18,55 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item ni April')
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Multiple Cat - w/bulk - percentage (weight) M')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item ni April')
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Multiple Cat - w/bulk - percentage (weight) M')
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Item Details Page/Text Editor/domainUpDown_Quantity'), 0)
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/dropdown_QTY'), 0)
+
+WebUI.setText(findTestObject('CONSUMER/Evaluation Widget/dropdown_QTY'), '2')
 
 WebUI.verifyElementVisible(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'))
 
-WebUI.click(findTestObject('CONSUMER/Evaluation Widget/button_up'))
+WebUI.scrollToElement(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'), 0)
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'), 0)
+
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('CONSUMER/Evaluation Widget/button_AddtoEvaluation'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+WebUI.delay(10)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation List/Delete Popup/delete icon'), 0)
+
+WebUI.click(findTestObject('CONSUMER/Evaluation List/Delete Popup/delete icon'))
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/a_Delete/p_Are you sure you want to del'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Widget/a_Delete/p_Are you sure you want to del'), 0)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_Okay'), 0)
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_Okay'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_DCancel'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Evaluation Widget/a_Delete/button_DCancel'), 0)
 
