@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Verify deleted item is not present in the Order Details'
+'Search item'
 WebUI.comment('Checkout Scenario')
 
 '\r\n\r\n\r\n'
@@ -35,7 +35,11 @@ WebUI.click(findTestObject('ADMIN/User Mgmt/Items/linktext_Items'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Items/button_DownloadCSV'), 0)
 
-searcheditemname = WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '0917diana')
+WebUI.setText(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), '0917diana')
+
+WebUI.delay(5)
+
+searcheditemname = WebUI.getAttribute(findTestObject('ADMIN/User Mgmt/Items/textfield_search'), 'value')
 
 WebUI.delay(1)
 

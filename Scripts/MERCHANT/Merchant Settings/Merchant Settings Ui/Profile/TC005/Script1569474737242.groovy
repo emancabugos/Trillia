@@ -23,7 +23,7 @@ WebUI.click(findTestObject('MERCHANT/User Settings/Profile/button_Change'), Fail
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\Katalon\\Image\\omg.png')
+WebUI.uploadFile(findTestObject('MERCHANT/Image Cropper/button_upload item'), 'C:\\Katalon\\Image\\saltbae.jpg')
 
 WebUI.waitForElementVisible(findTestObject('MERCHANT/Image Cropper/div_crop'), 0)
 

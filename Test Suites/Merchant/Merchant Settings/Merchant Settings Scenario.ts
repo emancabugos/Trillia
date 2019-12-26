@@ -12,6 +12,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>118c79ed-ec36-4474-93fd-cfdd859bf2f1</testSuiteGuid>
    <testCaseLink>
+      <guid>7d231a6d-151c-42b0-9a48-a71e9b4ba687</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d77fa28d-8948-4150-9777-02e4aeb5a1d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

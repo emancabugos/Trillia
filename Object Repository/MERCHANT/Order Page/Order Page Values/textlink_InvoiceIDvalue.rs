@@ -4,7 +4,17 @@
    <name>textlink_InvoiceIDvalue</name>
    <tag></tag>
    <elementGuidId>23d4dfcc-3f96-44cb-8d38-ff67fa7df7b6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/div/div[2]/table/tbody/tr[1]/td[2]/a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div[2]/table/tbody/tr[1]/td[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -14,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -32,6 +42,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;main&quot;]/div[@class=&quot;orderlist-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;oreder-data-table&quot;]/table[@class=&quot;table order-data&quot;]/tbody[1]/tr[1]/td[2]/a[1]</value>
+      <value>//div[2]/div/div/div[2]/table/tbody/tr[1]/td[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

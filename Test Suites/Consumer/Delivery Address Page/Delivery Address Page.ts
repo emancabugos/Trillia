@@ -22,9 +22,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/search_Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d3f30c91-d34a-45ae-b1fa-56cdc25a6851</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/checkoutUN</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
+         <testDataLinkId>d3f30c91-d34a-45ae-b1fa-56cdc25a6851</testDataLinkId>
+         <type>DATA_COLUMN_INDEX</type>
          <value></value>
          <variableId>6aa3d25a-1606-4fce-b279-88023c372a00</variableId>
       </variableLink>
