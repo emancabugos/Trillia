@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr/td[6]/span/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;rowAvail-'PH&quot;]/td[5]/span/label</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/tbody/tr/td[6]/span/label</value>
    </webElementProperties>
 </WebElementEntity>

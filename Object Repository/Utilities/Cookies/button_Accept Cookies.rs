@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;fixntf_popup_cookies_btm_fixmsg&quot;]/div[2]/a[count(. | //a[@class = 'fixntf-btn']) = count(//a[@class = 'fixntf-btn'])]</value>
+         <value>//*[@id=&quot;login-page&quot;]/div/div[3]/div/div/a[count(. | //a[@class = 'cookie-btn']) = count(//a[@class = 'cookie-btn'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fixntf-btn</value>
+      <value>cookie-btn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,6 +52,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;fixntf_popup_cookies_btm_fixmsg&quot;]/div[2]/a</value>
+      <value>//*[@id=&quot;login-page&quot;]/div/div[3]/div/div/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/table/thead/tr/th[6]/span/label[count(. | //label[@for = 'checkAvailPurchaseable']) = count(//label[@for = 'checkAvailPurchaseable'])]</value>
+         <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/thead/tr/th[6]/span/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/div/div/div/table/thead/tr/th[6]/span/label</value>
+      <value>/html/body/div[1]/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/table/thead/tr/th[6]/span/label</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,24 +4,30 @@
    <name>searcbar_delivery</name>
    <tag></tag>
    <elementGuidId>45b2782a-adad-4986-a279-58a074a408e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;delivery_tab&quot;]/div[2]/div/div/div[1]/div/input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>delivery_dropdown</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -35,17 +41,17 @@
       <value>130</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search delivery method</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delivery_tab&quot;)/div[@class=&quot;tab-content un-inputs&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row cat-search&quot;]/input[1]</value>
+      <value>//*[@id=&quot;delivery_tab&quot;]/div[2]/div/div/div[1]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

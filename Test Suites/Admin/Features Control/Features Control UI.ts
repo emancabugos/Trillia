@@ -4,13 +4,18 @@
    <name>Features Control UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-05T15:53:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>12e1ea59-f2e6-414a-83b5-7ba61b9c769a</testSuiteGuid>
+   <testCaseLink>
+      <guid>f99f63d0-c41d-45b7-afda-01bea48c0bdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>7d72c609-d8e1-45b3-b614-30b034478ea6</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -100,5 +105,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Features Control List UI/toggle_delivery</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ff67f50-b060-463b-a659-54370fdcb04e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

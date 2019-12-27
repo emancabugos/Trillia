@@ -4,6 +4,12 @@
    <name>textlabel_DeliveryAddress</name>
    <tag></tag>
    <elementGuidId>d79a7b6d-a658-4007-ae1d-59c76b099077</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Shipping Address' or . = 'Shipping Address')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery Address</value>
+      <value>Shipping Address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

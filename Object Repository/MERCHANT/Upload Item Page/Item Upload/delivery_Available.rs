@@ -4,6 +4,12 @@
    <name>delivery_Available</name>
    <tag></tag>
    <elementGuidId>826e8e5c-ed77-427d-b9e3-0a65a6a66e12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th[(text() = 'Available' or . = 'Available')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,13 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-													
-														
-														
-													
-													Available
-												</value>
+      <value>Available</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
