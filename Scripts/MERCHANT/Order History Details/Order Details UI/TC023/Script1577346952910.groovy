@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal currency'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal currency'), 0)
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal currency'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal currency'), 0)
 
-WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal symbol'), 0)
+WebUI.waitForElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal symbol'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal symbol'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal symbol'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal price'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal price'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Page_1104un/subtotal/textlabel_subtotal price'), 0)
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Order Details Values/subtotal/textlabel_subtotal price'), 0)
 

@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/textlabel_PAYMENT STATUS'), 0)
+
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/textlabel_PAYMENT STATUS'), 0)
 

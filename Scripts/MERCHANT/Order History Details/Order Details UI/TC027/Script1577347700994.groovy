@@ -19,18 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_admincurrency'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_admincurrency'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_admincurrency'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_admincurrency'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_adminsymbol'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_adminsymbol'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_adminsymbol'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_adminsymbol'))
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_adminprice'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_adminprice'))
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Admin Fee/Page_1104un/textlabel_adminprice'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Admin Fee/textlabel_adminprice'))
 

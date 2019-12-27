@@ -4,6 +4,12 @@
    <name>textlabel_DELIVERY METHOD</name>
    <tag></tag>
    <elementGuidId>2d469d27-5207-40d6-905a-5df487e5acf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Shipping Method' or . = 'Shipping Method')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>DELIVERY METHOD</value>
+      <value>Shipping Method</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

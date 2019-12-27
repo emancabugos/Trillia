@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/checkbox_refund'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/itemdetails/textlabel_refundedcheck'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/itemdetails/textlabel_refundedcheck'), 0)
 

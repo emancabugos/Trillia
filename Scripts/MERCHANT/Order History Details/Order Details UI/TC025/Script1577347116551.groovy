@@ -19,18 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingCurrency'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingCurrency'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingCurrency'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingCurrency'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingSymbol'), 
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingSymbol'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingSymbol'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingSymbol'))
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingPrice'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingPrice'))
 
-WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Page_1104un/Shipping Cost/textlabel_shippingPrice'))
+WebUI.verifyElementVisible(findTestObject('MERCHANT/Order Details/Order Details Values/Shipping Cost/textlabel_shippingPrice'))
 
