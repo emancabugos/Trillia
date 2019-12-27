@@ -19,5 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/textlabel_TRANSACTION ID'), 0)
+WebUI.waitForElementVisible(findTestObject('MERCHANT/Order Details/Order Details header/textlabel_TransactionID'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/Order Details header/textlabel_TransactionID'), 0)
 

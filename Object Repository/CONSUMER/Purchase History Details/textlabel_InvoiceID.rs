@@ -4,6 +4,12 @@
    <name>textlabel_InvoiceID</name>
    <tag></tag>
    <elementGuidId>36d5d961-e03d-4553-afd7-ed1f8656f0d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'title' and (text() = 'Invoice No.' or . = 'Invoice No.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invoice ID</value>
+      <value>Invoice No.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

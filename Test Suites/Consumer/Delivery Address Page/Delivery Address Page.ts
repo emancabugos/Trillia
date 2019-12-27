@@ -4,7 +4,7 @@
    <name>Delivery Address Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-18T14:24:25</lastRun>
+   <lastRun>2019-12-23T10:23:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,17 +14,26 @@
    <testCaseLink>
       <guid>4935f4f3-1d0b-4270-acac-14ea8475ffbd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30dde797-435f-4ee6-bb22-335fceb7efe7</guid>
+      <guid>1e93cf87-905b-4060-a0f5-d4fc4a583b50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/search_Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d3f30c91-d34a-45ae-b1fa-56cdc25a6851</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/checkoutUN</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
+         <testDataLinkId>d3f30c91-d34a-45ae-b1fa-56cdc25a6851</testDataLinkId>
+         <type>DATA_COLUMN_INDEX</type>
          <value></value>
          <variableId>6aa3d25a-1606-4fce-b279-88023c372a00</variableId>
       </variableLink>
@@ -32,7 +41,7 @@
    <testCaseLink>
       <guid>0764505f-75d7-4961-9eaf-d05429d4c144</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/AddItem_to_EvaluationWidget</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -56,7 +65,7 @@
    <testCaseLink>
       <guid>39e388dd-eb28-4ae0-9719-640278d01ef4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/OrderNow_EvaluationTable</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -68,7 +77,7 @@
    <testCaseLink>
       <guid>20d14099-c344-43e0-b819-ea5b37bdc9cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Checkout Scenario/Checkout_DefaultFlow</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -92,7 +101,7 @@
    <testCaseLink>
       <guid>fabe3b08-94cd-4248-be2f-c2d98eaf6e74</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/Delivery Checkout Page/Field Verification/02_VerifySavedAddress - Copy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

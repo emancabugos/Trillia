@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[@class = 'model-username']</value>
+         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,10 +34,10 @@
       <value>  BUYERtrisha </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-home  pace-done&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/p[@class=&quot;model-username&quot;]</value>
+      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/p[1]</value>
    </webElementProperties>
 </WebElementEntity>

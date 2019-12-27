@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/user/order/orderhistory' and (text() = 'Purchase History' or . = 'Purchase History')]</value>
+         <value>//a[@href = '/user/order/orderhistory' and (text() = 'PO Details' or . = 'PO Details')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Purchase History</value>
+      <value>PO Details</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,6 +4,12 @@
    <name>textlabel_Delivery Address</name>
    <tag></tag>
    <elementGuidId>eabbfa6b-3dbc-4902-aaa4-5238f10c8258</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Shipping Address' or . = 'Shipping Address')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery Address</value>
+      <value>Shipping Address</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

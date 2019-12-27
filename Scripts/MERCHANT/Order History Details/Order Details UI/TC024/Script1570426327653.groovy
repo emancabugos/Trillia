@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/textlabel_Delivery Cost'), 0)
 
+WebUI.verifyElementPresent(findTestObject('MERCHANT/Order Details/textlabel_Delivery Cost'), 0)
+

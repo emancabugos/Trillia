@@ -4,6 +4,12 @@
    <name>breadcrumbs_OrderSummary</name>
    <tag></tag>
    <elementGuidId>1c854bcb-c782-4375-a253-3b8a98d8ee8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'PO History' or . = 'PO History')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Order Summary</value>
+      <value>PO History</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -27,9 +27,9 @@ WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item ni Apr
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
-
 WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item ni April')
+
+WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 

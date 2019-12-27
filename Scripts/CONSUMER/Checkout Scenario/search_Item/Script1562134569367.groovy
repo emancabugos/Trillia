@@ -23,13 +23,13 @@ WebUI.comment('Search Item')
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), itemname)
+WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), 'Item01')
 
 WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemname)
+WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), 'Item01')
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'))
 
