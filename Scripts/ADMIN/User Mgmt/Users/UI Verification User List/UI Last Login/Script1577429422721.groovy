@@ -19,3 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+not_run: WebUI.verifyElementPresent(findTestObject('ADMIN/User Mgmt/Users List/label_Last Logged in'), 0)
+

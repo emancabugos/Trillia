@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_DeliveryAddress</name>
+   <name>textarea_invite-buyers-email-l</name>
    <tag></tag>
-   <elementGuidId>d79a7b6d-a658-4007-ae1d-59c76b099077</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Shipping Address' or . = 'Shipping Address')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>ffc9b1fc-f957-4461-8726-86a3d4e1f7f9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title</value>
+      <value>invite-buyers-email-list</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Shipping Address</value>
+      <value>e.g: consumer1@email.com, consumer2@email.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;occt-left&quot;]/div[@class=&quot;occtl-left&quot;]/div[@class=&quot;title-detail&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;InviteConsumerDemo&quot;)/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-demo-content&quot;]/textarea[@class=&quot;invite-buyers-email-list&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

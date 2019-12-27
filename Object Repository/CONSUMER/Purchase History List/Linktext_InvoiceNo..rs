@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>displayname_Buyer</name>
+   <name>Linktext_InvoiceNo.</name>
    <tag></tag>
-   <elementGuidId>fa3f8990-a429-4f49-8576-fb2904db4603</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/p[1]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8159d84b-6057-4e0c-9f15-457ba845fc8b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-th</name>
       <type>Main</type>
-      <value>model-username</value>
+      <value>Invoice No</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>  BUYERtrisha </value>
+      <value>1104UN1573714743KU7W</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-section&quot;)/div[@class=&quot;header-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pull-right&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-username&quot;]/span[1]/p[1]</value>
+      <value>id(&quot;purchase-history-table&quot;)/tbody[1]/tr[1]/td[1]</value>
    </webElementProperties>
 </WebElementEntity>

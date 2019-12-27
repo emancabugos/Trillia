@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textlabel_DeliveryAddress</name>
+   <name>select_User Type</name>
    <tag></tag>
-   <elementGuidId>d79a7b6d-a658-4007-ae1d-59c76b099077</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Shipping Address' or . = 'Shipping Address')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>5fa181b5-0a28-42c5-b29d-7387f4a556fc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,46 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>filter_user_type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>filter_user_type</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shipping Address</value>
+      <value>
+                                    User Type
+                                    All
+                                    Merchant
+                                    Consumer
+                                </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLNUMLS4CQ5N&quot;)/div[@class=&quot;purchase-history-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;phc-content&quot;]/div[@class=&quot;hrcc-bot full-width&quot;]/div[@class=&quot;osc-container&quot;]/div[@class=&quot;oscc-tbl full-width&quot;]/div[@class=&quot;oscct-bot full-width&quot;]/div[@class=&quot;occt-left&quot;]/div[@class=&quot;occtl-left&quot;]/div[@class=&quot;title-detail&quot;]/span[@class=&quot;title&quot;]</value>
+      <value>id(&quot;filter_user_type&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
