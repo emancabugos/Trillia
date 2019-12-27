@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;rowPrice-PH&quot;]/td[2]/input</value>
+         <value>//*[@id=&quot;rowPricePH&quot;]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;rowPrice-PH&quot;]/td[2]/input</value>
+      <value>//*[@id=&quot;rowPricePH&quot;]/td[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

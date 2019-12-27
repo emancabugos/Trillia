@@ -4,13 +4,18 @@
    <name>Upload UI</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-10-03T08:05:29</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>06f5c77d-1782-48db-9567-d28c14da1152</testSuiteGuid>
+   <testCaseLink>
+      <guid>0d913741-425a-4e14-acdd-3a193cbd1792</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>37f0e957-73c9-44b9-8cc8-cc3697b9368f</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -598,5 +603,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MERCHANT/Upload/Upload Scenario/UI/TC167</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9da0a690-36fd-44d5-9285-3a119960a88f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

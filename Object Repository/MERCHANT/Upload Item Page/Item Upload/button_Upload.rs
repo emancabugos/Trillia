@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'un-btn-upload button-upload' and (text() = 'Upload' or . = 'Upload')]</value>
+         <value>//div[@class = 'un-btn-upload' and (text() = 'Upload' or . = 'Upload')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>un-btn-upload button-upload</value>
+      <value>un-btn-upload</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div/div/div/div/div</value>
+      <value>//*[@id=&quot;itemUpload&quot;]/a</value>
    </webElementProperties>
 </WebElementEntity>

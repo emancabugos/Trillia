@@ -22,3 +22,5 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.verifyElementPresent(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/textlabel_You can specify discounts fo'), 
     0)
 
+WebUI.click(findTestObject('MERCHANT/Upload Item Page/Edit Bulk Pricing/icon_x'), FailureHandling.CONTINUE_ON_FAILURE)
+

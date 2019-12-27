@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;tabLinkDescription&quot;)/span[1]</value>
+         <value>//*[@id=&quot;seller-upload-tab&quot;]/li[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tabLinkDescription&quot;)/span[1]</value>
+      <value>//*[@id=&quot;seller-upload-tab&quot;]/li[2]/span</value>
    </webElementProperties>
 </WebElementEntity>

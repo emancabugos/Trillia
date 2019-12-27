@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;customFields&quot;]/div[1]/input[count(. | //*[@class = 'numberDecimalOnly']) = count(//*[@class = 'numberDecimalOnly'])]</value>
+         <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -59,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;customFields&quot;]/div[1]/input</value>
+      <value>//*[@id=&quot;customfields&quot;]/div[1]/input</value>
    </webElementProperties>
 </WebElementEntity>

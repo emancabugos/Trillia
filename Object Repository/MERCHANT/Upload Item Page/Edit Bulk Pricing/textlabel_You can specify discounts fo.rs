@@ -4,6 +4,12 @@
    <name>textlabel_You can specify discounts fo</name>
    <tag></tag>
    <elementGuidId>a5debd44-38fd-453a-a8f2-a331d5557b3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Create bulk pricing by specifying fixed or percentage based discounts for different quantity ranges' or . = 'Create bulk pricing by specifying fixed or percentage based discounts for different quantity ranges')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You can specify discounts for different range of quantities purchased</value>
+      <value>Create bulk pricing by specifying fixed or percentage based discounts for different quantity ranges</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,6 +4,12 @@
    <name>textlabel_Delivery</name>
    <tag></tag>
    <elementGuidId>020b2fe2-0373-4467-9d95-9966d15fa48f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Shipping' or . = 'Shipping')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delivery</value>
+      <value>Shipping</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
