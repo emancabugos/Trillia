@@ -4,6 +4,16 @@
    <name>Item Name_Item02</name>
    <tag></tag>
    <elementGuidId>6b2e8bd5-7bbb-450d-aff3-b72987bdf458</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Item02' or . = 'Item02')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
