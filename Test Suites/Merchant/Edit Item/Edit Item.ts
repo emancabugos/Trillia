@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>2c36fbd5-8d33-4f1d-b9fc-e2bc9a818f64</testSuiteGuid>
    <testCaseLink>
+      <guid>ebee4401-85c1-4758-89f4-9204782e006e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b73f045d-52cc-4a2c-bdc7-8efa473ef3a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -51,5 +57,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MERCHANT/Edit Item/Edit Item Scenario/TC007</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d450dd90-84af-43aa-be7f-4f5e95d64056</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MERCHANT/Edit Item/Edit Item Scenario/Edit Fields</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>458a037c-5830-44a4-8c8d-5779b7a14186</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

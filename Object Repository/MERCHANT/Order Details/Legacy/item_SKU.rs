@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>error mandatory</name>
+   <name>item_SKU</name>
    <tag></tag>
-   <elementGuidId>f7f96d0b-9084-4dbe-949e-1e3db60f88da</elementGuidId>
+   <elementGuidId>d228d722-d018-470f-a848-0f470ae09631</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Missing mandatory fields' or . = 'Missing mandatory fields') and @class = 'toast-message']</value>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[3]/table/tbody/tr/td[1]/div[2]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>Missing mandatory fields</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>toast-message</value>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div[3]/table/tbody/tr/td[1]/div[2]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>
