@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[4]/div/div/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[1]/span[2]/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'N/A' or . = 'N/A')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

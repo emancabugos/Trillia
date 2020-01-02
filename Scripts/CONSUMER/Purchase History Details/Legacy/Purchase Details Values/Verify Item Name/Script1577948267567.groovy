@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/PO No'), 0)
+WebUI.getText(findTestObject('CONSUMER/Purchase History Details/textlabel_ItemNameValue'))
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/PO No'), '3232F71C-DCA7-4401-8BC4-5642D3884ECA')
+WebUI.verifyMatch('Item Test Checkout', 'Comm Fee 11 Percent', false)
 

@@ -15,7 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/PO No'), 0)
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_Fname Buyer'), 0)
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Purchase History Details/PO No'), '3232F71C-DCA7-4401-8BC4-5642D3884ECA')
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_San Juan'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_Philippines'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_Batangas'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_calabarzon'), 0)
+
+WebUI.verifyElementPresent(findTestObject('CONSUMER/Purchase History Details/Shipping Address_value/p_12345678'), 0)
 
