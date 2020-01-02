@@ -4,7 +4,6 @@
    <name>Order List</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-16T14:54:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
