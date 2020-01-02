@@ -296,7 +296,16 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1577938140792</id>
+			<id>0</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1577942016967</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -305,7 +314,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1577938140802</id>
+			<id>1577942016982</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
