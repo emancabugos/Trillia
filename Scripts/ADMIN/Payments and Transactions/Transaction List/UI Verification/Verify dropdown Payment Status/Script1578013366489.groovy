@@ -15,6 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Transaction List/dropdown_Payment Status                                            Acknowledged                                            Processing                                            Pending'), 
+WebUI.waitForElementPresent(findTestObject('ADMIN/Transaction List and Details/dropdown_Payment Status                                            Acknowledged                                            Processing                                            Pending'), 
     0)
 

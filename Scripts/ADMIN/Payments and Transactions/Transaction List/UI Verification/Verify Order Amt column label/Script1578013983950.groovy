@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List/column_Order Amt'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/column_Order Amt'), 0)
 

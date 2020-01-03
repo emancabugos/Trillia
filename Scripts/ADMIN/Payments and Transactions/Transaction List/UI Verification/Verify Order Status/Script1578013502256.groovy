@@ -15,6 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List/dropdpown_Order Status                                            Created                                            Acknowledged                                            Ready for Pick-up'), 
+WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/dropdpown_Order Status'), 
     0)
 
