@@ -4,7 +4,6 @@
    <name>UI_Purchase List</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-09-30T14:15:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

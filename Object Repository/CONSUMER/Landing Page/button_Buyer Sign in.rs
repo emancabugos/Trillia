@@ -6,16 +6,15 @@
    <elementGuidId>893d8710-d42f-47eb-9233-282ad88839ba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div[1]/a</value>
+         <value>//div[1]/div[2]/div[1]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '/accounts/buyer/sign-in' and (text() = 'Login as a Buyer' or . = 'Login as a Buyer')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

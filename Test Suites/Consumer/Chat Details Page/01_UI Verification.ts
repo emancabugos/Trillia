@@ -4,7 +4,6 @@
    <name>01_UI Verification</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-13T15:33:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

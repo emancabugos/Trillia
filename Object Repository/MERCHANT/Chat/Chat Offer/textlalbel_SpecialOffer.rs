@@ -4,10 +4,16 @@
    <name>textlalbel_SpecialOffer</name>
    <tag></tag>
    <elementGuidId>81d86c40-e12f-4e16-a76a-13d51713e3fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sent an offer' or . = 'Sent an offer')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Special Offer</value>
+      <value>Sent an offer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,7 +4,6 @@
    <name>UI_Purchase Details_Evaluation Table</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-09-30T15:12:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

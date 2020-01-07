@@ -4,7 +4,6 @@
    <name>UI_Settings</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-09-17T11:58:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
