@@ -4,7 +4,6 @@
    <name>Delivery Address Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-23T10:23:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

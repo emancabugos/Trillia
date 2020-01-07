@@ -4,7 +4,6 @@
    <name>Customfields Verification</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-26T15:47:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

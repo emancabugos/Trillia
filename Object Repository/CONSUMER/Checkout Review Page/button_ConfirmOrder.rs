@@ -4,10 +4,16 @@
    <name>button_ConfirmOrder</name>
    <tag></tag>
    <elementGuidId>87c28d61-ed3e-477c-95e1-93d37383846d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn-green' and @id = 'btnProceedPayment']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,11 +41,11 @@
       <value>Confirm order</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Confirm order</value>
+      <value>Issue Purchase Order</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,7 +4,6 @@
    <name>Search and Contact</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-28T15:50:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

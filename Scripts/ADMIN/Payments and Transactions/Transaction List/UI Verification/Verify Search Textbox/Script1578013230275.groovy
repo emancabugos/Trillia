@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Transaction List/textbox_search'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/textbox_search'), 0)
 
 WebUI.verifyTextPresent('Search by buyer name, invoice ID or order ID', false)
 

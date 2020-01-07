@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List/button_Export CSV'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/button_Export CSV'), 0)
 
