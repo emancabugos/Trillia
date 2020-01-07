@@ -33,7 +33,7 @@ WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/button_Invite Merchant'),
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/textarea_email'), 0)
 
-WebUI.setText(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/textarea_email'), GlobalVariable.MerchantNotif)
+WebUI.setText(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/textarea_email'), varSellerInvite)
 
 WebUI.click(findTestObject('ADMIN/User Mgmt/Users Page/Invite Popup/button_Send'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -19,14 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
-
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
-
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Categories'))
-
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 
 WebUI.waitForElementPresent(findTestObject('ADMIN/Categories/Category/dropdown_Parent'), 2)

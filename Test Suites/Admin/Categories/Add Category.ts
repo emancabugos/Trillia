@@ -4,7 +4,6 @@
    <name>Add Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-12-09T10:56:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
